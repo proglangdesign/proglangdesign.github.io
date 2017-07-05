@@ -19,6 +19,7 @@ h1 {
 h2 {
   font-size: 2em;
   margin: 0;
+  margin-top: 1em;
 }
 
 h3 {
@@ -197,4 +198,14 @@ table tr:hover td {
 .username {
     font-family: monospace;
     font-weight: bold;
+}
+
+#left-column {
+  float: left;
+  width: 49%;
+}
+
+#right-column {
+  float: right;
+  width: 49%;
 }
