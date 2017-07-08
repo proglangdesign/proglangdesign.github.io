@@ -197,6 +197,10 @@ table tr:hover td {
   text-align: center;
 }
 
+dd {
+    margin-bottom: 0.5em;
+}
+
 .username {
     font-family: monospace;
     font-weight: bold;
