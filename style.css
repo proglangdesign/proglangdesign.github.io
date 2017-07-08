@@ -2,6 +2,7 @@ body {
   background: #373737;
   color: rgb(212,219,211);
   font-family: sans;
+  padding: 1em;
 }
 
 h1, h2, h3 {
