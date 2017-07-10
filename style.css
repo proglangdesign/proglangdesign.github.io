@@ -207,12 +207,23 @@ dd {
     font-weight: bold;
 }
 
-#left-column {
-  float: left;
-  width: 49%;
+@media only screen and (min-width: 800px) {
+    #left-column {
+        float: left;
+        width: 49%;
+    }
+    #right-column {
+        float: left;
+        width: 49%;
+    }
 }
-
-#right-column {
-  float: right;
-  width: 49%;
+@media only screen and (max-width: 800px) {
+    #left-column {
+        float: none;
+        width: 100%;
+    }
+    #right-column {
+        float: none;
+        width: 100%;
+    }
 }
