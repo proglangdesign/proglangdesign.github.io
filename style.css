@@ -202,7 +202,7 @@ dd {
     margin-bottom: 0.5em;
 }
 
-.username {
+.username, .botname {
     font-family: monospace;
     font-weight: bold;
 }
