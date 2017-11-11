@@ -2,24 +2,24 @@ user Acorn2
  language Cone
   github https://github.com/jondgoodwin/cone
   description
-   Acorn2's passion is the 3D web and his <a href="http://web3d.jondgoodwin.com/">Pegasus3D</a> browser, and the web is powered by languages.
-   His <a href="https://github.com/jondgoodwin/cone">Cone</a> language powers the 3D web.
+   Acorn2's passion is the 3D web and his <a href='http://web3d.jondgoodwin.com/'>Pegasus3D</a> browser, and the web is powered by languages.
+   His <a href='https://github.com/jondgoodwin/cone'>Cone</a> language powers the 3D web.
    Cone is statically-typed, and uses LLVM to generate native efficient executables.
    Cone will also be a test bed for implementing gradual memory management.
-   His previous work, <a href="http://web3d.jondgoodwin.com/acorn/index.html">Acorn</a>
+   His previous work, <a href='http://web3d.jondgoodwin.com/acorn/index.html'>Acorn</a>
    is a dynamic language with some of the same features.
 user Athas
  language Futhark
   website https://futhark-lang.org
   description
-   <a href="https://futhark-lang.org">Futhark</a>, a high-performance parallel functional array language targeting GPUs.
+   <a href='https://futhark-lang.org'>Futhark</a>, a high-performance parallel functional array language targeting GPUs.
 user Boney
  language Plasma
   website http://plasmalang.org/
   description
-   <a href="http://plasmalang.org/">Plasma</a>, which aims to strike a balance between functional and imperative programming,
-   include state-of-the-art concurrent programming features and feature <a href="http://plasmalang.org/about.html#goal-conc-and-par">
-   automatic parallelisation</a>. Boney previously worked on <a href="http://mercurylang.org/">Mercury</a> a logic language.</dd>
+   <a href='http://plasmalang.org/'>Plasma</a>, which aims to strike a balance between functional and imperative programming,
+   include state-of-the-art concurrent programming features and feature <a href='http://plasmalang.org/about.html#goal-conc-and-par'>
+   automatic parallelisation</a>. Boney previously worked on <a href='http://mercurylang.org/'>Mercury</a> a logic language.</dd>
 user Cheery
  github https://github.com/cheery/
  language Lever
@@ -31,14 +31,14 @@ user cjh
  language Icarus
   github https://github.com/mkfifo/icarus
   description
-   <a href="https://github.com/mkfifo/icarus">Icarus</a> is a minimum-viable type-safe imperative language designed to serve as a
+   <a href='https://github.com/mkfifo/icarus'>Icarus</a> is a minimum-viable type-safe imperative language designed to serve as a
    platform for exploring mutation and general side-effect control.
 user Clashsoft
  github https://github.com/Dyvil
  language Dyvil
   github https://github.com/Dyvil/Dyvil
   description
-   <a href="https://github.com/Dyvil/Dyvil">Dyvil</a> is a multi-paradigm, general purpose programming language that is based on Java and the JVM.
+   <a href='https://github.com/Dyvil/Dyvil'>Dyvil</a> is a multi-paradigm, general purpose programming language that is based on Java and the JVM.
    It is a compiled, statically and strongly typed language that supports object-oriented, functional and imperative programming styles.
    The language features many high-level constructs as well as an extensible and expressive syntax, making it highly useful for both rapid
    and safe prototyping, and the creation of domain-specific languages.
@@ -47,44 +47,44 @@ user ColonelJ
  language Starpial
   github https://github.com/ColonelJ/Starpial
   description
-   <a href="https://github.com/ColonelJ/Starpial">Starpial</a> is a stack-oriented functional logic programming language with OOP, recursive regex,
+   <a href='https://github.com/ColonelJ/Starpial'>Starpial</a> is a stack-oriented functional logic programming language with OOP, recursive regex,
    dependent types, refinement types, and automatic parallelization based on transactions.
 user dash
  language dash
   github https://github.com/monte-language
   description
-   <a href="https://github.com/monte-language">Monte</a> is a dynamic programming language inspired by Python and E.
+   <a href='https://github.com/monte-language'>Monte</a> is a dynamic programming language inspired by Python and E.
 user Dynasty
  language Juniper
   website http://www.juniper-lang.org/
   description
-   <a href="http://www.juniper-lang.org/">Juniper</a> is a functional
+   <a href='http://www.juniper-lang.org/'>Juniper</a> is a functional
    reactive programming language for the Arduino and other related platforms.
 user evincar
  github https://github.com/evincarofautumn
  language Kitten
   website http://kittenlang.org
   description
-   <a href="http://kittenlang.org">Kitten</a> is a statically typed concatenative language with effect types.
+   <a href='http://kittenlang.org'>Kitten</a> is a statically typed concatenative language with effect types.
 user fennecdjay
  github https://github.com/fennecdjay
  language Gwion
   github https://github.com/fennecdjay/Gwion
   description
-   <a href="https://github.com/fennecdjay/Gwion">Gwion</a> is a strongly-timed musical programming language .
+   <a href='https://github.com/fennecdjay/Gwion'>Gwion</a> is a strongly-timed musical programming language .
 user HackerFoo
  github https://github.com/HackerFoo
  language Popr
   github https://github.com/HackerFoo/poprc
   description
-   <a href="https://github.com/HackerFoo/poprc">Popr</a> applies concatenative programming to types as well as values,
+   <a href='https://github.com/HackerFoo/poprc'>Popr</a> applies concatenative programming to types as well as values,
    striving for purity and correctness, and efficient execution.
 user ilyash
  github https://github.com/ilyash
  language NGS
   github https://github.com/ilyash/ngs
   description
-   <a href="https://github.com/ilyash/ngs">NGS</a> - Next Generation Shell,
+   <a href='https://github.com/ilyash/ngs'>NGS</a> - Next Generation Shell,
    a language (and a shell in the future) for ops tasks.
    NGS aims to be an alternative for both bash/Python/Ruby/Perl/Go and configuration management tools.
    It has syntax for the common operations and libraries (currently only AWS) for idempotent resources manipulation.
@@ -94,7 +94,7 @@ user JX7P
  language Oopsilon
   github http://github.com/Oopsilon/Oopsilon
   description
-   <a href="http://github.com/Oopsilon/Oopsilon">Oopsilon</a> is an object-oriented language in the
+   <a href='http://github.com/Oopsilon/Oopsilon'>Oopsilon</a> is an object-oriented language in the
    Kayian tradition which is (perhaps uniquely) founded on a negativist philosophy drawing on
    critical theory and stressing the importance of hermeneutics in understanding the problems
    programmers experience.
@@ -103,25 +103,25 @@ user ltcmelo
  language Psyche-c
   github https://github.com/ltcmelo/psychec
   description
-   <a href="https://github.com/ltcmelo/psychec">Psyche-c</a> is a compiler for incomplete C code. It features a Hindley/Milner-inspired type inference engine for C.
+   <a href='https://github.com/ltcmelo/psychec'>Psyche-c</a> is a compiler for incomplete C code. It features a Hindley/Milner-inspired type inference engine for C.
 user nathanmerrill
  github https://github.com/nathanmerrill
  language Elegance
   github https://github.com/nathanmerrill/elegance
   description
-   <a href="https://github.com/nathanmerrill/elegance">Elegance</a> Objected oriented language aiming for high type-safety and readability.
+   <a href='https://github.com/nathanmerrill/elegance'>Elegance</a> Objected oriented language aiming for high type-safety and readability.
 user neechoo
  github https://github.com/kpodlawski
  language Fox
   website https://fox-lang.org/
   description
-   <a href="https://fox-lang.org/">Fox</a> is an ever-evolving experiment in declarativeness that strives to one day
+   <a href='https://fox-lang.org/'>Fox</a> is an ever-evolving experiment in declarativeness that strives to one day
    settle on a consistent syntax.
 user Ori_B
  language Myrddin
   website https://myrlang.org
   description
-   <a href="https://myrlang.org">Myrddin</a> is a systems programming language.
+   <a href='https://myrlang.org'>Myrddin</a> is a systems programming language.
    Myrddin emphasizes control, simplicity, a clear mental model and predictable, transparent behavior.
    It features strong type checking, generics, type inference, closures, and traits. It aims to fit a similar niche as C,
    but with fewer bullets in your feet.
@@ -130,25 +130,25 @@ user pera
  language Ad-hoc
   github https://github.com/pera/ad-hoc
   description
-   <a href="https://github.com/pera/ad-hoc">Ad-hoc</a> is an experimental programming language currently supporting the following features:
+   <a href='https://github.com/pera/ad-hoc'>Ad-hoc</a> is an experimental programming language currently supporting the following features:
    first-class functions, immutability, lambda terms, recursion, closures, strict and non-strict evaluation, lexical and dynamic scopes,
    and deep binding.
 user protist
  language Juicy
   github https://github.com/GordianNaught/Juicy
   description
-   <a href="https://github.com/GordianNaught/Juicy">Juicy</a> is a low-level, compiled, purely functional, highly generic language with inferred
+   <a href='https://github.com/GordianNaught/Juicy'>Juicy</a> is a low-level, compiled, purely functional, highly generic language with inferred
    types and tail recursion.
 user rain1
  language Tarot
   website https://notabug.org/rain1/tarot-viewing
   description
-   <a href="https://notabug.org/rain1/tarot-viewing">Tarot</a> A self-hosted scheme compiler (to qcode) and virtual machine.
+   <a href='https://notabug.org/rain1/tarot-viewing'>Tarot</a> A self-hosted scheme compiler (to qcode) and virtual machine.
 user rndmprsn
  language Ante
   github https://github.com/jfecher/ante
   description
-   <a href="https://github.com/jfecher/ante">Ante</a>
+   <a href='https://github.com/jfecher/ante'>Ante</a>
    is a compiled systems language focusing on providing extreme extensibility through the
    use of a compile-time API. Using such an API, compiler extensions can be created within
    the program itself, allowing for the addition of a garbage collector, ownership system,
@@ -157,18 +157,18 @@ user spruit11
  language Egel
   website https://egel-lang.github.io/
   description
-   <a href="https://egel-lang.github.io/">Egel</a> An interpreter for eager untyped combinator rewriting implemented in C++.
+   <a href='https://egel-lang.github.io/'>Egel</a> An interpreter for eager untyped combinator rewriting implemented in C++.
 user Veggero
  language Nylo
   website http://veggero.altervista.org/nylo.html
   description
-   <a href="http://veggero.altervista.org/nylo.html">Nylo</a>: any task in one line of code
+   <a href='http://veggero.altervista.org/nylo.html'>Nylo</a>: any task in one line of code
 user yorickpeterse
  github https://github.com/YorickPeterse
  language Inko
   github https://github.com/YorickPeterse/inko
   description
-   <a href="https://github.com/YorickPeterse/inko">Inko</a> is a gradually
+   <a href='https://github.com/YorickPeterse/inko'>Inko</a> is a gradually
    typed, interpreted, object-oriented programming language drawing
    inspiration from languages such as Smalltalk, Self, Ruby, Erlang and
    Rust.
@@ -176,5 +176,5 @@ user yumaikas
  language PISC
   website https://pisc.junglecoder.com/
   description
-   <a href="https://pisc.junglecoder.com/">PISC</a> attempts to make concatenative programming less mind-bendy
+   <a href='https://pisc.junglecoder.com/'>PISC</a> attempts to make concatenative programming less mind-bendy
    via pervasive use of locals, closures, the smallest set of syntax hacks to make code look nice.
