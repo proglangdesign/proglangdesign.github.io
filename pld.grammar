@@ -2,6 +2,7 @@
  @description A micro-language for compiling the homepage of proglangdesign.net
  @catchAllKeyword error
  @parser js ./nodeTypes.js page
+ @compiler html
  @keywords
   user
 @wordType username
@@ -18,6 +19,7 @@
   github
 @keyword language
  @columns any
+ @parser js ./nodeTypes.js language
  @keywords
   github
   description
