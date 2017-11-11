@@ -11,6 +11,8 @@ You can see this live at [proglangdesign.net](http://proglangdesign.net)
 # Rebuilding the TSV or HTML file
 
     npm install jtree
+    # Check your additions to languages.pld for errors
+    jtree check languages.pld
     jtree compile languages.pld html > index.html
     jtree compile languages.pld tsv > languages.tsv
 
