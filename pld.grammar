@@ -1,0 +1,36 @@
+@grammar pld
+ @description A micro-language for compiling the homepage of proglangdesign.net
+ @catchAllKeyword error
+ @parser js ./nodeTypes.js page
+ @compiler html
+ @keywords
+  user
+@wordType username
+ @regex .?
+@wordType any
+ @regex .?
+@wordType url
+ @regex https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&//=]*)
+@keyword user
+ @columns username
+ @parser js ./nodeTypes.js user
+ @keywords
+  language
+  github
+@keyword language
+ @columns any
+ @parser js ./nodeTypes.js language
+ @keywords
+  github
+  description
+  website
+@keyword github
+ @columns url
+@keyword website
+ @columns url
+@keyword html
+ @columns any*
+@keyword description
+ @catchAllKeyword html
+@keyword error
+ @parser js ErrorNode
