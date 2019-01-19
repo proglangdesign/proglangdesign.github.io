@@ -1,6 +1,6 @@
 * { position: relative; margin: 0; padding: 0; box-sizing: border-box; }
 body { width: 75%; min-height: 100vh; margin: 0 auto; padding-bottom: 100px; }
-:root { font-family: monospace; font-size: 16px; }
+:root { font-size: 16px; font-family: monospace; }
 
 header {
   display: flex;
@@ -16,6 +16,7 @@ header nav {
   justify-content: flex-end;
 }
 header nav a { margin-left: 20px; }
+header nav h2 { font-size: 2em; }
 
 #hero { 
   display: flex; 
@@ -34,17 +35,25 @@ header nav a { margin-left: 20px; }
 }
 #hero nav h2 { font-size: 2rem; color: black; }
 
-#project-grid { display: flex; flex-wrap: wrap; max-width: 960px; margin: 0 auto; }
-#project-grid h2 { width: 100%; }
+section { max-width: 960px; margin: 0 auto; }
+
+#projects { display: flex; flex-wrap: wrap; padding-bottom: 25px; }
+#projects h2 { width: 100%; }
 .project { width: 25%; min-width: 200px; padding: 20px 10px; color: black; }
 .project img { display: inline-block; width: 1.5em; height: 1.5em; }
 .project h3 { display: inline-block; font-size: 1.5em; }
-.project:hover { text-decoration: none; }
-.project:hover h3 { text-decoration: underline; }
-.project p { font-family: sans-serif; }
+.project a:hover { text-decoration: none; }
+.project h3:hover { text-decoration: underline; }
 
 .shell { text-transform: lowercase; font-family: monospace; }
 .shell:before { content: "$ "; }
+
+ul { margin: 20px; }
+#irc-bots li { list-style-type: none; }
+li { padding: 3px 0; }
+p { padding: 10px 0; }
+p, li { max-width: 75ch; font-family: sans-serif; }
+section > h2, section > h3 { padding-top: 15px; padding-bottom: 5px; }
 
 .button {
   background-color: #805AC3;
@@ -78,8 +87,8 @@ span.author:before { font-style: normal; content: "by "; }
   #hero h1 { font-size: 3rem; text-align: center; margin-bottom: 30px; }
   #hero h2 { text-align: center; }
   #hero nav { margin-left: 0; }
-  #project-grid { justify-content: center; }
-  #project-grid h2 { text-align: center; }
+  #projects { justify-content: center; }
+  #projects h2 { text-align: center; }
 }
 
 @media (max-width: 720px) {
