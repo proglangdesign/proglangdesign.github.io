@@ -36,7 +36,7 @@ header nav a { margin-left: 20px; }
 
 #project-grid { display: flex; flex-wrap: wrap; max-width: 960px; margin: 0 auto; }
 #project-grid h2 { width: 100%; }
-.project { width: 25%; min-width: 200px; padding: 10px; color: black; }
+.project { width: 25%; min-width: 200px; padding: 20px 10px; color: black; }
 .project img { display: inline-block; width: 1.5em; height: 1.5em; }
 .project h3 { display: inline-block; font-size: 1.5em; }
 .project:hover { text-decoration: none; }
