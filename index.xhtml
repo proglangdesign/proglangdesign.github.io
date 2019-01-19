@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <title>Programming Language Design</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1 class="shell">proglangdesign.net</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#project-grid">Projects</a>
+      <a href="#resources">Resources</a>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <h1>Programming Language Design</h1>
+    <nav>
+      <h2>Join us!</h2>
+      <a class="shell button discord" href="https://discord.gg/4Kjt3ZE">Discord</a>
+      <a class="shell button irc"     href="https://webchat.freenode.net/?channels=proglangdesign">IRC</a>
+      <a class="shell button reddit"  href="https://reddit.com/r/ProgrammingLanguages">Subreddit</a>
+    </nav>
+  </section>
+
+  <section id="project-grid">
+    <h2>Take a look at our projects</h2>
+
+    <a class="project" href="https://adamant-lang.org/">
+      <img src="images/logo-adamant.png" alt="Adamant logo" />
+      <h3>Adamant</h3>
+      <span class="author"><a href="https://github.com/WalkerCodeRanger">WalkerCodeRanger</a></span>
+      <p>A high-level object-oriented language using a Rust style borrow checker
+        for memory management (no GC).</p>
+    </a>
+    
+    <a class="project" href="https://github.com/jfecher/ante">
+      <img src="images/logo-placeholder.png" alt="" />
+      <h3>Ante</h3>
+      <span class="author">rndmprsn</span>
+      <p>A compiled systems language focusing on providing extensibility
+        through the use of a compile-time API.</p>
+    </a>
+    
+    <a class="project" href="http://web3d.jondgoodwin.com/">
+      <img src="images/logo-cone.png" alt="Cone logo" />
+      <h3>Cone</h3>
+      <span class="author">jondgoodwin</span>
+      <p>A language and web browser to power the 3D web,
+        and a test bed for gradual memory management.</p>
+    </a>
+    
+    <a class="project" href="https://cuneiform-lang.org/">
+      <img src="images/logo-placeholder.png" alt="" />
+      <h3>Cuneiform</h3>
+      <span class="author"><a href="https://github.com/joergen7">joergen7</a></span>
+      <p>A large-scale data analysis functional programming language
+        which is general, expressive, distributed, and scalable.</p>
+    </a>
+    
+    <a class="project" href="https://github.com/xkapastel/denshi">
+      <img src="images/logo-placeholder.png" alt="" />
+      <h3>Denshi</h3>
+      <span class="author">xkapastel</span>
+      <p>An experimental programming environment.</p>
+    </a>
+    
+    <a class="project" href="https://github.com/Dyvil/Dyvil">
+      <img src="images/logo-placeholder.png" alt="" />
+      <h3>Dyvil</h3>
+      <span class="author">Clashsoft</span>
+      <p>A multi-paradigm, general purpose language for the JVM, with an extensible syntax.</p>
+    </a>
+    
+    <a class="project" href="https://egel-lang.github.io/">
+      <img src="images/logo-placeholder.png" alt="" />
+      <h3>Egel</h3>
+      <span class="author">spruit11</span>
+      <p>An interpreter for eager untyped combinator rewriting implemented in C++.</p>
+    </a>
+    
+    <a class="project" href="https://github.com/nathanmerrill/elegance">
+      <img src="images/logo-placeholder.png" alt="" />
+      <h3>Elegance</h3>
+      <span class="author">nathanmerrill</span>
+      <p>An objected oriented language aiming for high type-safety and readability.</p>
+    </a>
+    
+    <a class="project" href="https://github.com/bakpakin/Fennel">
+      <img src="images/logo-placeholder.png" alt="" />
+      <h3>Fennel</h3>
+      <span class="author">technomancy</span>
+      <p>A lisp which compiles to Lua with zero overhead, revived by technomancy.</p>
+    </a>
+
+    <a class="project" href="https://github.com/Pierre-vh/Fox">
+      <img src="images/logo-placeholder.png" alt="" />
+      <h3>Fox</h3>
+      <span class="author">Pierre-vh</span>
+      <p>A statically typed scripting language designed for simplicity and embeddability.</p>
+    </a>
+    
+    <a class="project" href="https://futhark-lang.org/">
+      <img src="images/logo-futhark.png" alt="Futhark logo" />
+      <h3>Futhark</h3>
+      <span class="author">Athas</span>
+      <p>A high-performance parallel functional array language
+        targeting GPUs.</p>
+    </a>
+    
+    <a class="project" href="https://github.com/chrisosaurus/icarus">
+      <img src="images/logo-placeholder.png" alt="" />
+      <h3>Icarus</h3>
+      <span class="author"><a href="https://github.com/chrisosaurus">cjh`</a></span>
+      <p>A minimum-viable type-safe imperative language
+        for exploring mutation and general side-effect control.</p>
+    </a>
+    
+    <a class="project" href="http://inko-lang.org/">
+      <img src="images/logo-placeholder.png" alt="" />
+      <h3>Inko</h3>
+      <span class="author">yorickpeterse</span>
+      <p>A gradually typed, interpreted, object-oriented language
+        drawing inspiration from many others.</p>
+    </a>
+    
+    <a class="project" href="https://github.com/jazz-lang/JazzML">
+      <img src="images/logo-placeholder.png" alt="" />
+      <h3>Jazz</h3>
+      <span class="author">playXE</span>
+      <p>A statically typed ML-like language for scripting.</p>
+    </a>
+    
+    <a class="project" href="http://www.juniper-lang.org/">
+      <img src="images/logo-placeholder.png" alt="" />
+      <h3>Juniper</h3>
+      <span class="author">Dynasty</span>
+      <p>A functional reactive programming language
+        for the Arduino and other related platforms.</p>
+    </a>
+    
+    <a class="project" href="http://kittenlang.org/">
+      <img src="images/logo-kitten.png" alt="Kitten logo" />
+      <h3>Kitten</h3>
+      <span class="author"><a href="https://github.com/evincarofautumn">evincar</a></span>
+      <p>A statically typed concatenative language with effect types.</p>
+    </a>
+    
+    <a class="project" href="https://github.com/kprotty/lazer">
+      <img src="images/logo-placeholder.png" alt="" />
+      <h3>Lazer</h3>
+      <span class="author">Protty</span>
+      <p>A programming language focused on concurrency and low memory usage.</p>
+    </a>
+    
+    <a class="project" href="https://hassanalinali.github.io/Lesma/">
+      <img src="images/logo-lesma.png" alt="Lesma logo" />
+      <h3>Lesma</h3>
+      <span class="author">Hassan Alin Ali</span>
+      <p>Lesma is a compiled, gradually typed, imperative
+        and object oriented programming language</p>
+    </a>
+    
+    <a class="project" href="https://leverlanguage.com/">
+      <img src="images/logo-placeholder.png" alt="" />
+      <h3>Lever</h3>
+      <span class="author">Cheery</span>
+      <p>A dynamically typed language
+        built to absorb features from other languages.</p>
+    </a>
+    
+    <a class="project" href="https://github.com/LorxuLang/">
+      <img src="images/logo-lorxu.png" alt="Lorxu logo" />
+      <h3>Lorxu</h3>
+      <span class="author">slavfox</span>
+      <p>An ever-evolving experiment in declarativeness
+        that strives to one day settle on a consistent syntax.</p>
+    </a>
+    
+    <a class="project" href="https://github.com/monte-language">
+      <img src="images/logo-placeholder.png" alt="" />
+      <h3>Monte</h3>
+      <span class="author">dash</span>
+      <p>A dynamic programming language inspired by Python and E.</p>
+    </a>
+    
+    <a class="project" href="https://myrlang.org/">
+      <img src="images/logo-placeholder.png" alt="" />
+      <h3>Myrddin</h3>
+      <span class="author">Ori_B</span>
+      <p>A systems language aiming to fit in a similar niche to C,
+        but with fewer bullets in your feet.</p>
+    </a>
+    
+    <a class="project" href="https://never-lang.github.io/never/">
+      <img src="images/logo-placeholder.png" alt="" />
+      <h3>Never</h3>
+      <span class="author">Never</span>
+      <p>A simple syntactically-scoped, strongly-typed, call-by-value,
+        functional language</p>
+    </a>
+    
+    <a class="project" href="https://github.com/ilyash/ngs">
+      <img src="images/logo-placeholder.png" alt="" />
+      <h3>NGS</h3>
+      <span class="author">ilyash</span>
+      <p>Next Generation Shell, an alternative to many scripting languages,
+        with syntax for idempotent resource manipulation.</p>
+    </a>
+    
+    <a class="project" href="https://github.com/rain-1/racket-peg">
+      <img src="images/logo-placeholder.png" alt="" />
+      <h3>peg</h3>
+      <span class="author">rain1</span>
+      <p>A self-hosted peg parser generator.</p>
+    </a>
+    
+    <a class="project" href="https://plasmalang.org/">
+      <img src="images/logo-plasma.png" alt="Plasma logo" />
+      <h3>Plasma</h3>
+      <span class="author"><a href="https://paul.bone.id.au/">Boney</a></span>
+      <p>A language to balance functional and imperative programming,
+        with state-of-the-art concurrency features.</p>
+    </a>
+    
+    <a class="project" href="https://github.com/pikelet-lang/pikelet">
+      <img src="images/logo-pikelet.png" alt="Pikelet logo" />
+      <h3>Pikelet</h3>
+      <span class="author"><a href="https://github.com/brendanzab">brendanzab</a></span>
+      <p>A friendly little systems language
+        with first-class types and unboxed data.</p>
+    </a>
+    
+    <a class="project" href="https://wongjiahau.github.io/Pineapple/">
+      <img src="images/logo-placeholder.png" alt="" />
+      <h3>Pineapple</h3>
+      <span class="author">wongjiahau</span>
+      <p>A programming language that focus on readability and maintainability.</p>
+    </a>
+    
+    <a class="project" href="https://pisc.junglecoder.com/">
+      <img src="images/logo-placeholder.png" alt="" />
+      <h3>PISC</h3>
+      <span class="author">yumaikas</span>
+      <p>An attempt to make concatenative programming less mind-bendy
+        via locals, closures, and syntactic sugar.</p>
+    </a>
+    
+    <a class="project" href="https://github.com/HackerFoo/poprc">
+      <img src="images/logo-placeholder.png" alt="" />
+      <h3>Popr</h3>
+      <span class="author">HackerFoo</span>
+      <p>Concatenative programming for types as well as values,
+        striving for purity, correctness, and efficient execution.</p>
+    </a>
+    
+    <a class="project" href="https://github.com/ltcmelo/psychec">
+      <img src="images/logo-placeholder.png" alt="" />
+      <h3>Psyche-c</h3>
+      <span class="author">ltcmelo</span>
+      <p>A compiler for incomplete C code,
+        featuring a Hindley/Milner-inspired type inference engine for C.</p>
+    </a>
+    
+    <a class="project" href="http://pyac.ca/">
+      <img src="images/logo-placeholder.png" alt="" />
+      <h3>Pyash</h3>
+      <span class="author">htafdwes</span>
+      <p>A language based on linguistic universals for totally taking over the world.</p>
+    </a>
+    
+    <div class="project">
+      <img src="images/logo-sand.png" alt="Sand logo" />
+      <h3>Sand</h3>
+      <span class="author">LokkoAndreas</span>
+      <p>A language by a member of the Discord server.</p>
+    </div>
+    
+    <div class="project">
+      <img src="images/logo-sherwood.png" alt="Sherwood logo" />
+      <h3>Sherwood</h3>
+      <span class="author">swordglowsblue</span>
+      <p>A simple and sensible bytecode VM,
+        because sometimes you can't see Sherwood Forest for the trees.</p>
+    </div>
+    
+    <a class="project" href="https://github.com/ColonelJ/Starpial">
+      <img src="images/logo-placeholder.png" alt="" />
+      <h3>Starpial</h3>
+      <span class="author">ColonelJ</span>
+      <p>A stack-oriented functional logic language
+        with OOP, dependent and refinement types, and automatic parallelization.</p>
+    </a>
+    
+    <a class="project" href="https://ubik.site/">
+      <img src="images/logo-placeholder.png" alt="" />
+      <h3>ubik</h3>
+      <span class="author"></span>
+      <p>A safe functional language for distributed and
+        embedded stream programming, with an unorthodox syntax.</p>
+    </a>
+    
+    <a class="project" href="https://github.com/rebuild-lang">
+      <img src="images/logo-rebuild.png" alt="Rebuild logo" />
+      <h3>Rebuild</h3>
+      <span class="author">arBmind</span>
+      <p>A project to experiment with and build
+        the ultimate systems programming language.</p>
+    </a>
+    
+    <a class="project" href="https://rain-1.github.io/scheme">
+      <img src="images/logo-placeholder.png" alt="" />
+      <h3>Tarot</h3>
+      <span class="author">rain1</span>
+      <p>A self-hosted and bootstrappable scheme compiler (to qcode) and virtual machine.</p>
+    </a>
+    
+    <a class="project" href="https://github.com/sage-code/wee/wiki">
+      <img src="images/logo-placeholder.png" alt="" />
+      <h3>Wee</h3>
+      <span class="author">sagecode</span>
+      <p>A statically typed, compiled programming language for system applications.</p>
+    </a>
+  </section>
+</body>
+</html>
