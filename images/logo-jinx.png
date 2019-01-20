@@ -1,0 +1,11 @@
+--2019-01-20 08:51:18--  https://www.jinx-lang.org/index_htm_files/tileicon.png
+Resolving www.jinx-lang.org (www.jinx-lang.org)... 129.121.28.157
+Connecting to www.jinx-lang.org (www.jinx-lang.org)|129.121.28.157|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 2202 (2.2K) [image/png]
+Saving to: ‘tileicon.png’
+
+     0K ..                                                    100% 89.6M=0s
+
+2019-01-20 08:51:18 (89.6 MB/s) - ‘tileicon.png’ saved [2202/2202]
+
