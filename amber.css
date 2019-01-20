@@ -6,6 +6,8 @@ body {
 #hero h1 { color: #ffbf00; }
 #hero nav h2 { color: #ffbf00; }
 .project { color: #ffbf00; }
+.project > a { text-decoration: none; }
+.project > a > h3 { text-decoration: underline; }
 p, li { color: #ffbf00; font-family: monospace; }
 
 .button {
