@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+    colour: #ffbf00;
+    font-family: monospace;
+}
+#hero h1 { color: #ffbf00; }
+#hero nav h2 { color: #ffbf00; }
+.project { color: #ffbf00; }
+p, li { color: #ffbf00; font-family: monospace; }
+
+.button {
+  background-color: #0040ff;
+  color: white;
+  filter: invert(1);
+}
+
+a, h1, h2, h3 { color: #ffbf00; }
+
+img[src*="images/logo-placeholder.png"] {
+    filter: hue-rotate(-217deg) saturate(214%) brightness(90%);
+}
