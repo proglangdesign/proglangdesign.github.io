@@ -1,22 +1,22 @@
 body {
     background-color: black;
-    colour: #ffbf00;
+    colour: #ffb000;
     font-family: monospace;
 }
-#hero h1 { color: #ffbf00; }
-#hero nav h2 { color: #ffbf00; }
-.project { color: #ffbf00; }
+#hero h1 { color: #ffb000; }
+#hero nav h2 { color: #ffb000; }
+.project { color: #ffb000; }
 .project > a { text-decoration: none; }
 .project > a > h3 { text-decoration: underline; }
-p, li { color: #ffbf00; font-family: monospace; }
+p, li { color: #ffb000; font-family: monospace; }
 
 .button {
-  background-color: #0040ff;
+  background-color: #004fff;
   color: white;
   filter: invert(1);
 }
 
-a, h1, h2, h3 { color: #ffbf00; }
+a, h1, h2, h3 { color: #ffb000; }
 a { text-decoration: underline; }
 
 img[src*="images/logo-placeholder.png"] {
