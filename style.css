@@ -1,5 +1,5 @@
 * { position: relative; margin: 0; padding: 0; box-sizing: border-box; }
-body { width: 75%; min-height: 100vh; margin: 0 auto; padding-bottom: 100px; color: #444;}
+body { width: 75%; min-height: 100vh; margin: 0 auto; padding-bottom: 100px; color: #444; background-color:white;}
 :root { font-size: 16px; font-family: monospace; }
 
 header {
