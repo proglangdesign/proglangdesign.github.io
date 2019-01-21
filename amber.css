@@ -3,6 +3,12 @@ body {
     colour: #ffb000;
     font-family: monospace;
 }
+#pagelink {
+    color: #ffb000;
+}
+#pagelink > a {
+    text-decoration: none;
+}
 #hero h1 { color: #ffb000; }
 #hero nav h2 { color: #ffb000; }
 .project { color: #ffb000; }
