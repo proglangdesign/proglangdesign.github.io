@@ -1,5 +1,5 @@
 * { position: relative; margin: 0; padding: 0; box-sizing: border-box; }
-body { width: 75%; min-height: 100vh; margin: 0 auto; padding-bottom: 100px; }
+body { width: 75%; min-height: 100vh; margin: 0 auto; padding-bottom: 100px; color: #444;}
 :root { font-size: 16px; font-family: monospace; }
 
 header {
@@ -8,6 +8,15 @@ header {
   padding: 10px 0;
   max-width: 960px;
   margin: 0 auto;
+}
+
+#pagelink {
+    /* needed to make the $ the right color */
+    color: #805AC3;
+}
+
+h1, h2 {
+    color: black;
 }
 
 header nav {
@@ -25,7 +34,7 @@ header nav h2 { font-size: 2em; }
   max-width: 960px;
   margin: 40px auto;
 }
-#hero h1 { font-size: 4rem; max-width: 640px; color: black; }
+#hero h1 { font-size: 4rem; max-width: 640px; }
 
 #hero nav { 
   display: flex; 
@@ -33,13 +42,13 @@ header nav h2 { font-size: 2em; }
   width: 75%;
   margin-left: 30px;
 }
-#hero nav h2 { font-size: 2rem; color: black; }
+#hero nav h2 { font-size: 2rem; }
 
 section { max-width: 960px; margin: 0 auto; }
 
 #projects { display: flex; flex-wrap: wrap; padding-bottom: 25px; }
-#projects h2 { width: 100%; }
-.project { width: 25%; min-width: 200px; padding: 20px 10px; color: black; }
+#projects h2 { width: 100%;  color: #444;}
+.project { width: 25%; min-width: 200px; padding: 20px 10px; }
 .project img { display: inline-block; width: 1.5em; height: 1.5em; }
 .project h3 { display: inline-block; font-size: 1.5em; }
 .project a:hover { text-decoration: none; }
@@ -77,7 +86,7 @@ section > h2, section > h3 { padding-top: 15px; padding-bottom: 5px; }
   background-position-x: calc(100% - 8px);
 }
 
-a, h1, h2, h3 { color: #805AC3; text-decoration: none; }
+a { color: #805AC3; text-decoration: none; }
 a:hover { text-decoration: underline; }
 span.author, cite { display: block; font-style: italic; margin-bottom: 5px; }
 span.author:before { font-style: normal; content: "by "; }
