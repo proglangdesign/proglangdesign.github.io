@@ -103,3 +103,14 @@ span.author:before { font-style: normal; content: "by "; }
 @media (max-width: 360px) {
   #hero h1 { font-size: 2rem; }
 }
+
+header h2::after {
+  content: "_";
+  animation: blinker 5s step-start infinite;
+}
+
+@keyframes blinker {
+  30% {
+    opacity: 0;
+  }
+}
