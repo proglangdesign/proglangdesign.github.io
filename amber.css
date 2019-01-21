@@ -14,6 +14,7 @@ body {
 .project { color: #ffb000; }
 .project > a { text-decoration: none; }
 .project > a > h3 { text-decoration: underline; }
+#projects h2 { color: #ffb000;}
 p, li { color: #ffb000; font-family: monospace; }
 
 .button {
