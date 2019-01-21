@@ -1,0 +1,24 @@
+body {
+    background-color: black;
+    colour: #33ff33;
+    font-family: monospace;
+}
+#hero h1 { color: #33ff33; }
+#hero nav h2 { color: #33ff33; }
+.project { color: #33ff33; }
+.project > a { text-decoration: none; }
+.project > a > h3 { text-decoration: underline; }
+p, li { color: #33ff33; font-family: monospace; }
+
+.button {
+  background-color: #cc00cc;
+  color: white;
+  filter: invert(1);
+}
+
+a, h1, h2, h3 { color: #33ff33; }
+a { text-decoration: underline; }
+
+img[src*="images/logo-placeholder.png"] {
+    filter: hue-rotate(-130deg) saturate(214%) brightness(90%);
+}
