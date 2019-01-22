@@ -115,7 +115,7 @@ span.author:before { font-style: normal; content: "by "; }
 
 header h2::after {
   content: "_";
-  animation: blinker 5s step-start infinite;
+  animation: blinker 0.55s step-start infinite;
 }
 
 @keyframes blinker {
