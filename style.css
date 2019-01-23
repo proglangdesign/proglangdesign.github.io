@@ -86,6 +86,14 @@ section > h2, section > h3 { padding-top: 15px; padding-bottom: 5px; }
   background-position-x: calc(100% - 8px);
 }
 
+.bottom {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+}
+
 a { color: #805AC3; text-decoration: none; }
 a:hover { text-decoration: underline; }
 span.author, cite { display: block; font-style: italic; margin-bottom: 5px; }
