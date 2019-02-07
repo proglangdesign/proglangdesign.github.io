@@ -92,6 +92,8 @@ section > h2, section > h3 { padding-top: 15px; padding-bottom: 5px; }
    bottom: 0;
    width: 100%;
    text-align: center;
+   background-color: #805AC3;
+   text-color: #FFFFFF'
 }
 
 a { color: #805AC3; text-decoration: none; }
