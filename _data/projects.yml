@@ -11,6 +11,13 @@
     A compiled systems language focusing on providing extensibility
     through the use of a compile-time API.
 
+- name: C3
+  website: https://github.com/c3lang/c3c
+  author: Christoffer Lernö
+  summary: >
+    An evolution of C, adding modules, error handling and
+    semantic macros.
+
 - name: Cone
   website: http://cone.jondgoodwin.com/
   icon: cone.png
@@ -223,7 +230,7 @@
     website: https://github.com/Ahnfelt
   summary: >
     Purely functional scripting language
-    with structural types, type inference, reactive streams and visualization. 
+    with structural types, type inference, reactive streams and visualization.
 
 - name: Truck
   website: https://github.com/Tarptaeya/truck
