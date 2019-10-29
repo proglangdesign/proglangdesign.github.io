@@ -5,7 +5,7 @@
 
 - name: Ante
   website: https://github.com/jfecher/ante
-  icon: ante.svg
+  icon: 'ante.svg" style="filter: invert(100%)'
   author: rndmprsn
   summary: >
     A compiled systems language focusing on providing extensibility
