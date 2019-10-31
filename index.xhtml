@@ -50,19 +50,13 @@
     {% for project in site.data.projects %}
     <div class="project">
       <a href="{{ project.website }}">
-        {% if project.icon %}
-        <img src="/images/lang/{{ project.icon }}" alt="" />
-        {% else %}
-        <img src="/images/lang/placeholder.png" alt="" />
-        {% endif %}
+        <img src="/images/lang/{{ project.icon | default: 'placeholder.png' }}" alt="" />
         <h3>{{ project.name }}</h3>
       </a>
       <span class="author">
         {% if project.author.website %}
-          <a href="{{ project.author.website }}">{{ project.author.name }}</a>
-        {% else %}
-          {{ project.author }}
-        {% endif %}
+        <a href="{{ project.author.website }}">{{ project.author.name }}</a>
+        {% else %}{{ project.author }}{% endif %}
       </span>
       <p>{{ project.summary }}</p>
     </div>
