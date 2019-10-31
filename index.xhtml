@@ -1,145 +1,128 @@
 ---
+title: Programming Language Design
+layout: default
+canonical: /
 ---
-<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<header>
+  <span class="shell" id="pagelink"><a href="/">proglangdesign.net</a></span>
+  <nav>
+    <a href="#projects">Projects</a>
+    <a href="#resources">Resources</a>
+  </nav>
+</header>
 
-  <title>Programming Language Design</title>
+<section id="hero">
+  <h1>{{ page.title }}</h1>
+  <nav>
+    <h2>Join us!</h2>
+    <a class="shell button reddit"
+       href="https://reddit.com/r/ProgrammingLanguages">Subreddit</a>
+    <a class="shell button irc"
+       href="#join-irc">IRC</a>
+    <a class="shell button discord"
+       href="https://discord.gg/4Kjt3ZE">Discord</a>
+  </nav>
+</section>
 
-  <link rel="stylesheet" href="/css/style.css"/>
-  <link rel="alternate stylesheet" href="/css/amber.css" title="Amber"/>
-  <link rel="alternate stylesheet" href="/css/green.css" title="Green"/>
+<section id="projects">
+  <h2>Take a look at our projects</h2>
+  {% for project in site.data.projects %}
+  <div class="project">
+    <a href="{{ project.website }}">
+      <img src="/images/lang/{{ project.icon | default: 'placeholder.png' }}" alt="" />
+      <h3>{{ project.name }}</h3>
+    </a>
+    <span class="author">
+      {% if project.author.website %}
+      <a href="{{ project.author.website }}">{{ project.author.name }}</a>
+      {% else %}{{ project.author }}{% endif %}
+    </span>
+    <p>{{ project.summary }}</p>
+  </div>
+  {% endfor %}
+</section>
 
-  <link rel="icon" type="image/png" href="/images/favicon.png" />
+<section id="irc">
+  <h2>#proglangdesign</h2>
+  <h3 id="join-irc">Joining the IRC channel</h3>
+  <p>There are many ways to connect to IRC. You can:</p>
+  <ul class="shell-list">
+    <li>
+      Install one of the
+      (<a href="https://en.wikipedia.org/wiki/Comparison_of_Internet_Relay_Chat_clients">many!</a>)
+      available IRC clients.
+    </li>
+    <li>Use <a href="https://riot.im/app/#/directory">riot.im</a>
+      (join #freenode_#proglangdesign:matrix.org)</li>
+    <li>
+      Join the
+      <a href="https://webchat.freenode.net/?channels=proglangdesign">#proglangdesign channel</a>
+      with Freenode's web-based client.
+    </li>
+  </ul>
+  <p>
+    You may also wish to peruse this
+    <a href="https://www.youtube.com/watch?v=O2rGTXHvPCQ">
+      excerpt from a documentary on IRC.</a>
+  </p>
+  <h3 id="irc-bots">IRC Bots</h3>
+  <p>
+    No channel is complete without a collection of noisy bots.
+    They are also a good way to show off your programming language.
+    The following bots can be found on #proglangdesign.
+    Please do not abuse them; it is not their fault.
+  </p>
+  <ul>
+    <li>
+      <span class="shell">egelbot:</span> 
+      Speaks <a href="https://egel-lang.github.io/">Egel</a>.
+    </li>
+    <li>
+      <span class="shell">popr:</span> 
+      Speaks
+      <a href="http://hackerfoo.com/posts/popr-tutorial-0-dot-machines.html">Popr</a>.
+      Also supports interactive programs.
+    </li>
+    <li>
+      <span class="shell">sturluson:</span> 
+      Speaks <a href="https://futhark-lang.org/">Futhark</a>.
+    </li>
+  </ul>
+  <p>
+    To try out a bot, simply say
+    `<code>botname: some &lt;lang&gt; code</code>`.
+  </p>
+</section>
 
-  <link rel="canonical" href="https://www.proglangdesign.net/" />
-</head>
-<body>
-  <header>
-    <h2 class="shell" id="pagelink"><a href="/">proglangdesign.net</a></h2>
-    <nav>
-      <a href="#projects">Projects</a>
-      <a href="#resources">Resources</a>
-    </nav>
-  </header>
-
-  <section id="hero">
-    <h1>Programming Language Design</h1>
-    <nav>
-      <h2>Join us!</h2>
-      <a class="shell button reddit"
-         href="https://reddit.com/r/ProgrammingLanguages">Subreddit</a>
-      <a class="shell button irc"
-         href="#join-irc">IRC</a>
-      <a class="shell button discord"
-         href="https://discord.gg/4Kjt3ZE">Discord</a>
-    </nav>
-  </section>
-
-  <section id="projects">
-    <h2>Take a look at our projects</h2>
-
-    {% for project in site.data.projects %}
-    <div class="project">
-      <a href="{{ project.website }}">
-        <img src="/images/lang/{{ project.icon | default: 'placeholder.png' }}" alt="" />
-        <h3>{{ project.name }}</h3>
-      </a>
-      <span class="author">
-        {% if project.author.website %}
-        <a href="{{ project.author.website }}">{{ project.author.name }}</a>
-        {% else %}{{ project.author }}{% endif %}
-      </span>
-      <p>{{ project.summary }}</p>
-    </div>
-    {% endfor %}
-  </section>
-
-  <section id="irc">
-    <h2>#proglangdesign</h2>
-    <h3 id="join-irc">Joining the IRC channel</h3>
-    <p>There are many ways to connect to IRC. You can:</p>
-    <ul class="shell-list">
-      <li>
-        Install one of the
-        (<a href="https://en.wikipedia.org/wiki/Comparison_of_Internet_Relay_Chat_clients">many!</a>)
-        available IRC clients.
-      </li>
-      <li>Use <a href="https://riot.im/app/#/directory">riot.im</a>
-        (join #freenode_#proglangdesign:matrix.org)</li>
-      <li>
-        Join the
-        <a href="https://webchat.freenode.net/?channels=proglangdesign">#proglangdesign channel</a>
-        with Freenode's web-based client.
-      </li>
-    </ul>
-    <p>
-      You may also wish to peruse this
-      <a href="https://www.youtube.com/watch?v=O2rGTXHvPCQ">
-        excerpt from a documentary on IRC.</a>
-    </p>
-    <h3 id="irc-bots">IRC Bots</h3>
-    <p>
-      No channel is complete without a collection of noisy bots.
-      They are also a good way to show off your programming language.
-      The following bots can be found on #proglangdesign.
-      Please do not abuse them; it is not their fault.
-    </p>
-    <ul>
-      <li>
-        <span class="shell">egelbot:</span> 
-        Speaks <a href="https://egel-lang.github.io/">Egel</a>.
-      </li>
-      <li>
-        <span class="shell">popr:</span> 
-        Speaks
-        <a href="http://hackerfoo.com/posts/popr-tutorial-0-dot-machines.html">Popr</a>.
-        Also supports interactive programs.
-      </li>
-      <li>
-        <span class="shell">sturluson:</span> 
-        Speaks <a href="https://futhark-lang.org/">Futhark</a>.
-      </li>
-    </ul>
-    <p>
-      To try out a bot, simply say
-      `<code>botname: some &lt;lang&gt; code</code>`.
-    </p>
-  </section>
-
-  <section id="resources">
-    <h2>Resources</h2>
-    <h3 id="wiki">PLD Wiki</h3>
-    <p>
-      We have a
-      <a href="https://github.com/proglangdesign/proglangdesign-wiki/wiki">
-        wiki</a>! Only members of the GitHub organization can edit the wiki.</p>
-    <h3 id="join-github">Joining the GitHub organization</h3>
-    <p>
-      If you are a regular on #proglangdesign, ask hackerfoo for an invitation
-      to the <a href="https://github.com/proglangdesign/">GitHub organization</a>.
-      GitHub organization membership is necessary to edit the wiki, or
-      <a href="https://github.com/proglangdesign/proglangdesign.github.io">
-        modify this website</a> without needing to make a pull request.
-    </p>
-    <h3 id="handy-links">Handy Links</h3>
-    <ul>
-      <li>
-        <a href="http://profs.sci.univr.it/~merro/files/harper.pdf">
-          Practical Foundations for Programming Languages (PDF)
-        </a> is a very comprehensive introduction to programming language theory.
-      </li>
-      <li>
-        <a href="http://lambda-the-ultimate.org/">Lambda the Ultimate</a>,
-        probably the oldest programming languages weblog out there.
-      </li>
-      <li>
-        <a href="http://craftinginterpreters.com">Crafting Interpreters</a>,
-        an online, in progress book by Bob Nystrom explaning how to create interpreters and compilers from both Java and C, from scratch.
-      </li>
-    </ul>
-  </section>
-</body>
-</html>
+<section id="resources">
+  <h2>Resources</h2>
+  <h3 id="wiki">PLD Wiki</h3>
+  <p>
+    We have a
+    <a href="https://github.com/proglangdesign/proglangdesign-wiki/wiki">
+      wiki</a>! Only members of the GitHub organization can edit the wiki.</p>
+  <h3 id="join-github">Joining the GitHub organization</h3>
+  <p>
+    If you are a regular on #proglangdesign, ask hackerfoo for an invitation
+    to the <a href="https://github.com/proglangdesign/">GitHub organization</a>.
+    GitHub organization membership is necessary to edit the wiki, or
+    <a href="https://github.com/proglangdesign/proglangdesign.github.io">
+      modify this website</a> without needing to make a pull request.
+  </p>
+  <h3 id="handy-links">Handy Links</h3>
+  <ul>
+    <li>
+      <a href="http://profs.sci.univr.it/~merro/files/harper.pdf">
+        Practical Foundations for Programming Languages (PDF)
+      </a> is a very comprehensive introduction to programming language theory.
+    </li>
+    <li>
+      <a href="http://lambda-the-ultimate.org/">Lambda the Ultimate</a>,
+      probably the oldest programming languages weblog out there.
+    </li>
+    <li>
+      <a href="http://craftinginterpreters.com">Crafting Interpreters</a>,
+      an online, in progress book by Bob Nystrom explaning how to create interpreters and compilers from both Java and C, from scratch.
+    </li>
+  </ul>
+</section>

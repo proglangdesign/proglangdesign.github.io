@@ -13,6 +13,8 @@ header {
 #pagelink {
     /* needed to make the $ the right color */
     color: #805AC3;
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
 h1, h2 {
@@ -25,7 +27,6 @@ header nav {
   justify-content: flex-end;
 }
 header nav a { margin-left: 20px; }
-header nav h2 { font-size: 2em; }
 
 #hero { 
   display: flex; 
@@ -113,7 +114,7 @@ span.author:before { font-style: normal; content: "by "; }
   #hero h1 { font-size: 2rem; }
 }
 
-header h2::after {
+#pagelink::after {
   content: "_";
   animation: blinker 1.75s step-start infinite;
 }
