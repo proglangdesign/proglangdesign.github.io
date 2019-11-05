@@ -53,7 +53,12 @@ section { max-width: 960px; margin: 0 auto; }
 .project img { display: inline-block; width: 1.5em; height: 1.5em; }
 .project h3 { display: inline-block; font-size: 1.5em; }
 .project a:hover { text-decoration: none; }
-.project h3:hover { text-decoration: underline; }
+.project > a > h3:hover { text-decoration: underline; }
+.repo-icons { float: right; }
+.repo-icons img {
+  filter: invert(40%);
+}
+.author img { width: 1em; height: 1em; }
 
 .shell { text-transform: lowercase; font-family: monospace; }
 .shell:before { content: "$ "; }

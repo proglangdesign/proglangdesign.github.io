@@ -11,33 +11,53 @@ Place your project where it belongs in alphabetical order.
 Your project's summary should be under 140 characters (shorter is better).
 If your project has an icon, upload it to `images/lang/`.
 
-Full example:
+Configuration format:
 ```yaml
-  # Mandatory: The name of your project
-- name: Kitten
-  # Mandatory: Your project's website or source code repository.
-  #   Make sure this remains updated; if your project appears dead,
-  #   it will be removed from the website.
-  website: https://kittenlang.org/
-  # Optional. Your project's icon, located in `images/lang/`.
-  icon: kitten.png
+MyProject:
+  # Optional: Your project's website URL.
+  website: https://example.com
+  # Optional: Your project's GitHub repository.
+  github: my-org/my-repo
+  # Optional: Your project's GitLab repository.
+  gitlab: my-org/my-repo
+  # Optional: Your project's icon, located in `images/lang/`.
+  icon: example.png
+  # Mandatory: You must specify your name here. This may be your real name, or a preferred username.
+  # Short syntax:
+  # author: johndoe76
+  # Long syntax:
   author:
-    # Mandatory. This can be your real name, or your preferred username.
-    name: evincar
-    # Optional. If you do not specify a website, use `author: My Name` instead.
-    # This could be a personal website, GitHub account, or even Reddit account.
-    website: https://github.com/evincarofautumn
+    # Mandatory.
+    name: John Doe
+    # Optional: Your personal website.
+    website: https://johndoe.example.com
   # Mandatory. A short (<140 character) summary of your project.
   # If the line becomes longer than 80 characters, use YAML's block text syntax.
-  summary: A statically typed concatenative language with effect types.
+  summary: >
+   Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+   sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+```
+
+A typical project:
+```yaml
+Plasma:
+  website: https://plasmalang.org/
+  github: PlasmaLang/Plasma
+  icon: plasma.png
+  author:
+    name: Paul Bone
+    website: https://paul.bone.id.au/
+  summary: >
+    A language that balances functional and imperative programming,
+    and has state-of-the-art concurrency and parallelism features. 
 ```
   
-Simplest example:
-
+A project with a very simple entry:
 ```yaml
-- name: Egel
-  website: https://egel-lang.github.io/
-  author: spruit11
+C3:
+  github: c3lang/c3
+  author: Christoffer Lernö
   summary: >
-    An interpreter for eager untyped combinator rewriting implemented in C++.
+    An evolution of C, adding modules, error handling and
+    semantic macros.
 ```

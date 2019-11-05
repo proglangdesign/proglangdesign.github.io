@@ -1,168 +1,184 @@
-- name: Alox
-  website: https://github.com/alox-lang/alox
+Alox:
+  github: alox-lang/alox
   author: phase
   summary: A systems language with a more advanced type system.
 
-- name: Ante
-  website: https://github.com/jfecher/ante
+Ante:
+  github: jfecher/ante
   icon: ante.svg
   author: rndmprsn
   summary: >
     A compiled systems language focusing on providing extensibility
     through the use of a compile-time API.
 
-- name: C3
-  website: https://github.com/c3lang/c3c
+C3:
+  github: c3lang/c3
   author: Christoffer Lernö
   summary: >
     An evolution of C, adding modules, error handling and
     semantic macros.
 
-- name: Cone
+Cone:
   website: http://cone.jondgoodwin.com/
+  github: jondgoodwin/cone
   icon: cone.png
   author: jondgoodwin
   summary: >
     A fast, fit, friendly, and safe systems programming language
     to power the 3D web.
 
-- name: Dyvil
-  website: https://github.com/Dyvil/Dyvil
+Dyvil:
+  github: Dyvil/Dyvil
   author: Clashsoft
   summary: >
     A multi-paradigm, general purpose language for the JVM,
     with an extensible syntax.
 
-- name: Egel
+Egel:
   website: https://egel-lang.github.io/
+  github: egel-lang/egel
   author: spruit11
   summary: >
     An interpreter for eager untyped combinator rewriting
     implemented in C++.
 
-- name: Fennel
-  website: https://github.com/bakpakin/Fennel
+Fennel:
+  github: bakpakin/Fennel
   author: technomancy
   summary: >
     A lisp which compiles to Lua with zero overhead, revived by technomancy.
 
-- name: Futhark
+Futhark:
   website: https://futhark-lang.org/
+  github: diku-dk/futhark
   icon: futhark.png
   author: Athas
   summary: A high-performance parallel functional array language targeting GPUs.
 
-- name: Inko
+Inko:
   website: https://inko-lang.org/
+  gitlab: inko-lang/inko
   icon: inko.png
   author: yorickpeterse
   summary: >
     A gradually typed, interpreted, object-oriented language
     drawing inspiration from many others.
 
-- name: Jazz
+Jazz:
   website: https://jazz-lang.github.io/Jazz/
+  github: jazz-lang
   icon: jazz.png
   author: Adel Prokurov
   summary: >
     A systems programming language with a JIT and AOT compiler
     that uses GCCJIT as backend.
 
-- name: Jinx
+Jinx:
   website: https://www.jinx-lang.org/
+  github: JamesBoer/Jinx
   icon: jinx.png
   author:
     name: James Boer
-    website: https://www.reddit.com/u/BoarsLair
+    reddit: BoarsLair
   summary: >
     A clean, embeddable scripting language designed
     with an asynchronous and thread-safe execution model.
 
-- name: Kitten
+Kitten:
   website: https://kittenlang.org/
+  github: evincarofautumn/kitten
   icon: kitten.png
   author:
     name: evincar
-    website: https://github.com/evincarofautumn
+    github: evincarofautumn
   summary: A statically typed concatenative language with effect types.
 
-- name: Lesma
+Lesma:
   website: https://hassanalinali.github.io/Lesma/
+  github: hassanalinali/Lesma
   icon: lesma.png
   author: Hassan Alin Ali
   summary: >
     Lesma is a compiled, gradually typed,
     imperative and object oriented programming language.
 
-- name: Mercury
+Mercury:
   website: https://mercurylang.org/
+  github: Mercury-Language/mercury
   icon: mercury.png
-  author: >
-    <a href="https://mercurylang.org/development/people.html">many</a>,
-    including <a href="https://paul.bone.id.au/">Paul Bone</a>
+  organization:
+    name: many
+    website: https://mercurylang.org/development/people.html
+  author:
+    name: Paul Bone
+    website: https://paul.bone.id.au/
   summary: >
     A logic/functional programming language
     with advanced static analysis and error detection features.
-
-- name: Monte
-  website: https://github.com/monte-language
+    
+Monte:
+  github: monte-language
   author: dash
   summary: A dynamic programming language inspired by Python and E.
 
-- name: Mu
-  website: https://github.com/akkartik/mu
+Mu:
+  github: akkartik/mu
   author:
     name: akkartik
-    website: https://www.reddit.com/u/akkartik
+    reddit: akkartik
   summary: >
     A purely statement-oriented language (like Basic)
     designed for teaching programming 1-on-1.
 
-- name: Mushroom
-  website: https://gitlab.com/Bleu-Box/mushroom
+Mushroom:
+  gitlab: Bleu-Box/mushroom
   author:
     name: Benjamin Duchild
-    website: https://gitlab.com/Bleu-Box
+    gitlab: Bleu-Box
   summary: >
     An experimental functional programming language
     with an emphasis on type inference and aesthetic syntax.
 
-- name: Myraddin
+Myraddin:
   website: https://myrlang.org/
+  github: oridb/mc
   author: Ori_B
   summary: >
     A systems language aiming to fit in a similar niche to C,
     but with fewer bullets in your feet.
 
-- name: Never
+Never:
   website: https://never-lang.github.io/never/
+  github: never-lang/never
   author: Never
   summary: >
     A simple syntactically-scoped, strongly-typed,
     call-by-value, functional language.
 
-- name: NGS
-  website: https://github.com/ilyash/ngs
+NGS:
+  github: ilyash/ngs
   author: ilyash
   summary: >
     Next Generation Shell, an alternative to many scripting languages,
     with syntax for idempotent resource manipulation.
 
-- name: Orange
-  website: https://github.com/ScratchOs/starfish
+Orange:
+  github: ScratchOs/starfish
   author: orange
   summary: >
     An assembly and low level language for a custom virtual machine
     designed like a 1980s computer.
 
-- name: Owen
+Owen:
   website: http://owen-lang.org/
+  github: pawwkm/owen
   icon: owen.png
   author: pawwkm
   summary: A language close to C with modern touches.
 
-- name: Plasma
+Plasma:
   website: https://plasmalang.org/
+  github: PlasmaLang/Plasma
   icon: plasma.png
   author:
     name: Paul Bone
@@ -171,78 +187,79 @@
     A language that balances functional and imperative programming,
     and has state-of-the-art concurrency and parallelism features.
 
-- name: Pikelet
-  website: https://github.com/pikelet-lang/pikelet
+Pikelet:
+  github: pikelet-lang/pikelet
   icon: pikelet.png
   author:
     name: brendanzab
-    website: https://github.com/brendanzab
+    github: brendanzab
   summary: >
     A friendly little systems language with first-class types and unboxed data.
 
-- name: PISC
+PISC:
   website: https://pisc.junglecoder.com/
   author: yumaikas
   summary: >
     An attempt to make concatenative programming less mind-bendy
     via locals, closures, and syntactic sugar.
 
-- name: Popr
-  website: https://github.com/HackerFoo/poprc
+Popr:
+  github: HackerFoo/poprc
   author: HackerFoo
   summary: >
     Concatenative programming for types as well as values,
     striving for purity, correctness, and efficient execution.
 
-- name: Psyche-c
-  website: https://github.com/ltcmelo/psychec
+Psyche-c:
+  github: ltcmelo/psychec
   author: ltcmelo
   summary: >
     A compiler for incomplete C code
     featuring a Hindley/Milner-inspired type inference engine for C.
 
-- name: Pyash
+Pyash:
   website: https://pyac.ca/
+  gitlab: liberit/lwonprom
   author: hlok
   summary: >
     A language based on linguistic universals for totally taking over the world.
 
-- name: Rebuild
-  website: https://github.com/rebuild-lang
+Rebuild:
+  github: rebuild-lang
   icon: rebuild.png
   author: arBmind
   summary: >
     A project to experiment with and build
     the ultimate systems programming language.
 
-- name: Rhovas
-  website: https://github.com/WillBAnders/Rhovas
+Rhovas:
+  github: WillBAnders/Rhovas
   author:
     name: Blake Anderson
-    website: https://github.com/WillBAnders
+    github: WillBAnders
   summary: An experimental programming language for API design.
 
-- name: TopShell
-  website: https://github.com/topshell-language/topshell
+TopShell:
+  github: topshell-language/topshell
   icon: topshell.png
   author:
     name: Ahnfelt
-    website: https://github.com/Ahnfelt
+    github: Ahnfelt
   summary: >
     Purely functional scripting language
     with structural types, type inference, reactive streams and visualization.
 
-- name: Truck
-  website: https://github.com/Tarptaeya/truck
+Truck:
+  github: Tarptaeya/truck
   icon: truck.png
   author:
     name: Tarptaeya
-    website: https://github.com/Tarptaeya
+    github: Tarptaeya
   summary: >
     Truck is a dynamic programming language with a focus on simplicity.
 
-- name: Wu
-  website: https://github.com/wu-lang/wu
+Wu:
+  github: wu-lang/wu
   author: nilq
   icon: wu.png
   summary: >
