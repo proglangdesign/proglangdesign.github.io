@@ -42,6 +42,13 @@ Egel:
     An interpreter for eager untyped combinator rewriting
     implemented in C++.
 
+Ethereal:
+  github: Electrux/Ethereal
+  author: Electrux
+  summary: >
+    A general purpose, small, procedural, interpreted programming language,
+    written in C++, with an easy to use syntax.
+
 Fennel:
   github: bakpakin/Fennel
   author: technomancy
