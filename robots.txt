@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Host: proglangdesign.net
+Sitemap: https://proglangdesign.net/sitemap.xml
+Sitemap: https://proglangdesign.net/wiki/sitemap.xml

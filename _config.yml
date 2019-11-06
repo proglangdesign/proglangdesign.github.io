@@ -1,0 +1,9 @@
+url: "https://proglangdesign.net"
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+plugins:
+  - jekyll-sitemap
