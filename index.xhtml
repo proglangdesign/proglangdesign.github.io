@@ -24,6 +24,8 @@ canonical: /
   </nav>
 </section>
 
+<!-- Source of the many icons used here: https://github.com/simple-icons/simple-icons -->
+<!-- Exceptions: The Freenode, Reddit, IRC, and Discord icons. I don't know where those are from. -->
 <section id="projects">
   <h2>Take a look at our projects</h2>
   <!-- Liquid, the templating language, is incredibly underpowered. -->
@@ -39,6 +41,28 @@ canonical: /
       {% if project.website %}</a>{% endif %}
     </span>
     <span class="repo-icons">
+      {% if project.twitter %}<a href="https://twitter.com/rebuild_lang">
+        <img alt="Twitter" src="/images/twitter.svg" />
+      </a>{% endif %}
+      {% if project.gitter %}<a href="https://gitter.im/{{ project.gitter }}">
+        <img alt="Gitter" src="/images/gitter.svg" />
+      </a>{% endif %}
+      {% if project.discord %}<a href="https://discord.gg/{{ project.discord }}">
+        <img alt="Discord" src="/images/discord.svg" />
+      </a>{% endif %}
+      {% if project.matrix %}<a href="https://matrix.to/#/{{ project.matrix }}">
+        <img alt="Matrix" src="/images/matrix.svg" />
+      </a>{% endif %}
+      {% if project.freenode %}<a href="ircs://freenode/{{ project.freenode }}">
+        <!-- An SVG icon would be ideal. Alternatively, we could use the generic IRC icon. -->
+        <img alt="Freenode" class="nofilter" src="/images/freenode.png" />
+      </a>{% endif %}
+      {% if project.discourse %}<a href="{{ project.discourse }}">
+        <img alt="Discourse" src="/images/discourse.svg" />
+      </a>{% endif %}
+      {% if project.reddit %}<a href="https://reddit.com/r/{{ project.reddit }}">
+        <img alt="Reddit" src="/images/reddit.svg" />
+      </a>{% endif %}
       {% if project.github %}<a href="https://github.com/{{ project.github }}">
         <img alt="GitHub" src="/images/github.svg" />
       </a>{% endif %}

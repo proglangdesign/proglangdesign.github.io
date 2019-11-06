@@ -11,38 +11,32 @@ Place your project where it belongs in alphabetical order.
 Your project's summary should be under 140 characters (shorter is better).
 If your project has an icon, upload it to `images/lang/`.
 
-Configuration format:
+The most basic possible configuration:
 ```yaml
 MyProject:
-  # Optional: Your project's website URL.
-  website: https://example.com
-  # Optional: Your project's GitHub repository.
   github: my-org/my-repo
-  # Optional: Your project's GitLab repository.
-  gitlab: my-org/my-repo
-  # Optional: Your project's icon, located in `images/lang/`.
-  icon: example.png
-  # Mandatory: You must specify your name here. This may be your real name, or a preferred username.
-  # Short syntax:
-  # author: johndoe76
-  # Long syntax:
-  author:
-    # Mandatory.
-    name: John Doe
-    # Optional: Your personal website.
-    website: https://johndoe.example.com
-  # Mandatory. A short (<140 character) summary of your project.
-  # If the line becomes longer than 80 characters, use YAML's block text syntax.
-  summary: >
-   Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-   sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  author: John Doe
+  summary: A brief (<140 character) description of my project.
 ```
 
-A typical project:
+A real project with such an entry:
+```yaml
+C3:
+  github: c3lang/c3
+  author: Christoffer Lernö
+  # Wrap lines over 80 characters long.
+  summary: >
+    An evolution of C, adding modules, error handling and
+    semantic macros.
+```
+
+A more typical project:
 ```yaml
 Plasma:
   website: https://plasmalang.org/
   github: PlasmaLang/Plasma
+  # Place your icon in `images/lang/`.
+  # Non-white SVGs or transparent PNGs are preferred.
   icon: plasma.png
   author:
     name: Paul Bone
@@ -51,13 +45,72 @@ Plasma:
     A language that balances functional and imperative programming,
     and has state-of-the-art concurrency and parallelism features. 
 ```
-  
-A project with a very simple entry:
+
+A project with two contributors:
 ```yaml
-C3:
-  github: c3lang/c3
-  author: Christoffer Lernö
+Example:
+  website: https://example.com
+  authors:
+    - arthur
+    - name: Jess Writer
+      website: https://jwriter.example.com
+    - zeus94
+  summary: Currently, no real project uses `authors`.
+```
+
+A project which prefers not to single out contributors:
+```yaml
+Monte:
+  website: https://monte.readthedocs.io/en/latest/index.html
+  github: monte-language
+  freenode: monte
+  organization:
+    name: The Monte authors
+    # This page should include a list of the people involved.
+    # Monte doesn't have a dedicated list, so the LICENSE file will suffice.
+    website: https://github.com/monte-language/monte/blob/master/LICENSE
+  summary: A dynamic programming language inspired by Python and E.
+```
+
+A large project, only one contributor of which is part of our community:
+```yaml
+Mercury:
+  website: https://mercurylang.org/
+  github: Mercury-Language/mercury
+  icon: mercury.png
+  organization:
+    name: many
+    website: https://mercurylang.org/development/people.html
+  # This generated authorship list will be `many, including Paul Bone`.
+  # The `including` bit is inserted automatically.
+  # You may also use `authors`.
+  author:
+    name: Paul Bone
+    website: https://paul.bone.id.au/
   summary: >
-    An evolution of C, adding modules, error handling and
-    semantic macros.
+    A logic/functional programming language
+    with advanced static analysis and error detection features.
+```
+
+Every single community type:
+```yaml
+MyProject:
+  # You should include at least an author name and a website or repository.
+  website: https://kittenlang.org
+  github: inko-lang/inko
+  gitlab: my-org/my-repo
+  # Make sure you don't have too many icons, or they won't all fit.
+  # I'd recommend no more than two: one forum-like service (e.g. reddit, discourse)
+  # and one chat-like service (e.g. freenode, matrix).
+  # If you're really over more services than that, I'd personally recommend reconsidering;
+  # a fragmented community isn't good for anybody.
+  # If you use a service that isn't listed here, just open an issue, and I'll add it.
+  reddit: futhark               # for /r/futhark
+  discourse: https://discourse.inko-lang.org/
+  discord: 4Kjt3ZE              # your invite code, as in https://discord.gg/4Kjt3ZE
+  matrix: +inko:matrix.org      # or use a # for a channel instead of a group
+  gitter: pikelet-lang/Lobby    # as in https://gitter.im/pikelet-lang/Lobby
+  freenode: fennel              # for #fennel on Freenode
+  twitter: rebuild_lang         # for @rebuild_lang
+  author: Person
 ```

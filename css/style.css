@@ -55,7 +55,7 @@ section { max-width: 960px; margin: 0 auto; }
 .project a:hover { text-decoration: none; }
 .project > a > h3:hover { text-decoration: underline; }
 .repo-icons { float: right; }
-.repo-icons img {
+.repo-icons img:not(.nofilter) {
   filter: invert(40%);
 }
 .author img { width: 1em; height: 1em; }

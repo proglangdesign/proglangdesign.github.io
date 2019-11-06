@@ -7,7 +7,8 @@ Alox:
 Ante:
   website: http://antelang.org/
   github: jfecher/ante
-  reddit: ante
+  # The ante subreddit has been inactive for over a year (as of Nov. 2019).
+  #reddit: ante
   icon: ante.svg
   author: rndmprsn
   summary: >
@@ -17,7 +18,7 @@ Ante:
 C3:
   website: https://github.com/c3lang/c3c#c3-language
   github: c3lang/c3c
-  discord: https://discord.gg/cfu4wdk
+  discord: cfu4wdk
   author: Christoffer Lernö
   summary: >
     An evolution of C, adding modules, error handling and
@@ -66,9 +67,11 @@ Fennel:
 Futhark:
   website: https://futhark-lang.org/
   github: diku-dk/futhark
-  gitter: futhark-lang/Lobby
-  freenode: futhark
-  reddit: futhark
+  # This language is present on too many services to add.
+  # If Athas would like them listed, he can choose which to include.
+  #gitter: futhark-lang/Lobby
+  #freenode: futhark
+  #reddit: futhark
   icon: futhark.png
   author: Athas
   summary: A high-performance parallel functional array language targeting GPUs.
@@ -76,9 +79,11 @@ Futhark:
 Inko:
   website: https://inko-lang.org/
   gitlab: inko-lang/inko
-  reddit: inko
-  discourse: https://discourse.inko-lang.org/
-  matrix: inko:matrix.org
+  # This language has too many services to add.
+  # If yorickpeterse would like them listed, he can choose which to include.
+  #reddit: inko
+  #discourse: https://discourse.inko-lang.org/
+  #matrix: +inko:matrix.org
   icon: inko.png
   author: yorickpeterse
   summary: >
@@ -142,7 +147,9 @@ Monte:
   website: https://monte.readthedocs.io/en/latest/index.html
   github: monte-language
   freenode: monte
-  author: dash
+  organization:
+    name: The Monte authors
+    website: https://github.com/monte-language/monte/blob/master/LICENSE
   summary: A dynamic programming language inspired by Python and E.
 
 Mu:
@@ -255,7 +262,8 @@ Pyash:
 
 Rebuild:
   github: rebuild-lang
-  twitter: rebuild_lang
+  # Rebuild's twitter hasn't seen activity since August 2018.
+  # twitter: rebuild_lang
   icon: rebuild.png
   author: arBmind
   summary: >
@@ -291,7 +299,7 @@ Truck:
 
 Wu:
   github: wu-lang/wu
-  discord: https://discord.gg/qm92sPP
+  discord: qm92sPP
   author: nilq
   icon: wu.png
   summary: >
