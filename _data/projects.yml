@@ -210,6 +210,17 @@ Owen:
   author: pawwkm
   summary: A language close to C with modern touches.
 
+Oxyl:
+  website: http://blog.oxyllang.org/
+  gitlab: selfReferentialName/oxylc
+  icon: oxyl.png
+  author: J Rain De Jager
+  summary: >
+    A language designed to work on parallel CPU and GPGPU.
+    to do this, Oxyl uses a relatively pure functional programming
+    paradigm and a context system to contain side effects
+    while making it nonsensical to have them without mutual exclusion.
+
 Plasma:
   website: https://plasmalang.org/
   github: PlasmaLang/Plasma
