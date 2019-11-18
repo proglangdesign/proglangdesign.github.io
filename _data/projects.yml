@@ -217,9 +217,9 @@ Oxyl:
   author: J Rain De Jager
   summary: >
     A language designed to work on parallel CPU and GPGPU.
-	To do this, Oxyl uses a relatively pure functional programming
-	paradigm and a context system to contain side effects
-	while making it nonsensical to have them without mutual exclusion.
+    to do this, Oxyl uses a relatively pure functional programming
+    paradigm and a context system to contain side effects
+    while making it nonsensical to have them without mutual exclusion.
 
 Plasma:
   website: https://plasmalang.org/
