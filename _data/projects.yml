@@ -129,6 +129,13 @@ Lesma:
     Lesma is a compiled, gradually typed,
     imperative and object oriented programming language.
 
+Lexica:
+  website: https://technocoder.gitbook.io/lexica/
+  github: Techno-coder/lexica
+  icon: lexica.png
+  author: Technocoder
+  summary: A reversible programming language.
+
 Mercury:
   website: https://mercurylang.org/
   github: Mercury-Language/mercury
