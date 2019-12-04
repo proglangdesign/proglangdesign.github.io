@@ -1,8 +1,8 @@
 Alox:
-  website: https://github.com/alox-lang/alox#alox
+  website: https://alox.dev/
   github: alox-lang/alox
   author: phase
-  summary: A systems language with a more advanced type system.
+  summary: GPU-Accelerated, Distributed, Actor Model Language
 
 Ante:
   website: http://antelang.org/
