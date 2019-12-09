@@ -267,7 +267,13 @@ Psyche-c:
   author: ltcmelo
   summary: >
     A compiler for incomplete C code
-    featuring a Hindley/Milner-inspired type inference engine for C.
+
+Pyash:
+  website: https://pyac.ca/
+  gitlab: liberit/lwonprom
+  author: hlok
+  summary: >
+    A language based on linguistic universals for totally taking over the world.
 
 rcc:
   github: jyn514/rcc
@@ -277,13 +283,6 @@ rcc:
   summary: A Rust C Compiler
   icon: rcc.png
   discord: 2jRDZDU
-
-Pyash:
-  website: https://pyac.ca/
-  gitlab: liberit/lwonprom
-  author: hlok
-  summary: >
-    A language based on linguistic universals for totally taking over the world.
 
 Rebuild:
   github: rebuild-lang
