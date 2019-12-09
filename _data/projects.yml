@@ -269,6 +269,15 @@ Psyche-c:
     A compiler for incomplete C code
     featuring a Hindley/Milner-inspired type inference engine for C.
 
+rcc:
+  github: jyn514/rcc
+  author:
+    name: jyn514
+    website: https://jyn514.github.io
+  summary: A Rust C Compiler
+  icon: rcc.png
+  discord: 2jRDZDU
+
 Pyash:
   website: https://pyac.ca/
   gitlab: liberit/lwonprom
