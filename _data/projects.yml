@@ -203,6 +203,14 @@ NGS:
     Next Generation Shell, an alternative to many scripting languages,
     with syntax for idempotent resource manipulation.
 
+Oopsilon:
+  github: Oopsilon/Oopsilon
+  author: JX7P
+  icon: oopsilon.png
+  summary: >
+    Dynamic object language modelled after Smalltalk, with a gradual 
+    typing system affording expressiveness rivalling ML or Haskell.
+
 Orange:
   github: OrangeBacon/orange
   author: orange
