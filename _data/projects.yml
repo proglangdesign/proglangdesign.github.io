@@ -309,6 +309,15 @@ Rhovas:
     github: WillBAnders
   summary: An experimental programming language for API design.
 
+Sixten:
+  github: ollef/sixten
+  author:
+    name: Olle Fredriksson
+    github: ollef
+  summary: >
+    A dependently typed language where all data is unboxed by default.
+    Functional programming with fewer indirections!
+
 TopShell:
   website: https://github.com/topshell-language/topshell#topshell-
   github: topshell-language/topshell
