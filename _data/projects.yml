@@ -160,7 +160,7 @@ Mercury:
   summary: >
     A logic/functional programming language
     with advanced static analysis and error detection features.
-    
+
 Monte:
   website: https://monte.readthedocs.io/en/latest/index.html
   github: monte-language
