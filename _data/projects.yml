@@ -136,6 +136,17 @@ Lexica:
   author: Technocoder
   summary: A reversible programming language.
 
+MANOOL:
+  website: https://manool.org
+  github: rusini/manool
+  icon: manool.png
+  author:
+    name: rusini
+    website: https://manool.org/about
+  summary: >
+    Practical programming language with expressive power, in 10 KLOC in C++11
+    - "MAnool is Not an Object-Oriented Language!"
+
 Mercury:
   website: https://mercurylang.org/
   github: Mercury-Language/mercury
@@ -149,7 +160,7 @@ Mercury:
   summary: >
     A logic/functional programming language
     with advanced static analysis and error detection features.
-    
+
 Monte:
   website: https://monte.readthedocs.io/en/latest/index.html
   github: monte-language
