@@ -14,6 +14,16 @@ Ante:
   summary: >
     A compiled systems language focusing on providing extensibility
     through the use of a compile-time API.
+    
+Bee:
+  website: https://github.com/bee-lang/bee
+  github: bee-lang/bee
+  discord: 4Bx8bzN
+  icon: bee.png
+  author: Marco Lima
+  summary: >
+    A modern object-oriented scalable scripting language with 
+    built-in transpiling tools.
 
 C3:
   website: https://github.com/c3lang/c3c#c3-language
