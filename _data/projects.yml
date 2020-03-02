@@ -38,6 +38,7 @@ Chika:
   website: https://phunanon.github.io/Chika
   github: phunanon/Chika
   discord: emdhpd5
+  icon: chika.svg
   author: Patrick Bowen
   summary: >
     Experimental s-expression programming language, with VM
