@@ -34,6 +34,15 @@ C3:
     An evolution of C, adding modules, error handling and
     semantic macros.
 
+Chika:
+  website: https://phunanon.github.io/Chika
+  github: phunanon/Chika
+  discord: emdhpd5
+  author: Patrick Bowen
+  summary: >
+    Experimental s-expression programming language, with VM
+    targeting both PC and Arduino.
+
 Cone:
   website: http://cone.jondgoodwin.com/
   github: jondgoodwin/cone
