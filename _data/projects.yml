@@ -156,6 +156,16 @@ Lexica:
   author: Technocoder
   summary: A reversible programming language.
 
+Lobster:
+  website: http://strlen.com/lobster
+  github: aardappel/lobster
+  author:
+    name: Wouter van Oortmerssen
+    website: http://strlen.com/
+  summary: >
+    Flow Senstitive Type Inference & Specialization,
+    Compile Time Reference Counting, Python-y Syntax.
+
 MANOOL:
   website: https://manool.org
   github: rusini/manool
