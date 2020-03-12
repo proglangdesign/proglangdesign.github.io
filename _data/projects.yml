@@ -163,8 +163,8 @@ Lobster:
     name: Wouter van Oortmerssen
     website: http://strlen.com/
   summary: >
-    Flow Senstitive Type Inference & Specialization,
-    Compile Time Reference Counting, Python-y Syntax.
+    Flow-senstitive type inference, specialization,
+    compile-time reference counting, and Python-y syntax.
 
 MANOOL:
   website: https://manool.org
