@@ -69,13 +69,6 @@ Egel:
     An interpreter for eager untyped combinator rewriting
     implemented in C++.
 
-Ethereal:
-  github: Electrux/Ethereal
-  author: Electrux
-  summary: >
-    A general purpose, small, procedural, interpreted programming language,
-    written in C++, with an easy to use syntax.
-
 Fennel:
   website: https://fennel-lang.org/
   github: bakpakin/Fennel
@@ -148,13 +141,6 @@ Lesma:
   summary: >
     Lesma is a compiled, gradually typed,
     imperative and object oriented programming language.
-
-Lexica:
-  website: https://technocoder.gitbook.io/lexica/
-  github: Techno-coder/lexica
-  icon: lexica.png
-  author: Technocoder
-  summary: A reversible programming language.
 
 Lobster:
   website: http://strlen.com/lobster
