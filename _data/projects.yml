@@ -39,9 +39,9 @@ Chika:
   github: phunanon/Chika
   discord: emdhpd5
   icon: chika.svg
-  author: Patrick Bowen
+  author: Patrick Bowen et al
   summary: >
-    Experimental s-expression programming language, with VM
+    S-expression programming language, with VM
     targeting both PC and Arduino.
 
 Cone:
