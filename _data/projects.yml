@@ -238,13 +238,6 @@ Oopsilon:
     Dynamic object language modelled after Smalltalk, with a gradual 
     typing system affording expressiveness rivalling ML or Haskell.
 
-Orange:
-  github: OrangeBacon/orange
-  author: orange
-  summary: >
-    An assembly and low level language for a custom virtual machine
-    designed like a 1980s computer.
-
 Owen:
   website: http://owen-lang.org/
   github: pawwkm/owen
