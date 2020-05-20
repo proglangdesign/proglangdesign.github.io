@@ -359,6 +359,18 @@ Truck:
   summary: >
     Truck is a dynamic programming language with a focus on simplicity.
 
+WLambda:
+  website: https://crates.io/crates/wlambda
+  github: WeirdConstructor/WLambda
+  icon: wlambda.png
+  author:
+    name: Weird Constructor
+    github: WeirdConstructor
+  summary: >
+    An embeddable dynamic scripting language for Rust.
+    Every value can be called and the syntax is a blend of Perl, Lua,
+    JavaScript and LISP.
+
 Wu:
   github: wu-lang/wu
   discord: qm92sPP
