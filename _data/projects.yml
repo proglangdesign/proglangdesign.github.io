@@ -379,3 +379,12 @@ Wu:
   summary: >
     An expression oriented, gradually typed, sweet,
     and mission-critical programming language.
+
+Xenon:
+  github: mee42/Xenon
+  author:
+    name: Carson Graham
+    github: mee42
+  summary: >
+    A statically typed programming language that targets
+    x86_16, similar to C. Compiles to Assembly, written in Kotlin.
