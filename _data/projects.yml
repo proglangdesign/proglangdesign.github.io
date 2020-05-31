@@ -95,8 +95,8 @@ Horse64:
   author: ell1e
   icon: https://horse64.org/horse64logo.png
   summary: >
-    Dynamically typed but more orderly, reducing pain and chaos in
-    large code bases. Like Python, but saner.
+    Dynamically typed but orderly, reducing chaos in
+    large projects. Like Python, but saner.
 
 Inko:
   website: https://inko-lang.org/
