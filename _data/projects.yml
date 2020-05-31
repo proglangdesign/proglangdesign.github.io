@@ -89,6 +89,15 @@ Futhark:
   author: Athas
   summary: A high-performance parallel functional array language targeting GPUs.
 
+Horse64:
+  website: https://horse64.org/
+  github.com: horse64/horse64
+  author: ell1e
+  icon: https://horse64.org/horse64logo.png
+  summary: >
+    Dynamically typed but more orderly, reducing pain and chaos in
+    large code bases. Like Python, but saner.
+
 Inko:
   website: https://inko-lang.org/
   gitlab: inko-lang/inko
