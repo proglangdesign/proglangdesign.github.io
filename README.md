@@ -37,7 +37,10 @@ Plasma:
   github: PlasmaLang/Plasma
   # Place your icon in `images/lang/`.
   # Non-white SVGs or transparent PNGs are preferred.
+  # If you are concerned about licensing issues with your language's icon,
+  # you may link to it on an external site using a normal URL.
   icon: plasma.png
+  # icon: https://example.com/icon/plasma.png
   author:
     name: Paul Bone
     website: https://paul.bone.id.au/

@@ -36,7 +36,11 @@ canonical: /
   <div class="project" id="project-{{ project_name | downcase }}">
     <span class="title">
       {% if project.website %}<a href="{{ project.website }}">{% endif %}
+        {% if project.icon and project.icon contains "://" %}
+        <img src="{{ project.icon }}" alt="" />
+        {% else %}
         <img src="/images/lang/{{ project.icon | default: 'placeholder.png' }}" alt="" />
+        {% endif %}
         <h3>{{ project_name }}</h3>
       {% if project.website %}</a>{% endif %}
     </span>
