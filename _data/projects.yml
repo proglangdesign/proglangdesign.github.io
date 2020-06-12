@@ -266,7 +266,7 @@ Oxyl:
 Plasma:
   website: https://plasmalang.org/
   github: PlasmaLang/Plasma
-  icon: plasma.png
+  icon: https://plasmalang.org/images/logo-128.png
   author:
     name: Paul Bone
     website: https://paul.bone.id.au/
