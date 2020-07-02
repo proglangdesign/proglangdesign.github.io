@@ -292,6 +292,17 @@ PISC:
     An attempt to make concatenative programming less mind-bendy
     via locals, closures, and syntactic sugar.
 
+Pointless:
+  website: https://ptls.dev
+  github: pointless-lang/pointless
+  author:
+    name: Avery Nortonsmith
+    reddit: cadit_in_piscinam
+  icon: pointless.png
+  summary: >
+    A scripting language for learning and fun.
+    Designed for teaching and exploring functional programming.
+
 Popr:
   github: HackerFoo/poprc
   author: HackerFoo
