@@ -359,6 +359,12 @@ Sixten:
     A dependently typed language where all data is unboxed by default.
     Functional programming with fewer indirections!
 
+Star:
+  github: ALANVF/Star-lang-specification
+  author: theangryepicbanana
+  summary: >
+    A modern Objective-C with an emphasis on consistency.
+
 TopShell:
   website: https://github.com/topshell-language/topshell#topshell-
   github: topshell-language/topshell
