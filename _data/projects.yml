@@ -323,15 +323,6 @@ Pyash:
   summary: >
     A language based on linguistic universals for totally taking over the world.
 
-rcc:
-  github: jyn514/rcc
-  author:
-    name: jyn514
-    website: https://jyn514.github.io
-  summary: A Rust C Compiler
-  icon: rcc.png
-  discord: 2jRDZDU
-
 Rebuild:
   github: rebuild-lang
   # Rebuild's twitter hasn't seen activity since August 2018.
@@ -349,6 +340,15 @@ Rhovas:
     name: Blake Anderson
     github: WillBAnders
   summary: An experimental programming language for API design.
+
+Saltwater:
+  github: jyn514/saltwater
+  author:
+    name: jyn514
+    website: https://jyn514.github.io
+  summary: A C compiler written in Rust
+  icon: saltwater.png
+  discord: BPER7PF
 
 Sixten:
   github: ollef/sixten
