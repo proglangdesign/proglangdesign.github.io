@@ -91,7 +91,7 @@ Futhark:
 
 Horse64:
   website: https://horse64.org/
-  github.com: horse64/horse64
+  github: horse64/horse64
   author: ell1e
   icon: https://horse64.org/horse64logosmall.png
   summary: >
