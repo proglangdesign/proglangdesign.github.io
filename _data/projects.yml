@@ -77,6 +77,15 @@ Fennel:
   summary: >
     A lisp which compiles to Lua with zero overhead, revived by technomancy.
 
+ForthScript:
+  github: ForthScriptLang/forthscript
+  authors:
+    - notIurii
+    - ugruk
+  summary: >
+    Simple yet powerful concatenative stack-based scripting lang with 
+    code-as-data paradigm. Aims to run on bare metal like FORTH!
+
 Futhark:
   website: https://futhark-lang.org/
   github: diku-dk/futhark
