@@ -98,6 +98,16 @@ Futhark:
   author: Athas
   summary: A high-performance parallel functional array language targeting GPUs.
 
+Gwion:
+  website: https://fennecdjay.github.io/Gwion/
+  github: fennecdjay/Gwion
+  author: fennecdjay
+  organization:
+    name: Gwion
+    website: https://github.com/Gwion
+  icon: gwion.png
+  summary: A strongly-timed musical programming language
+
 Horse64:
   website: https://horse64.org/
   github: horse64/horse64
