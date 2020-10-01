@@ -162,10 +162,12 @@ Kitten:
   summary: A statically typed concatenative language with effect types.
 
 Lesma:
-  website: https://hassanalinali.github.io/Lesma/
-  github: hassanalinali/Lesma
+  website: https://lesma-lang.github.io/Lesma/
+  github: Lesma-lang/Lesma
   icon: lesma.png
-  author: Hassan Alin Ali
+  author: 
+    name: Alin Ali Hassan
+    website: https://hassanalinali.com
   summary: >
     Lesma is a compiled, gradually typed,
     imperative and object oriented programming language.
