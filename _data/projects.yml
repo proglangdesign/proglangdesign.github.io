@@ -405,6 +405,16 @@ Truck:
     github: Tarptaeya
   summary: >
     Truck is a dynamic programming language with a focus on simplicity.
+    
+Vox:
+  github: MrSmith33/vox
+  discord: HpYYhH4
+  author:
+    name: Andrey Penechko
+    github: MrSmith33
+  summary: >
+    Statically typed compiled language inspired by D.
+    Both JIT and AOT compilation. Can be used for scripting in D programs.
 
 WLambda:
   website: https://crates.io/crates/wlambda
