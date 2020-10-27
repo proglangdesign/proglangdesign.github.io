@@ -5,7 +5,7 @@ Alox:
   summary: GPU-Accelerated, Distributed, Actor Model Language
 
 Ante:
-  website: http://antelang.org/
+  website: https://antelang.org/
   github: jfecher/ante
   # The ante subreddit has been inactive for over a year (as of Nov. 2019).
   #reddit: ante
@@ -45,7 +45,7 @@ Chika:
     targeting both PC and Arduino.
 
 Cone:
-  website: http://cone.jondgoodwin.com/
+  website: https://cone.jondgoodwin.com/
   github: jondgoodwin/cone
   icon: cone.png
   author: jondgoodwin
@@ -171,7 +171,7 @@ Kitten:
 Lesma:
   website: https://lesma-lang.github.io/Lesma/
   github: Lesma-lang/Lesma
-  icon: lesma.png
+  icon: lesma.svg
   author: 
     name: Alin Ali Hassan
     website: https://hassanalinali.com
@@ -276,15 +276,15 @@ Oopsilon:
     typing system affording expressiveness rivalling ML or Haskell.
 
 Owen:
-  website: http://owen-lang.org/
+  website: https://owen-lang.org/
   github: pawwkm/owen
   icon: owen.png
   author: pawwkm
   summary: A language close to C with modern touches.
 
-Oxyl:
-  website: http://blog.oxyllang.org/
-  gitlab: selfReferentialName/oxylc
+oXyl:
+  website: https://blog.oxyllang.org/
+  gitlab: selfReferentialName/oxyl
   icon: oxyl.png
   author: J Rain De Jager
   summary: >
