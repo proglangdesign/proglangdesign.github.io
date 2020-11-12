@@ -25,6 +25,19 @@ Bee:
     A modern object-oriented scalable scripting language with 
     built-in transpiling tools.
 
+Calypso:
+  website: https://thepuzzlemaker.github.io/Calypso/
+  github: ThePuzzlemaker/Calypso
+  organization:
+    name: Calypso Contributors
+    website: https://github.com/ThePuzzlemaker/Calypso/blob/master/LICENSE
+  author:
+    name: James (ThePuzzlemaker)
+    website: https://thepuzzlemaker.info
+  summary: >
+    A general-purpose scripting language focused on flexibility but simplicity,
+    implemented in Rust.
+
 C3:
   website: https://github.com/c3lang/c3c#c3-language
   github: c3lang/c3c
