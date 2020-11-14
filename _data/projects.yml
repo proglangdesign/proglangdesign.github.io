@@ -28,7 +28,7 @@ Bee:
 Calypso:
   website: https://thepuzzlemaker.github.io/Calypso/
   github: ThePuzzlemaker/Calypso
-  image: calypso.png
+  icon: calypso.png
   organization:
     name: Calypso Contributors
     website: https://github.com/ThePuzzlemaker/Calypso/blob/master/LICENSE
