@@ -383,6 +383,11 @@ Rhovas:
     github: WillBAnders
   summary: An experimental programming language for API design.
 
+RicScript:
+  github: Ricardicus/ric-script
+  author: Ricardicus
+  summary: A dynamically typed interpreted scripting language. 
+
 Saltwater:
   github: jyn514/saltwater
   author:
