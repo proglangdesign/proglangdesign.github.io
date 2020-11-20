@@ -26,12 +26,12 @@ Bee:
     built-in transpiling tools.
 
 Calypso:
-  website: https://thepuzzlemaker.github.io/Calypso/
-  github: ThePuzzlemaker/Calypso
+  website: https://calypso-lang.github.io
+  github: calypso-lang/calypso
   icon: calypso.png
   organization:
     name: Calypso Contributors
-    website: https://github.com/ThePuzzlemaker/Calypso/blob/master/LICENSE
+    website: https://github.com/ThePuzzlemaker/Calypso/blob/master/README.md
   author:
     name: James (ThePuzzlemaker)
     website: https://thepuzzlemaker.info
