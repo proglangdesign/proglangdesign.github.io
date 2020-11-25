@@ -408,9 +408,11 @@ Sixten:
 
 Star:
   github: ALANVF/Star-lang-specification
-  author: theangryepicbanana
+  author:
+    name: theangryepicbanana
+    github: ALANVF
   summary: >
-    A modern Objective-C with an emphasis on consistency.
+    A consistent language focused on power and productivity.
 
 TopShell:
   website: https://github.com/topshell-language/topshell#topshell-
