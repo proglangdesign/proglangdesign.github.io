@@ -386,6 +386,7 @@ Rhovas:
 RicScript:
   github: Ricardicus/ric-script
   author: Ricardicus
+  icon: ric.png
   summary: A dynamically typed interpreted scripting language. 
 
 Saltwater:
