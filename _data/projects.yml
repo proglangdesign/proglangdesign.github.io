@@ -36,8 +36,7 @@ Calypso:
     name: James (ThePuzzlemaker)
     website: https://thepuzzlemaker.info
   summary: >
-    A general-purpose scripting language focused on flexibility but simplicity,
-    implemented in Rust.
+    Calypso is a mostly imperative language with some functional influences that is focused on flexibility and simplicity.
 
 C3:
   website: https://github.com/c3lang/c3c#c3-language
