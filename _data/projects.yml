@@ -144,8 +144,8 @@ MANOOL:
     name: rusini
     website: https://manool.org/about
   summary: >
-    Practical programming language with expressive power, in 10 KLOC in C++11
-    - "MAnool is Not an Object-Oriented Language!"
+    Programming language that combines high abstraction power with
+    great control over asymptotic complexity and performance of your programs
 
 Mercury:
   website: https://mercurylang.org/
