@@ -47,6 +47,17 @@ C3:
     An evolution of C, adding modules, error handling and
     semantic macros.
 
+Chaos:
+  website: https://chaos-lang.org/
+  github: chaos-lang/chaos
+  gitter: chaos-lang/community
+  icon: chaos.png
+  author:
+    name: M. Mert Yildiran
+    website: https://mertyildiran.com/
+  summary: >
+    A purely functional programming language that achieves zero cyclomatic complexity.
+
 Chika:
   website: https://phunanon.github.io/Chika
   github: phunanon/Chika
