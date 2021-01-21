@@ -50,13 +50,14 @@ C3:
 Chaos:
   website: https://chaos-lang.org/
   github: chaos-lang/chaos
+  freenode: chaoslang
   gitter: chaos-lang/community
   icon: chaos.png
   author:
-    name: M. Mert Yildiran
+    name: mertyildiran
     website: https://mertyildiran.com/
   summary: >
-    A purely functional programming language that achieves zero cyclomatic complexity.
+    Strongly typed, dynamic yet compilable, test-oriented procedural programming language that achieves zero cyclomatic complexity.
 
 Chika:
   website: https://phunanon.github.io/Chika
