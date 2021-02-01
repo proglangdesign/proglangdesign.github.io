@@ -419,12 +419,13 @@ Sixten:
     Functional programming with fewer indirections!
 
 Star:
-  github: ALANVF/Star-lang-specification
+  github: ALANVF/star
   author:
     name: theangryepicbanana
     github: ALANVF
   summary: >
-    A consistent language focused on power and productivity.
+    An experimental programming language that's made to be powerful,
+    productive, and predictable
 
 TopShell:
   website: https://github.com/topshell-language/topshell#topshell-
