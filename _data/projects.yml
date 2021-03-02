@@ -69,6 +69,13 @@ Chika:
     S-expression programming language, with VM
     targeting both PC and Arduino.
 
+ConCurr:
+  website: https://codeberg.org/Wezl/ConCurr
+  icon: concurr.svg
+  author: Cedrice Ermineii
+  summary: >
+    A curried purely-functional lisp with extensible pattern matching.
+
 Cone:
   website: https://cone.jondgoodwin.com/
   github: jondgoodwin/cone
