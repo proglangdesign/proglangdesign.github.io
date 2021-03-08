@@ -71,8 +71,11 @@ Chika:
 
 ConCurr:
   website: https://codeberg.org/Wezl/ConCurr
+  freenode: concurr
   icon: concurr.svg
-  author: Cedrice Ermineii
+  author:
+    name: Cedrice Ermineii
+    website: https://codeberg.org/Wezl/
   summary: >
     A curried purely-functional lisp with extensible pattern matching.
 
