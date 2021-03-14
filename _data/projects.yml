@@ -14,7 +14,7 @@ Ante:
   summary: >
     A compiled systems language focusing on providing extensibility
     through the use of a compile-time API.
-
+    
 Bee:
   website: https://github.com/bee-lang/bee
   github: bee-lang/bee
@@ -22,7 +22,7 @@ Bee:
   icon: bee.png
   author: Marco Lima
   summary: >
-    A modern object-oriented scalable scripting language with
+    A modern object-oriented scalable scripting language with 
     built-in transpiling tools.
 
 Calypso:
@@ -125,7 +125,7 @@ ForthScript:
     - notIurii
     - ugruk
   summary: >
-    Simple yet powerful concatenative stack-based scripting lang with
+    Simple yet powerful concatenative stack-based scripting lang with 
     code-as-data paradigm. Aims to run on bare metal like FORTH!
 
 Futhark:
@@ -207,7 +207,7 @@ Lesma:
   website: https://lesma-lang.github.io/Lesma/
   github: Lesma-lang/Lesma
   icon: lesma.svg
-  author:
+  author: 
     name: Alin Ali Hassan
     website: https://hassanalinali.com
   summary: >
@@ -307,7 +307,7 @@ Oopsilon:
   author: JX7P
   icon: oopsilon.png
   summary: >
-    Dynamic object language modelled after Smalltalk, with a gradual
+    Dynamic object language modelled after Smalltalk, with a gradual 
     typing system affording expressiveness rivalling ML or Haskell.
 
 Owen:
@@ -408,7 +408,7 @@ RicScript:
   github: Ricardicus/ric-script
   author: Ricardicus
   icon: ric.png
-  summary: A dynamically typed interpreted scripting language.
+  summary: A dynamically typed interpreted scripting language. 
 
 Saltwater:
   github: jyn514/saltwater
@@ -457,7 +457,7 @@ Truck:
     github: Tarptaeya
   summary: >
     Truck is a dynamic programming language with a focus on simplicity.
-
+    
 Vox:
   github: MrSmith33/vox
   discord: HpYYhH4
