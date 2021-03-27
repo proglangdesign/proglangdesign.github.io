@@ -18,7 +18,8 @@ Ante:
 Calypso:
   website: https://calypso-lang.github.io
   github: calypso-lang/calypso
-  icon: calypso.png
+  icon: calypso.svg
+  discord: 26X6ChQQcG
   organization:
     name: Calypso Contributors
     website: https://github.com/calypso-lang/calypso#contributors-
