@@ -419,6 +419,13 @@ Sixten:
     A dependently typed language where all data is unboxed by default.
     Functional programming with fewer indirections!
 
+Sugi:
+  website: https://sugi.ws
+  github: sugi-lang/sugi
+  author: CubeGuy21
+  summary: >
+    A sequential, minimalistic, and memory safe programming language.
+  
 Star:
   github: ALANVF/star
   icon: star.svg
