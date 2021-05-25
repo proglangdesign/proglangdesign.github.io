@@ -4,6 +4,13 @@ Alox:
   author: phase
   summary: GPU-Accelerated, Distributed, Actor Model Language
 
+AEC:
+  website: http://flatassembler.github.io/AEC_specification.html
+  github: FlatAssembler/AECforWebAssembly
+  author: Teo Samarzija
+  summary: >
+    A low-level programming language with syntax inspired by BASIC and Ada. Right now, it can target x86 and WebAssembly.
+
 Ante:
   website: https://antelang.org/
   github: jfecher/ante
