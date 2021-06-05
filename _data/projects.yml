@@ -36,6 +36,13 @@ Calypso:
   summary: >
     Calypso is a mostly imperative language with some functional influences that is focused on flexibility and simplicity.
 
+CASC:
+  github: CASC-Lang/CASC
+  icon: casc.png
+  author: ChAoS-UnItY (Kyle Lin)
+  summary: >
+    A JVM language focus on concise syntaxes and enhancing language features from Java.
+
 C3:
   website: https://github.com/c3lang/c3c#c3-language
   github: c3lang/c3c
