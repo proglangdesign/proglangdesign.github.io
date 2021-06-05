@@ -36,13 +36,6 @@ Calypso:
   summary: >
     Calypso is a mostly imperative language with some functional influences that is focused on flexibility and simplicity.
 
-CASC:
-  github: CASC-Lang/CASC
-  icon: casc.png
-  author: ChAoS-UnItY (Kyle Lin)
-  summary: >
-    A JVM language focus on concise syntaxes and enhancing language features from Java.
-
 C3:
   website: https://github.com/c3lang/c3c#c3-language
   github: c3lang/c3c
@@ -63,6 +56,14 @@ Chaos:
     website: https://mertyildiran.com/
   summary: >
     Strongly typed, dynamic yet compilable, test-oriented procedural programming language that achieves zero cyclomatic complexity.
+    
+CASC:
+  github: CASC-Lang/CASC
+  discord: U5evkT9G5R
+  icon: casc.png
+  author: ChAoS-UnItY (Kyle Lin)
+  summary: >
+    A JVM language focus on concise syntaxes and enhancing language features from Java.
 
 Chika:
   website: https://phunanon.github.io/Chika
