@@ -56,7 +56,7 @@ Chaos:
     website: https://mertyildiran.com/
   summary: >
     Strongly typed, dynamic yet compilable, test-oriented procedural programming language that achieves zero cyclomatic complexity.
-    
+
 CASC:
   github: CASC-Lang/CASC
   discord: U5evkT9G5R
@@ -131,7 +131,7 @@ ForthScript:
     - notIurii
     - ugruk
   summary: >
-    Simple yet powerful concatenative stack-based scripting lang with 
+    Simple yet powerful concatenative stack-based scripting lang with
     code-as-data paradigm. Aims to run on bare metal like FORTH!
 
 Futhark:
@@ -213,7 +213,7 @@ Lesma:
   website: https://lesma-lang.github.io/Lesma/
   github: Lesma-lang/Lesma
   icon: lesma.svg
-  author: 
+  author:
     name: Alin Ali Hassan
     website: https://hassanalinali.com
   summary: >
@@ -313,7 +313,7 @@ Oopsilon:
   author: JX7P
   icon: oopsilon.png
   summary: >
-    Dynamic object language modelled after Smalltalk, with a gradual 
+    Dynamic object language modelled after Smalltalk, with a gradual
     typing system affording expressiveness rivalling ML or Haskell.
 
 Owen:
@@ -414,7 +414,18 @@ RicScript:
   github: Ricardicus/ric-script
   author: Ricardicus
   icon: ric.png
-  summary: A dynamically typed interpreted scripting language. 
+  summary: A dynamically typed interpreted scripting language.
+
+Riff:
+  website: https://riff.cx
+  github: riff-lang/riff
+  author:
+    name: Darryl Abbate
+    website: https://darryl.cx
+  icon: riff.svg
+  summary: >
+    A dynamically typed programming language designed primarily for
+    prototyping and command-line usage.
 
 Saltwater:
   github: jyn514/saltwater
@@ -440,7 +451,7 @@ Sugi:
   author: CubeGuy21
   summary: >
     A sequential, minimalistic, and memory safe programming language.
-  
+
 Star:
   github: ALANVF/star
   icon: star.svg
@@ -470,7 +481,7 @@ Truck:
     github: Tarptaeya
   summary: >
     Truck is a dynamic programming language with a focus on simplicity.
-    
+
 Vox:
   github: MrSmith33/vox
   discord: HpYYhH4
