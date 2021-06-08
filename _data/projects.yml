@@ -255,6 +255,14 @@ Mercury:
     A logic/functional programming language
     with advanced static analysis and error detection features.
 
+Mlatu: 
+  website: https://brightly-salty.github.io/mlatu/
+  github: brightly-salty/mlatu 
+  author: 
+    name: Caden Haustein 
+    github: brightly-salty 
+  summary: Statically-typed, purely-functional, concatenative
+
 Monte:
   website: https://monte.readthedocs.io/en/latest/index.html
   github: monte-language
