@@ -4,6 +4,13 @@ Alox:
   author: phase
   summary: GPU-Accelerated, Distributed, Actor Model Language
 
+AEC:
+  website: http://flatassembler.github.io/AEC_specification.html
+  github: FlatAssembler/AECforWebAssembly
+  author: Teo Samarzija
+  summary: >
+    A low-level programming language with syntax inspired by BASIC and Ada. Right now, it can target x86 and WebAssembly.
+
 Ante:
   website: https://antelang.org/
   github: jfecher/ante
@@ -14,11 +21,11 @@ Ante:
   summary: >
     A compiled systems language focusing on providing extensibility
     through the use of a compile-time API.
-    
+
 Calypso:
   website: https://calypso-lang.github.io
   github: calypso-lang/calypso
-  icon: calypso.png
+  icon: calypso.svg
   discord: 26X6ChQQcG
   organization:
     name: Calypso Contributors
@@ -49,6 +56,14 @@ Chaos:
     website: https://mertyildiran.com/
   summary: >
     Strongly typed, dynamic yet compilable, test-oriented procedural programming language that achieves zero cyclomatic complexity.
+
+CASC:
+  github: CASC-Lang/CASC
+  discord: U5evkT9G5R
+  icon: casc.png
+  author: ChAoS-UnItY (Kyle Lin)
+  summary: >
+    A JVM language focus on concise syntaxes and enhancing language features from Java.
 
 Chika:
   website: https://phunanon.github.io/Chika
@@ -116,7 +131,7 @@ ForthScript:
     - notIurii
     - ugruk
   summary: >
-    Simple yet powerful concatenative stack-based scripting lang with 
+    Simple yet powerful concatenative stack-based scripting lang with
     code-as-data paradigm. Aims to run on bare metal like FORTH!
 
 Futhark:
@@ -198,7 +213,7 @@ Lesma:
   website: https://lesma-lang.github.io/Lesma/
   github: Lesma-lang/Lesma
   icon: lesma.svg
-  author: 
+  author:
     name: Alin Ali Hassan
     website: https://hassanalinali.com
   summary: >
@@ -239,6 +254,14 @@ Mercury:
   summary: >
     A logic/functional programming language
     with advanced static analysis and error detection features.
+
+Mlatu: 
+  website: https://brightly-salty.github.io/mlatu/
+  github: brightly-salty/mlatu 
+  author: 
+    name: Caden Haustein 
+    github: brightly-salty 
+  summary: Statically-typed, purely-functional, concatenative
 
 Monte:
   website: https://monte.readthedocs.io/en/latest/index.html
@@ -298,7 +321,7 @@ Oopsilon:
   author: JX7P
   icon: oopsilon.png
   summary: >
-    Dynamic object language modelled after Smalltalk, with a gradual 
+    Dynamic object language modelled after Smalltalk, with a gradual
     typing system affording expressiveness rivalling ML or Haskell.
 
 Owen:
@@ -399,7 +422,18 @@ RicScript:
   github: Ricardicus/ric-script
   author: Ricardicus
   icon: ric.png
-  summary: A dynamically typed interpreted scripting language. 
+  summary: A dynamically typed interpreted scripting language.
+
+Riff:
+  website: https://riff.cx
+  github: riff-lang/riff
+  author:
+    name: Darryl Abbate
+    website: https://darryl.cx
+  icon: riff.svg
+  summary: >
+    A dynamically typed programming language designed primarily for
+    prototyping and command-line usage.
 
 Saltwater:
   github: jyn514/saltwater
@@ -418,7 +452,7 @@ Sixten:
   summary: >
     A dependently typed language where all data is unboxed by default.
     Functional programming with fewer indirections!
-  
+
 Star:
   github: ALANVF/star
   icon: star.svg
@@ -456,7 +490,7 @@ Truck:
     github: Tarptaeya
   summary: >
     Truck is a dynamic programming language with a focus on simplicity.
-    
+
 Vox:
   github: MrSmith33/vox
   discord: HpYYhH4
