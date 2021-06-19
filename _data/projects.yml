@@ -100,12 +100,13 @@ Cone:
     A fast, fit, friendly, and safe systems programming language
     to power the 3D web.
 
-Curly:
-  github: jenra-uwu/curly-lang
+Closey:
+  github: jenra-uwu/closey-lang
+  icon: closey.png
   author: jenra
   summary: >
-    A lazy functional programming language that focuses on
-    iterators.
+    A functional language that aims to be as simple as possible
+    but as efficient and user friendly as possible.
 
 Dyvil:
   website: https://github.com/Dyvil/Dyvil#the-dyvil-programming-language
