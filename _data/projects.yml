@@ -22,6 +22,12 @@ Ante:
     A compiled systems language focusing on providing extensibility
     through the use of a compile-time API.
 
+Butter:
+  github: neverRare/butter
+  author: Sean (neverRare)
+  icon: butter.svg
+  summary: A tasty language for building efficient software.
+
 Calypso:
   website: https://calypso-lang.github.io
   github: calypso-lang/calypso
