@@ -81,6 +81,12 @@ Chika:
     S-expression programming language, with VM
     targeting both PC and Arduino.
 
+Clamn:
+  github: eashanhatti/clamn
+  author: eashanhatti
+  summary: >
+    An experiment in using partial evaluation, dependent types, and data layout abstraction to achieve high and predictable performance in a pure functional language
+
 Closey:
   github: jenra-uwu/closey-lang
   icon: closey.png
