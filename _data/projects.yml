@@ -54,7 +54,7 @@ C3:
 Chaos:
   website: https://chaos-lang.org/
   github: chaos-lang/chaos
-  freenode: chaoslang
+  libera: chaoslang
   gitter: chaos-lang/community
   icon: chaos.png
   author:
@@ -97,7 +97,6 @@ Closey:
 
 ConCurr:
   website: https://codeberg.org/Wezl/ConCurr
-  freenode: concurr
   icon: concurr.svg
   author:
     name: Cedrice Ermineii
@@ -133,7 +132,7 @@ Egel:
 Fennel:
   website: https://fennel-lang.org/
   github: bakpakin/Fennel
-  freenode: fennel
+  libera: fennel
   author: technomancy
   summary: >
     A lisp which compiles to Lua with zero overhead, revived by technomancy.
@@ -153,7 +152,7 @@ Futhark:
   # This language is present on too many services to add.
   # If Athas would like them listed, he can choose which to include.
   #gitter: futhark-lang/Lobby
-  #freenode: futhark
+  #libera: futhark
   #reddit: futhark
   icon: futhark.png
   author: Athas
@@ -215,7 +214,6 @@ Jinx:
 Kitten:
   website: https://kittenlang.org/
   github: evincarofautumn/kitten
-  freenode: concatenative
   icon: kitten.png
   author:
     name: evincar
@@ -279,7 +277,6 @@ Mlatu:
 Monte:
   website: https://monte.readthedocs.io/en/latest/index.html
   github: monte-language
-  freenode: monte
   organization:
     name: The Monte authors
     website: https://github.com/monte-language/monte/blob/master/LICENSE

@@ -25,7 +25,7 @@ canonical: /
 </section>
 
 <!-- Source of the many icons used here: https://github.com/simple-icons/simple-icons -->
-<!-- Exceptions: The Freenode, Reddit, IRC, and Discord icons. I don't know where those are from. -->
+<!-- Exceptions: The Libera, Reddit, IRC, and Discord icons. I don't know where those are from. -->
 <section id="projects">
   <h2>Take a look at our projects</h2>
   <!-- Liquid, the templating language, is incredibly underpowered. -->
@@ -57,9 +57,8 @@ canonical: /
       {% if project.matrix %}<a href="https://matrix.to/#/{{ project.matrix }}">
         <img alt="Matrix" src="/images/matrix.svg" />
       </a>{% endif %}
-      {% if project.freenode %}<a href="ircs://freenode/{{ project.freenode }}">
-        <!-- An SVG icon would be ideal. Alternatively, we could use the generic IRC icon. -->
-        <img alt="Freenode" class="nofilter" src="/images/freenode.png" />
+      {% if project.libera %}<a href="ircs://irc.libera.chat:6697/{{ project.libera }}">
+        <img alt="Libera.Chat" class="nofilter" src="/images/libera.svg" />
       </a>{% endif %}
       {% if project.discourse %}<a href="{{ project.discourse }}">
         <img alt="Discourse" src="/images/discourse.svg" />
@@ -119,7 +118,7 @@ canonical: /
       available IRC clients.
     </li>
     <li>Use <a href="https://riot.im/app/#/directory">riot.im</a>
-      (join #freenode_#proglangdesign:matrix.org)</li>
+      (join #proglangdesign:libera.chat)</li>
     <li>
       Join the
       <a href="http://kiwiirc.com/client/irc.libera.chat/#proglangdesign">#proglangdesign channel</a>

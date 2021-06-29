@@ -1,6 +1,6 @@
 # proglangdesign.github.io
 
-A website for the programming language design community, including #proglangdesign on Freenode, /r/ProgrammingLanguages, and https://discord.gg/4Kjt3ZE.
+A website for the programming language design community, including #proglangdesign on [Libera.Chat](https://Libera.Chat), /r/ProgrammingLanguages, and https://discord.gg/4Kjt3ZE.
 
 You can see this live at [proglangdesign.net](https://proglangdesign.net).
 
@@ -66,7 +66,7 @@ A project which prefers not to single out contributors:
 Monte:
   website: https://monte.readthedocs.io/en/latest/index.html
   github: monte-language
-  freenode: monte
+  libera: monte
   organization:
     name: The Monte authors
     # This page should include a list of the people involved.
@@ -103,8 +103,8 @@ MyProject:
   github: inko-lang/inko
   gitlab: my-org/my-repo
   # Make sure you don't have too many icons, or they won't all fit.
-  # I'd recommend no more than two: one forum-like service (e.g. reddit, discourse)
-  # and one chat-like service (e.g. freenode, matrix).
+  # I'd recommend no more than two: one forum-like service (e.g. Reddit, Discourse)
+  # and one chat-like service (e.g. Libera, Matrix).
   # If you're really over more services than that, I'd personally recommend reconsidering;
   # a fragmented community isn't good for anybody.
   # If you use a service that isn't listed here, just open an issue, and I'll add it.
@@ -113,7 +113,7 @@ MyProject:
   discord: 4Kjt3ZE              # your invite code, as in https://discord.gg/4Kjt3ZE
   matrix: +inko:matrix.org      # or use a # for a channel instead of a group
   gitter: pikelet-lang/Lobby    # as in https://gitter.im/pikelet-lang/Lobby
-  freenode: fennel              # for #fennel on Freenode
+  libera: fennel                # for #fennel on Libera.Chat
   twitter: rebuild_lang         # for @rebuild_lang
   author: Person
 ```
