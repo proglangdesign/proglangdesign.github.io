@@ -85,6 +85,7 @@ Chika:
 Clamn:
   github: eashanhatti/clamn
   author: eashanhatti
+  discord: q2VGFExyvB
   summary: >
     An experiment in using partial evaluation, dependent types, and data layout abstraction to achieve high and predictable performance in a pure functional language
 
