@@ -82,10 +82,11 @@ Chika:
     S-expression programming language, with VM
     targeting both PC and Arduino.
 
-Clamn:
-  github: eashanhatti/clamn
+Konna:
+  github: eashanhatti/konna
   author: eashanhatti
   discord: q2VGFExyvB
+  icon: konna.svg
   summary: >
     An experiment in using partial evaluation, dependent types, and data layout abstraction to achieve high and predictable performance in a pure functional language
 
