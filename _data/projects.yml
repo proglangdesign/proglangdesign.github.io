@@ -172,6 +172,16 @@ Horse64:
     Dynamically typed but orderly, reducing chaos in
     large projects. A grounded Python-alike.
 
+Imp:
+  website: https://github.com/mh15/imp
+  github: mh15/imp
+  author:
+    name: mh15
+    website: https://matthall.codes
+  summary: >
+    A statically typed and compiled scripting language 
+    with the goal of increasing programmer confidence.
+
 Inko:
   website: https://inko-lang.org/
   gitlab: inko-lang/inko
@@ -475,7 +485,7 @@ Star:
   summary: >
     An experimental programming language that's made to be powerful,
     productive, and predictable.
-    
+
 Sugi:
   website: https://sugi.ws
   github: sugi-lang/sugi
