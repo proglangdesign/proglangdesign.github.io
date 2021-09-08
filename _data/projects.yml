@@ -475,7 +475,7 @@ Sixten:
   summary: >
     A dependently typed language where all data is unboxed by default.
     Functional programming with fewer indirections!
-
+    
 Star:
   github: ALANVF/star
   icon: star.svg
@@ -485,7 +485,6 @@ Star:
   summary: >
     An experimental programming language that's made to be powerful,
     productive, and predictable.
-
 Sugi:
   website: https://sugi.ws
   github: sugi-lang/sugi
