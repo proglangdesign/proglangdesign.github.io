@@ -475,7 +475,7 @@ Sixten:
   summary: >
     A dependently typed language where all data is unboxed by default.
     Functional programming with fewer indirections!
-    
+
 Star:
   github: ALANVF/star
   icon: star.svg
