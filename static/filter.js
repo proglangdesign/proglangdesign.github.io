@@ -1,26 +1,29 @@
+// Filters the projects by tags defined in projects.yml
+// Implemented by Matt Hall (github.com/mh15)
 
-console.log("Projects filtering script loaded.")
+
+
+// Only enable the feature if JS is enabled
+document.querySelector("#tags").style.display = "flex"
 
 const projects = document.querySelector("#projects-list")
 
-document.querySelector("#tags").style.display = "flex"
 
 const filters = new Set()
-// filters.add("jvm")
-// filters.add("compiled")
 
-// projectComparator(
-//     document.querySelector("#project-c3"),
-//     document.querySelector("#project-imp"),
-// )
-
+/**
+ * Compare two projects
+ * @param {HTMLElement} a 
+ * @param {HTMLElement} b 
+ * @returns {number}
+ */
 function projectComparator(a, b) {
     const tagsA = getTags(a)
     const tagsB = getTags(b)
 
+    // Get a score for the projects
     let scoreA = 0
     let scoreB = 0
-
     for (const tag of filters) {
         if (tagsA.includes(tag)) {
             scoreA++
@@ -29,7 +32,6 @@ function projectComparator(a, b) {
             scoreB++
         }
     }
-
 
     if (scoreA > scoreB) {
         return -1
@@ -41,6 +43,11 @@ function projectComparator(a, b) {
     }
 }
 
+/**
+ * Set the current filters and sort
+ * @param {HTMLElement} el 
+ * @param {string|null} f 
+ */
 function setFilter(el, f) {
     if (f == null) {
         // Turn off all filters
@@ -68,6 +75,11 @@ function setFilter(el, f) {
 
 }
 
+/**
+ * Get the tags for a project
+ * @param {HTMLElement} el 
+ * @returns {string[]}
+ */
 function getTags(el) {
     const data = el.getAttribute("data-tags")
     if (!data) return []
