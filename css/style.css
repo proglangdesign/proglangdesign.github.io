@@ -48,6 +48,7 @@ header nav a { margin-left: 20px; }
 section { max-width: 960px; margin: 0 auto; }
 
 #projects { display: flex; flex-wrap: wrap; padding-bottom: 25px; }
+#projects-list { display: flex; flex-wrap: wrap; padding-bottom: 25px; }
 #projects h2 { width: 100%;  color: #444;}
 .project { width: 25%; min-width: 200px; padding: 20px 10px; }
 .project img { display: inline-block; width: 1.5em; height: 1.5em; }
@@ -61,7 +62,26 @@ section { max-width: 960px; margin: 0 auto; }
 .author img { width: 1em; height: 1em; }
 
 .shell { text-transform: lowercase; font-family: monospace; }
-.shell:before { content: "$ "; }
+.prompt-sign:before { content: "$ "; }
+
+
+#tags { display: flex; flex-wrap: wrap;}
+.tag {
+  background-color: #ada3be;
+  margin: 5px 5px;
+  padding: 3px;
+  color: white;
+  cursor: pointer;
+}
+
+.tag-selected {
+  background-color: #805AC3;
+}
+
+.project-filtered {
+  /* border: 1px solid #805AC3; */
+  opacity: 0.5;
+}
 
 ul { margin: 20px; }
 #irc li { list-style-type: none; }

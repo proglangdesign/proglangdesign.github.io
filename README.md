@@ -17,7 +17,11 @@ MyProject:
   github: my-org/my-repo
   author: John Doe
   summary: A brief (<140 character) description of my project.
+  tags:
+    - tag0
+    - tag1
 ```
+Tags can be found in `_data/tags.yml`.
 
 A real project with such an entry:
 ```yaml

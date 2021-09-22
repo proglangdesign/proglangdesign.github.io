@@ -25,6 +25,7 @@ GEM
     ethon (0.14.0)
       ffi (>= 1.15.0)
     eventmachine (1.2.7)
+    eventmachine (1.2.7-x64-mingw32)
     execjs (2.8.1)
     faraday (1.4.3)
       faraday-em_http (~> 1.0)
@@ -40,6 +41,7 @@ GEM
     faraday-net_http (1.0.1)
     faraday-net_http_persistent (1.1.0)
     ffi (1.15.3)
+    ffi (1.15.3-x64-mingw32)
     forwardable-extended (2.6.0)
     gemoji (3.0.1)
     github-pages (215)
@@ -223,6 +225,8 @@ GEM
     nokogiri (1.11.7)
       mini_portile2 (~> 2.5.0)
       racc (~> 1.4)
+    nokogiri (1.11.7-x64-mingw32)
+      racc (~> 1.4)
     octokit (4.21.0)
       faraday (>= 0.9)
       sawyer (~> 0.8.0, >= 0.5.3)
@@ -260,15 +264,17 @@ GEM
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.7)
+    unf_ext (0.0.7.7-x64-mingw32)
     unicode-display_width (1.7.0)
     zeitwerk (2.4.2)
 
 PLATFORMS
   ruby
+  x64-mingw32
 
 DEPENDENCIES
   github-pages
   jekyll-sitemap
 
 BUNDLED WITH
-   2.2.21
+   2.2.27
