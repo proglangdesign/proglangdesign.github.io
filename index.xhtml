@@ -26,90 +26,87 @@ canonical: /
 <section id="projects">
   <h2>Take a look at our projects</h2>
   {% assign unique_tags = site.data.tags | uniq | sort %}
-  <div id="tags" data-all-tags="{{unique_tags | join: ','}}">
-
-
-  </div>
+  <div id="tags" data-all-tags="{{unique_tags | join: ','}}"></div>
+  
   <!-- Liquid, the templating language, is incredibly underpowered. -->
   <!-- What follows is very ugly code that is not possible to improve due to lack of features. -->
 
   <div id="projects-list">
-
-  {% for project_entry in site.data.projects %}
-  {% assign project = project_entry[1] %}
-  {% assign project_name = project_entry[0] %}
-  <div class="project" id="project-{{ project_name | downcase }}">
-    <span class="title">
-      {% if project.website %}<a href="{{ project.website }}">{% endif %}
-        {% if project.icon and project.icon contains "://" %}
-        <img src="{{ project.icon }}" alt="" />
-        {% else %}
-        <img src="/images/lang/{{ project.icon | default: 'placeholder.png' }}" alt="" />
+    {% for project_entry in site.data.projects %}
+    {% assign project = project_entry[1] %}
+    {% assign project_name = project_entry[0] %}
+    <div class="project" id="project-{{ project_name | downcase }}">
+      <span class="title">
+        {% if project.website %}<a href="{{ project.website }}">{% endif %}
+          {% if project.icon and project.icon contains "://" %}
+          <img src="{{ project.icon }}" alt="" />
+          {% else %}
+          <img src="/images/lang/{{ project.icon | default: 'placeholder.png' }}" alt="" />
+          {% endif %}
+          <h3>{{ project_name }}</h3>
+        {% if project.website %}</a>{% endif %}
+      </span>
+      <span class="repo-icons">
+        {% if project.twitter %}<a href="https://twitter.com/rebuild_lang">
+          <img alt="Twitter" src="/images/twitter.svg" />
+        </a>{% endif %}
+        {% if project.gitter %}<a href="https://gitter.im/{{ project.gitter }}">
+          <img alt="Gitter" src="/images/gitter.svg" />
+        </a>{% endif %}
+        {% if project.discord %}<a href="https://discord.gg/{{ project.discord }}">
+          <img alt="Discord" src="/images/discord.svg" />
+        </a>{% endif %}
+        {% if project.matrix %}<a href="https://matrix.to/#/{{ project.matrix }}">
+          <img alt="Matrix" src="/images/matrix.svg" />
+        </a>{% endif %}
+        {% if project.libera %}<a href="ircs://irc.libera.chat:6697/{{ project.libera }}">
+          <img alt="Libera.Chat" class="nofilter" src="/images/libera.svg" />
+        </a>{% endif %}
+        {% if project.discourse %}<a href="{{ project.discourse }}">
+          <img alt="Discourse" src="/images/discourse.svg" />
+        </a>{% endif %}
+        {% if project.reddit %}<a href="https://reddit.com/r/{{ project.reddit }}">
+          <img alt="Reddit" src="/images/reddit.svg" />
+        </a>{% endif %}
+        {% if project.github %}<a href="https://github.com/{{ project.github }}">
+          <img alt="GitHub" src="/images/github.svg" />
+        </a>{% endif %}
+        {% if project.gitlab %}<a href="https://gitlab.com/{{ project.gitlab }}">
+          <img alt="GitLab" src="/images/gitlab.svg" />
+        </a>{% endif %}
+      </span>
+      <span class="author">
+        {% if project.organization %}
+          {% if project.organization.website %}<a href="{{ project.organization.website }}">{% endif %}
+            {{ project.organization.name | default: project.organization }}<!--
+          {% if project.organization.website %}--></a><!--{% endif %}
+          {% if project.authors %}-->, including <!--{% endif %}
+          {% if project.author %}-->, including <!--{% endif %}-->
         {% endif %}
-        <h3>{{ project_name }}</h3>
-      {% if project.website %}</a>{% endif %}
-    </span>
-    <span class="repo-icons">
-      {% if project.twitter %}<a href="https://twitter.com/rebuild_lang">
-        <img alt="Twitter" src="/images/twitter.svg" />
-      </a>{% endif %}
-      {% if project.gitter %}<a href="https://gitter.im/{{ project.gitter }}">
-        <img alt="Gitter" src="/images/gitter.svg" />
-      </a>{% endif %}
-      {% if project.discord %}<a href="https://discord.gg/{{ project.discord }}">
-        <img alt="Discord" src="/images/discord.svg" />
-      </a>{% endif %}
-      {% if project.matrix %}<a href="https://matrix.to/#/{{ project.matrix }}">
-        <img alt="Matrix" src="/images/matrix.svg" />
-      </a>{% endif %}
-      {% if project.libera %}<a href="ircs://irc.libera.chat:6697/{{ project.libera }}">
-        <img alt="Libera.Chat" class="nofilter" src="/images/libera.svg" />
-      </a>{% endif %}
-      {% if project.discourse %}<a href="{{ project.discourse }}">
-        <img alt="Discourse" src="/images/discourse.svg" />
-      </a>{% endif %}
-      {% if project.reddit %}<a href="https://reddit.com/r/{{ project.reddit }}">
-        <img alt="Reddit" src="/images/reddit.svg" />
-      </a>{% endif %}
-      {% if project.github %}<a href="https://github.com/{{ project.github }}">
-        <img alt="GitHub" src="/images/github.svg" />
-      </a>{% endif %}
-      {% if project.gitlab %}<a href="https://gitlab.com/{{ project.gitlab }}">
-        <img alt="GitLab" src="/images/gitlab.svg" />
-      </a>{% endif %}
-    </span>
-    <span class="author">
-      {% if project.organization %}
-        {% if project.organization.website %}<a href="{{ project.organization.website }}">{% endif %}
-          {{ project.organization.name | default: project.organization }}<!--
-        {% if project.organization.website %}--></a><!--{% endif %}
-        {% if project.authors %}-->, including <!--{% endif %}
-        {% if project.author %}-->, including <!--{% endif %}-->
-      {% endif %}
-      {% assign num_authors = project.authors | size %}
-      <!-- {% if num_authors < 2 %}-->
-        {% assign author = project.authors[0] | default: project.author %}
-        {% if author.website %}<a href="{{ author.website }}">{% endif %}
-          {{ author.name | default: author }}
-        {% if author.website %}</a>{% endif %}
-      {% else %}-->
-        {% assign authors_except_last = project.authors | reverse | shift | reverse %}
-        {% for author in authors_except_last %}
+        {% assign num_authors = project.authors | size %}
+        <!-- {% if num_authors < 2 %}-->
+          {% assign author = project.authors[0] | default: project.author %}
           {% if author.website %}<a href="{{ author.website }}">{% endif %}
-            {{ author.name | default: author }}<!--
-          -->{% if author.website %}</a>{% endif %},
-        {% endfor %}
-        and
-        {% assign last_author_prime = project.authors | reverse | pop %}
-        {% assign last_author = last_author_prime[0] %}
-        {% if last_author.website %}<a href="{{ last_author.website }}">{% endif %}
-          {{ last_author.name | default: last_author }}
-        {% if last_author.website %}</a>{% endif %}
-      {% endif %}
-    </span>
-    <p>{{ project.summary }}</p>
-  </div>
-  {% endfor %}
+            {{ author.name | default: author }}
+          {% if author.website %}</a>{% endif %}
+        {% else %}-->
+          {% assign authors_except_last = project.authors | reverse | shift | reverse %}
+          {% for author in authors_except_last %}
+            {% if author.website %}<a href="{{ author.website }}">{% endif %}
+              {{ author.name | default: author }}<!--
+            -->{% if author.website %}</a>{% endif %},
+          {% endfor %}
+          and
+          {% assign last_author_prime = project.authors | reverse | pop %}
+          {% assign last_author = last_author_prime[0] %}
+          {% if last_author.website %}<a href="{{ last_author.website }}">{% endif %}
+            {{ last_author.name | default: last_author }}
+          {% if last_author.website %}</a>{% endif %}
+        {% endif %}
+      </span>
+      <p>{{ project.summary }}</p>
+    </div>
+    {% endfor %}
   </div>
 </section>
 
