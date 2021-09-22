@@ -78,6 +78,11 @@ section { max-width: 960px; margin: 0 auto; }
   background-color: #805AC3;
 }
 
+.project-filtered {
+  /* border: 1px solid #805AC3; */
+  opacity: 0.5;
+}
+
 ul { margin: 20px; }
 #irc li { list-style-type: none; }
 .shell-list li:before { content: "$ "; font-family: monospace; }

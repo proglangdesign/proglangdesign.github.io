@@ -25,12 +25,9 @@ canonical: /
 <!-- Exceptions: The Libera, Reddit, IRC, and Discord icons. I don't know where those are from. -->
 <section id="projects">
   <h2>Take a look at our projects</h2>
-  <div id="tags" style="display: none;">
-    {% assign unique_tags = site.data.tags | uniq %}
-    {% for tag_name in unique_tags %}
-    <div class="shell tag" onclick='setFilter(this,"{{tag_name}}")'>{{ tag_name }}</div>
-    {% endfor %}
-    <div class="shell tag" onclick='setFilter(this,null)'>none</div>
+  {% assign unique_tags = site.data.tags | uniq | sort %}
+  <div id="tags" data-all-tags="{{unique_tags | join: ','}}">
+
 
   </div>
   <!-- Liquid, the templating language, is incredibly underpowered. -->
@@ -41,7 +38,7 @@ canonical: /
     {% for project_entry in site.data.projects %}
     {% assign project = project_entry[1] %}
     {% assign project_name = project_entry[0] %}
-    <div class="project" id="project-{{ project_name | downcase }}" data-tags="{{ project.tags | join: ',' }}">
+    <div class="project" id="project-{{ project_name | downcase }}">
       <span class="title">
         {% if project.website %}<a href="{{ project.website }}">{% endif %}
           {% if project.icon and project.icon contains "://" %}
@@ -50,8 +47,7 @@ canonical: /
           <img src="/images/lang/{{ project.icon | default: 'placeholder.png' }}" alt="" />
           {% endif %}
           <h3>{{ project_name }}</h3>
-          {% if project.website %}
-        </a>{% endif %}
+        {% if project.website %}</a>{% endif %}
       </span>
       <span class="repo-icons">
         {% if project.twitter %}<a href="https://twitter.com/rebuild_lang">
@@ -84,37 +80,30 @@ canonical: /
       </span>
       <span class="author">
         {% if project.organization %}
-        {% if project.organization.website %}<a href="{{ project.organization.website }}">{% endif %}
-          {{ project.organization.name | default: project.organization }}
-          <!--
-        {% if project.organization.website %}-->
-        </a>
-        <!--{% endif %}
-        {% if project.authors %}-->, including
-        <!--{% endif %}
-        {% if project.author %}-->, including
-        <!--{% endif %}-->
+          {% if project.organization.website %}<a href="{{ project.organization.website }}">{% endif %}
+            {{ project.organization.name | default: project.organization }}<!--
+          {% if project.organization.website %}--></a><!--{% endif %}
+          {% if project.authors %}-->, including <!--{% endif %}
+          {% if project.author %}-->, including <!--{% endif %}-->
         {% endif %}
         {% assign num_authors = project.authors | size %}
         <!-- {% if num_authors < 2 %}-->
-        {% assign author = project.authors[0] | default: project.author %}
-        {% if author.website %}<a href="{{ author.website }}">{% endif %}
-          {{ author.name | default: author }}
+          {% assign author = project.authors[0] | default: project.author %}
+          {% if author.website %}<a href="{{ author.website }}">{% endif %}
+            {{ author.name | default: author }}
           {% if author.website %}</a>{% endif %}
         {% else %}-->
-        {% assign authors_except_last = project.authors | reverse | shift | reverse %}
-        {% for author in authors_except_last %}
-        {% if author.website %}<a href="{{ author.website }}">{% endif %}
-          {{ author.name | default: author }}
-          <!--
-          -->{% if author.website %}
-        </a>{% endif %},
-        {% endfor %}
-        and
-        {% assign last_author_prime = project.authors | reverse | pop %}
-        {% assign last_author = last_author_prime[0] %}
-        {% if last_author.website %}<a href="{{ last_author.website }}">{% endif %}
-          {{ last_author.name | default: last_author }}
+          {% assign authors_except_last = project.authors | reverse | shift | reverse %}
+          {% for author in authors_except_last %}
+            {% if author.website %}<a href="{{ author.website }}">{% endif %}
+              {{ author.name | default: author }}<!--
+            -->{% if author.website %}</a>{% endif %},
+          {% endfor %}
+          and
+          {% assign last_author_prime = project.authors | reverse | pop %}
+          {% assign last_author = last_author_prime[0] %}
+          {% if last_author.website %}<a href="{{ last_author.website }}">{% endif %}
+            {{ last_author.name | default: last_author }}
           {% if last_author.website %}</a>{% endif %}
         {% endif %}
       </span>

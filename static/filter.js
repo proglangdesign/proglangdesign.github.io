@@ -1,15 +1,27 @@
 // Filters the projects by tags defined in projects.yml
 // Implemented by Matt Hall (github.com/mh15)
 
+console.log("reeee")
 
-
-// Only enable the feature if JS is enabled
-document.querySelector("#tags").style.display = "flex"
 
 const projects = document.querySelector("#projects-list")
 
-
 const filters = new Set()
+
+// Only enable the feature if JS is enabled
+// Add the tag buttons in JS
+const tagContainer = document.querySelector("#tags")
+const tagNames = getTags(tagContainer, "data-all-tags")
+console.log(tagContainer, tagNames)
+tagNames.forEach(name => {
+    let tag = document.createElement("div")
+    tag.classList.add("shell", "tag")
+    tag.innerHTML = name
+    tag.onclick = () => setFilter(tag, name)
+    tagContainer.appendChild(tag)
+})
+
+
 
 /**
  * Compare two projects
@@ -18,8 +30,8 @@ const filters = new Set()
  * @returns {number}
  */
 function projectComparator(a, b) {
-    const tagsA = getTags(a)
-    const tagsB = getTags(b)
+    const tagsA = getTags(a, "data-tags")
+    const tagsB = getTags(b, "data-tags")
 
     // Get a score for the projects
     let scoreA = 0
@@ -31,6 +43,15 @@ function projectComparator(a, b) {
         if (tagsB.includes(tag)) {
             scoreB++
         }
+    }
+
+    if (scoreA != filters.size) scoreA = 0
+    if (scoreB != filters.size) scoreB = 0
+
+    if (filters.size > 0) {
+
+        if (scoreA == 0) a.classList.add("project-filtered")
+        if (scoreB == 0) b.classList.add("project-filtered")
     }
 
     if (scoreA > scoreB) {
@@ -67,21 +88,34 @@ function setFilter(el, f) {
             filters.add(f)
         }
     }
+    Array.from(projects.children).forEach(project => {
+        project.classList.remove("project-filtered")
+    })
+
 
     // Sort in place
     Array.from(projects.children)
         .sort(projectComparator)
         .forEach(node => projects.appendChild(node));
 
+    // If no filters are selected, don't fade out projects.
+    // if (filters.size == 0) {
+    //     Array.from(projects.children).forEach(project => {
+    //         project.classList.remove("project-filtered")
+    //     })
+
+    // }
+
 }
 
 /**
  * Get the tags for a project
  * @param {HTMLElement} el 
+ * @param {string} attribute 
  * @returns {string[]}
  */
-function getTags(el) {
-    const data = el.getAttribute("data-tags")
+function getTags(el, attribute) {
+    const data = el.getAttribute(attribute)
     if (!data) return []
     const list = data.split(",")
 
