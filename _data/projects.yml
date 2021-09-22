@@ -3,6 +3,8 @@ Alox:
   github: alox-lang/alox
   author: phase
   summary: GPU-Accelerated, Distributed, Actor Model Language
+  tags:
+    - gpu
 
 AEC:
   website: http://flatassembler.github.io/AEC_specification.html
@@ -42,6 +44,9 @@ Calypso:
     website: https://thepuzzlemaker.info
   summary: >
     Calypso is a mostly imperative language with some functional influences that is focused on flexibility and simplicity.
+  tags:
+    - imperative
+    - functional
 
 C3:
   website: https://github.com/c3lang/c3c#c3-language
@@ -51,6 +56,8 @@ C3:
   summary: >
     An evolution of C, adding modules, error handling and
     semantic macros.
+  tags:
+    - compiled
 
 Chaos:
   website: https://chaos-lang.org/
@@ -152,6 +159,8 @@ Futhark:
   icon: futhark.png
   author: Athas
   summary: A high-performance parallel functional array language targeting GPUs.
+  tags:
+    - gpu
 
 Gwion:
   website: https://gwion.github.io/Gwion/
@@ -181,6 +190,9 @@ Imp:
   summary: >
     A statically typed and compiled scripting language 
     with the goal of increasing programmer confidence.
+  tags:
+    - compiled
+    - jvm
 
 Inko:
   website: https://inko-lang.org/
@@ -279,12 +291,12 @@ Mercury:
     A logic/functional programming language
     with advanced static analysis and error detection features.
 
-Mlatu: 
+Mlatu:
   website: https://brightly-salty.github.io/mlatu/
-  github: brightly-salty/mlatu 
-  author: 
-    name: Caden Haustein 
-    github: brightly-salty 
+  github: brightly-salty/mlatu
+  author:
+    name: Caden Haustein
+    github: brightly-salty
   summary: Statically-typed, purely-functional, concatenative
 
 Monte:

@@ -15,12 +15,9 @@ canonical: /
   <h1>{{ page.title }}</h1>
   <nav>
     <h2>Join us!</h2>
-    <a class="shell button reddit"
-       href="https://reddit.com/r/ProgrammingLanguages">Subreddit</a>
-    <a class="shell button irc"
-       href="#join-irc">IRC</a>
-    <a class="shell button discord"
-       href="https://discord.gg/4Kjt3ZE">Discord</a>
+    <a class="shell button prompt-sign reddit" href="https://reddit.com/r/ProgrammingLanguages">Subreddit</a>
+    <a class="shell button prompt-sign irc" href="#join-irc">IRC</a>
+    <a class="shell button prompt-sign discord" href="https://discord.gg/4Kjt3ZE">Discord</a>
   </nav>
 </section>
 
@@ -28,83 +25,103 @@ canonical: /
 <!-- Exceptions: The Libera, Reddit, IRC, and Discord icons. I don't know where those are from. -->
 <section id="projects">
   <h2>Take a look at our projects</h2>
+  <div id="tags" style="display: none;">
+    {% assign unique_tags = site.data.tags | uniq %}
+    {% for tag_name in unique_tags %}
+    <div class="shell tag" onclick='setFilter(this,"{{tag_name}}")'>{{ tag_name }}</div>
+    {% endfor %}
+    <div class="shell tag" onclick='setFilter(this,null)'>none</div>
+
+  </div>
   <!-- Liquid, the templating language, is incredibly underpowered. -->
   <!-- What follows is very ugly code that is not possible to improve due to lack of features. -->
-  {% for project_entry in site.data.projects %}
-  {% assign project = project_entry[1] %}
-  {% assign project_name = project_entry[0] %}
-  <div class="project" id="project-{{ project_name | downcase }}">
-    <span class="title">
-      {% if project.website %}<a href="{{ project.website }}">{% endif %}
-        {% if project.icon and project.icon contains "://" %}
-        <img src="{{ project.icon }}" alt="" />
-        {% else %}
-        <img src="/images/lang/{{ project.icon | default: 'placeholder.png' }}" alt="" />
-        {% endif %}
-        <h3>{{ project_name }}</h3>
-      {% if project.website %}</a>{% endif %}
-    </span>
-    <span class="repo-icons">
-      {% if project.twitter %}<a href="https://twitter.com/rebuild_lang">
-        <img alt="Twitter" src="/images/twitter.svg" />
-      </a>{% endif %}
-      {% if project.gitter %}<a href="https://gitter.im/{{ project.gitter }}">
-        <img alt="Gitter" src="/images/gitter.svg" />
-      </a>{% endif %}
-      {% if project.discord %}<a href="https://discord.gg/{{ project.discord }}">
-        <img alt="Discord" src="/images/discord.svg" />
-      </a>{% endif %}
-      {% if project.matrix %}<a href="https://matrix.to/#/{{ project.matrix }}">
-        <img alt="Matrix" src="/images/matrix.svg" />
-      </a>{% endif %}
-      {% if project.libera %}<a href="ircs://irc.libera.chat:6697/{{ project.libera }}">
-        <img alt="Libera.Chat" class="nofilter" src="/images/libera.svg" />
-      </a>{% endif %}
-      {% if project.discourse %}<a href="{{ project.discourse }}">
-        <img alt="Discourse" src="/images/discourse.svg" />
-      </a>{% endif %}
-      {% if project.reddit %}<a href="https://reddit.com/r/{{ project.reddit }}">
-        <img alt="Reddit" src="/images/reddit.svg" />
-      </a>{% endif %}
-      {% if project.github %}<a href="https://github.com/{{ project.github }}">
-        <img alt="GitHub" src="/images/github.svg" />
-      </a>{% endif %}
-      {% if project.gitlab %}<a href="https://gitlab.com/{{ project.gitlab }}">
-        <img alt="GitLab" src="/images/gitlab.svg" />
-      </a>{% endif %}
-    </span>
-    <span class="author">
-      {% if project.organization %}
+
+  <div id="projects-list">
+
+    {% for project_entry in site.data.projects %}
+    {% assign project = project_entry[1] %}
+    {% assign project_name = project_entry[0] %}
+    <div class="project" id="project-{{ project_name | downcase }}" data-tags="{{ project.tags | join: ',' }}">
+      <span class="title">
+        {% if project.website %}<a href="{{ project.website }}">{% endif %}
+          {% if project.icon and project.icon contains "://" %}
+          <img src="{{ project.icon }}" alt="" />
+          {% else %}
+          <img src="/images/lang/{{ project.icon | default: 'placeholder.png' }}" alt="" />
+          {% endif %}
+          <h3>{{ project_name }}</h3>
+          {% if project.website %}
+        </a>{% endif %}
+      </span>
+      <span class="repo-icons">
+        {% if project.twitter %}<a href="https://twitter.com/rebuild_lang">
+          <img alt="Twitter" src="/images/twitter.svg" />
+        </a>{% endif %}
+        {% if project.gitter %}<a href="https://gitter.im/{{ project.gitter }}">
+          <img alt="Gitter" src="/images/gitter.svg" />
+        </a>{% endif %}
+        {% if project.discord %}<a href="https://discord.gg/{{ project.discord }}">
+          <img alt="Discord" src="/images/discord.svg" />
+        </a>{% endif %}
+        {% if project.matrix %}<a href="https://matrix.to/#/{{ project.matrix }}">
+          <img alt="Matrix" src="/images/matrix.svg" />
+        </a>{% endif %}
+        {% if project.libera %}<a href="ircs://irc.libera.chat:6697/{{ project.libera }}">
+          <img alt="Libera.Chat" class="nofilter" src="/images/libera.svg" />
+        </a>{% endif %}
+        {% if project.discourse %}<a href="{{ project.discourse }}">
+          <img alt="Discourse" src="/images/discourse.svg" />
+        </a>{% endif %}
+        {% if project.reddit %}<a href="https://reddit.com/r/{{ project.reddit }}">
+          <img alt="Reddit" src="/images/reddit.svg" />
+        </a>{% endif %}
+        {% if project.github %}<a href="https://github.com/{{ project.github }}">
+          <img alt="GitHub" src="/images/github.svg" />
+        </a>{% endif %}
+        {% if project.gitlab %}<a href="https://gitlab.com/{{ project.gitlab }}">
+          <img alt="GitLab" src="/images/gitlab.svg" />
+        </a>{% endif %}
+      </span>
+      <span class="author">
+        {% if project.organization %}
         {% if project.organization.website %}<a href="{{ project.organization.website }}">{% endif %}
-          {{ project.organization.name | default: project.organization }}<!--
-        {% if project.organization.website %}--></a><!--{% endif %}
-        {% if project.authors %}-->, including <!--{% endif %}
-        {% if project.author %}-->, including <!--{% endif %}-->
-      {% endif %}
-      {% assign num_authors = project.authors | size %}
-      <!-- {% if num_authors < 2 %}-->
+          {{ project.organization.name | default: project.organization }}
+          <!--
+        {% if project.organization.website %}-->
+        </a>
+        <!--{% endif %}
+        {% if project.authors %}-->, including
+        <!--{% endif %}
+        {% if project.author %}-->, including
+        <!--{% endif %}-->
+        {% endif %}
+        {% assign num_authors = project.authors | size %}
+        <!-- {% if num_authors < 2 %}-->
         {% assign author = project.authors[0] | default: project.author %}
         {% if author.website %}<a href="{{ author.website }}">{% endif %}
           {{ author.name | default: author }}
-        {% if author.website %}</a>{% endif %}
-      {% else %}-->
+          {% if author.website %}</a>{% endif %}
+        {% else %}-->
         {% assign authors_except_last = project.authors | reverse | shift | reverse %}
         {% for author in authors_except_last %}
-          {% if author.website %}<a href="{{ author.website }}">{% endif %}
-            {{ author.name | default: author }}<!--
-          -->{% if author.website %}</a>{% endif %},
+        {% if author.website %}<a href="{{ author.website }}">{% endif %}
+          {{ author.name | default: author }}
+          <!--
+          -->{% if author.website %}
+        </a>{% endif %},
         {% endfor %}
         and
         {% assign last_author_prime = project.authors | reverse | pop %}
         {% assign last_author = last_author_prime[0] %}
         {% if last_author.website %}<a href="{{ last_author.website }}">{% endif %}
           {{ last_author.name | default: last_author }}
-        {% if last_author.website %}</a>{% endif %}
-      {% endif %}
-    </span>
-    <p>{{ project.summary }}</p>
+          {% if last_author.website %}</a>{% endif %}
+        {% endif %}
+      </span>
+      <p>{{ project.summary }}</p>
+    </div>
+    {% endfor %}
   </div>
-  {% endfor %}
 </section>
 
 <section id="irc">
@@ -139,21 +156,21 @@ canonical: /
   </p>
   <ul>
     <li>
-      <span class="shell"><a href="https://github.com/egel-lang/egel-bot">egelbot</a>:</span> 
+      <span class="shell"><a href="https://github.com/egel-lang/egel-bot">egelbot</a>:</span>
       Speaks <a href="https://egel-lang.github.io/">Egel</a>.
     </li>
     <li>
-      <span class="shell"><a href="https://github.com/HackerFoo/poprc/blob/master/irc.c">popr</a>:</span> 
+      <span class="shell"><a href="https://github.com/HackerFoo/poprc/blob/master/irc.c">popr</a>:</span>
       Speaks
       <a href="http://hackerfoo.com/posts/popr-tutorial-0-dot-machines.html">Popr</a>.
       Also supports interactive programs.
     </li>
     <li>
-      <span class="shell"><a href="https://github.com/diku-dk/sturluson">sturluson</a>:</span> 
+      <span class="shell"><a href="https://github.com/diku-dk/sturluson">sturluson</a>:</span>
       Speaks <a href="https://futhark-lang.org/">Futhark</a>.
     </li>
     <li>
-      <span class="shell"><a href="https://github.com/Gwion/gwion-cinch-bot">gwionbot</a>:</span> 
+      <span class="shell"><a href="https://github.com/Gwion/gwion-cinch-bot">gwionbot</a>:</span>
       Speaks <a href="https://Gwion.github.io/Gwion/">Gwion</a>.
     </li>
   </ul>
@@ -171,7 +188,8 @@ canonical: /
     <a href="https://proglangdesign.net/wiki/">
       wiki</a>! Only members of the GitHub organization can
     <a href="https://github.com/proglangdesign/proglangdesign-wiki/wiki">
-      edit the wiki</a>.</p>
+      edit the wiki</a>.
+  </p>
   <h3 id="join-github">Joining the GitHub organization</h3>
   <p>
     If you are a regular on #proglangdesign, ask hackerfoo for an invitation
@@ -193,7 +211,8 @@ canonical: /
     </li>
     <li>
       <a href="http://craftinginterpreters.com">Crafting Interpreters</a>,
-      an online, in progress book by Bob Nystrom explaining how to create interpreters and compilers from both Java and C, from scratch.
+      an online, in progress book by Bob Nystrom explaining how to create interpreters and compilers from both Java and
+      C, from scratch.
     </li>
   </ul>
 </section>
