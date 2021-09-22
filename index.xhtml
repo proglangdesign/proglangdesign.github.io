@@ -4,7 +4,7 @@ layout: default
 canonical: /
 ---
 <header>
-  <span class="shell" id="pagelink"><a href="/">proglangdesign.net</a></span>
+  <span class="shell prompt-sign" id="pagelink"><a href="/">proglangdesign.net</a></span>
   <nav>
     <a href="#projects">Projects</a>
     <a href="#resources">Resources</a>
@@ -35,11 +35,9 @@ canonical: /
 
   <div id="projects-list">
 
-    {% for project_entry in site.data.projects %}
-    {% assign project = project_entry[1] %}
-    {% assign project_name = project_entry[0] %}
-
-
+  {% for project_entry in site.data.projects %}
+  {% assign project = project_entry[1] %}
+  {% assign project_name = project_entry[0] %}
   <div class="project" id="project-{{ project_name | downcase }}">
     <span class="title">
       {% if project.website %}<a href="{{ project.website }}">{% endif %}
@@ -111,9 +109,7 @@ canonical: /
     </span>
     <p>{{ project.summary }}</p>
   </div>
-
-    
-    {% endfor %}
+  {% endfor %}
   </div>
 </section>
 
