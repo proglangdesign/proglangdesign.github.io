@@ -1,3 +1,10 @@
+AEC:
+  website: http://flatassembler.github.io/AEC_specification.html
+  github: FlatAssembler/AECforWebAssembly
+  author: Teo Samarzija
+  summary: >
+    A low-level programming language with syntax inspired by BASIC and Ada. Right now, it can target x86 and WebAssembly.
+
 Alox:
   website: https://alox.dev/
   github: alox-lang/alox
@@ -5,13 +12,6 @@ Alox:
   summary: GPU-Accelerated, Distributed, Actor Model Language
   tags:
     - gpu
-
-AEC:
-  website: http://flatassembler.github.io/AEC_specification.html
-  github: FlatAssembler/AECforWebAssembly
-  author: Teo Samarzija
-  summary: >
-    A low-level programming language with syntax inspired by BASIC and Ada. Right now, it can target x86 and WebAssembly.
 
 Ante:
   website: https://antelang.org/
@@ -212,7 +212,9 @@ Inko:
   author: yorickpeterse
   summary: >
     A gradually typed, interpreted, object-oriented language
-    drawing inspiration from many others.
+    drawing inspiration from many others.  
+  tags:
+    - oop
 
 Jazz:
   website: https://jazz-lang.github.io/Jazz/
@@ -265,6 +267,8 @@ Lesma:
   summary: >
     Lesma is a compiled, gradually typed,
     imperative and object oriented programming language.
+  tags:
+    - oop
 
 Lobster:
   website: http://strlen.com/lobster
@@ -374,6 +378,8 @@ Oopsilon:
   summary: >
     Dynamic object language modelled after Smalltalk, with a gradual
     typing system affording expressiveness rivalling ML or Haskell.
+  tags:
+    - oop
 
 Owen:
   website: https://owen-lang.org/

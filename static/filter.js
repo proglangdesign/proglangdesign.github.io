@@ -17,7 +17,9 @@ tagNames.forEach(name => {
     let tag = document.createElement("div")
     tag.classList.add("shell", "tag")
     tag.innerHTML = name
-    tag.onclick = () => setFilter(tag, name)
+    tag.onclick = () => {
+        setFilter(tag, name)
+    }
     tagContainer.appendChild(tag)
 })
 
