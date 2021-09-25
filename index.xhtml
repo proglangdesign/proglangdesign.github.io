@@ -25,9 +25,10 @@ canonical: /
 <!-- Exceptions: The Libera, Reddit, IRC, and Discord icons. I don't know where those are from. -->
 <section id="projects">
   <h2>Take a look at our projects</h2>
+  {% if site.data.tags %}
   {% assign unique_tags = site.data.tags | uniq | sort %}
   <div id="tags" data-all-tags="{{unique_tags | join: ','}}"></div>
-  
+  {% endif %}
   <!-- Liquid, the templating language, is incredibly underpowered. -->
   <!-- What follows is very ugly code that is not possible to improve due to lack of features. -->
 

@@ -1,34 +1,31 @@
 // Filters the projects by tags defined in projects.yml
 // Implemented by Matt Hall (github.com/mh15)
 
-console.log("reeee")
-
-
 const projects = document.querySelector("#projects-list")
-
 const filters = new Set()
 
 // Only enable the feature if JS is enabled
 // Add the tag buttons in JS
 const tagContainer = document.querySelector("#tags")
-const tagNames = getTags(tagContainer, "data-all-tags")
-console.log(tagContainer, tagNames)
-tagNames.forEach(name => {
-    let tag = document.createElement("div")
-    tag.classList.add("shell", "tag")
-    tag.innerHTML = name
-    tag.onclick = () => {
-        setFilter(tag, name)
+if (tagContainer != null) {
+    const tagNames = getTags(tagContainer, "data-all-tags")
+    if (tagNames.length > 0) {
+        tagNames.forEach(name => {
+            let tag = document.createElement("div")
+            tag.classList.add("shell", "tag")
+            tag.innerHTML = name
+            tag.onclick = () => {
+                setFilter(tag, name)
+            }
+            tagContainer.appendChild(tag)
+        })
     }
-    tagContainer.appendChild(tag)
-})
-
-
+}
 
 /**
  * Compare two projects
- * @param {HTMLElement} a 
- * @param {HTMLElement} b 
+ * @param {HTMLElement} a
+ * @param {HTMLElement} b
  * @returns {number}
  */
 function projectComparator(a, b) {
@@ -112,8 +109,8 @@ function setFilter(el, f) {
 
 /**
  * Get the tags for a project
- * @param {HTMLElement} el 
- * @param {string} attribute 
+ * @param {HTMLElement} el
+ * @param {string} attribute
  * @returns {string[]}
  */
 function getTags(el, attribute) {

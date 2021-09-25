@@ -10,8 +10,6 @@ Alox:
   github: alox-lang/alox
   author: phase
   summary: GPU-Accelerated, Distributed, Actor Model Language
-  tags:
-    - gpu
 
 Ante:
   website: https://antelang.org/
@@ -23,8 +21,6 @@ Ante:
   summary: >
     A compiled systems language focusing on providing extensibility
     through the use of a compile-time API.
-  tags:
-    - systems
 
 Butter:
   github: neverRare/butter
@@ -46,9 +42,6 @@ Calypso:
     website: https://thepuzzlemaker.info
   summary: >
     Calypso is a mostly imperative language with some functional influences that is focused on flexibility and simplicity.
-  tags:
-    - imperative
-    - functional
 
 C3:
   website: https://github.com/c3lang/c3c#c3-language
@@ -58,8 +51,6 @@ C3:
   summary: >
     An evolution of C, adding modules, error handling and
     semantic macros.
-  tags:
-    - compiled
 
 Chaos:
   website: https://chaos-lang.org/
@@ -124,8 +115,6 @@ Dyvil:
   summary: >
     A multi-paradigm, general purpose language for the JVM,
     with an extensible syntax.
-  tags:
-    - jvm
 
 Egel:
   website: https://egel-lang.github.io/
@@ -151,8 +140,6 @@ ForthScript:
   summary: >
     Simple yet powerful concatenative stack-based scripting lang with
     code-as-data paradigm. Aims to run on bare metal like FORTH!
-  tags:
-    - scripting
 
 Futhark:
   website: https://futhark-lang.org/
@@ -165,8 +152,6 @@ Futhark:
   icon: futhark.png
   author: Athas
   summary: A high-performance parallel functional array language targeting GPUs.
-  tags:
-    - gpu
 
 Gwion:
   website: https://gwion.github.io/Gwion/
@@ -196,9 +181,6 @@ Imp:
   summary: >
     A statically typed and compiled scripting language 
     with the goal of increasing programmer confidence.
-  tags:
-    - compiled
-    - jvm
 
 Inko:
   website: https://inko-lang.org/
@@ -213,8 +195,6 @@ Inko:
   summary: >
     A gradually typed, interpreted, object-oriented language
     drawing inspiration from many others.  
-  tags:
-    - oop
 
 Jazz:
   website: https://jazz-lang.github.io/Jazz/
@@ -224,8 +204,6 @@ Jazz:
   summary: >
     A systems programming language with a JIT and AOT compiler
     that uses GCCJIT as backend.
-  tags:
-    - systems
 
 Jinx:
   website: https://www.jinx-lang.org/
@@ -237,8 +215,6 @@ Jinx:
   summary: >
     A clean, embeddable scripting language designed
     with an asynchronous and thread-safe execution model.
-  tags:
-    - scripting
 
 Kitten:
   website: https://kittenlang.org/
@@ -267,8 +243,6 @@ Lesma:
   summary: >
     Lesma is a compiled, gradually typed,
     imperative and object oriented programming language.
-  tags:
-    - oop
 
 Lobster:
   website: http://strlen.com/lobster
@@ -312,8 +286,6 @@ Mlatu:
     name: Caden Haustein
     github: brightly-salty
   summary: Statically-typed, purely-functional, concatenative
-  tags:
-    - functional
 
 Monte:
   website: https://monte.readthedocs.io/en/latest/index.html
@@ -350,8 +322,6 @@ Myrddin:
   summary: >
     A systems language aiming to fit in a similar niche to C,
     but with fewer bullets in your feet.
-  tags:
-    - systems
 
 Never:
   website: https://never-lang.github.io/never/
@@ -368,8 +338,6 @@ NGS:
   summary: >
     Next Generation Shell, an alternative to many scripting languages,
     with syntax for idempotent resource manipulation.
-  tags:
-    - scripting
 
 Oopsilon:
   github: Oopsilon/Oopsilon
@@ -378,8 +346,6 @@ Oopsilon:
   summary: >
     Dynamic object language modelled after Smalltalk, with a gradual
     typing system affording expressiveness rivalling ML or Haskell.
-  tags:
-    - oop
 
 Owen:
   website: https://owen-lang.org/
@@ -396,9 +362,6 @@ oXyl:
   summary: >
     A functional language designed to work on parallel CPU and GPGPU
     using a functional paradigm and context system to contain side effects.
-  tags:
-    - gpu
-    - functional
 
 Plasma:
   website: https://plasmalang.org/
@@ -421,8 +384,6 @@ Pikelet:
     github: brendanzab
   summary: >
     A friendly little systems language with first-class types and unboxed data.
-  tags:
-    - systems
 
 PISC:
   website: https://pisc.junglecoder.com/
@@ -441,8 +402,6 @@ Pointless:
   summary: >
     A scripting language for learning and fun.
     Designed for teaching and exploring functional programming.
-  tags:
-    - functional
 
 Popr:
   github: HackerFoo/poprc
@@ -473,8 +432,6 @@ Rebuild:
   summary: >
     A project to experiment with and build
     the ultimate systems programming language.
-  tags:
-    - systems
 
 Rhovas:
   website: https://rhovas.dev/
@@ -489,8 +446,6 @@ RicScript:
   author: Ricardicus
   icon: ric.png
   summary: A dynamically typed interpreted scripting language.
-  tags:
-    - scripting
 
 Riff:
   website: https://riff.cx
@@ -548,8 +503,6 @@ Swallow:
     github: SaptakBhoumik
   summary: >
     An easy to use systems programming language with python-like syntax
-  tags:
-    - systems
 
 TopShell:
   website: https://github.com/topshell-language/topshell#topshell-
@@ -561,9 +514,6 @@ TopShell:
   summary: >
     Purely functional scripting language
     with structural types, type inference, reactive streams and visualization.
-  tags:
-    - functional
-    - reactive
 
 Truck:
   github: Tarptaeya/truck
@@ -595,8 +545,6 @@ WLambda:
     An embeddable dynamic scripting language for Rust.
     Every value can be called and the syntax is a blend of Perl, Lua,
     JavaScript and LISP.
-  tags:
-    - scripting
 
 Wu:
   github: wu-lang/wu
