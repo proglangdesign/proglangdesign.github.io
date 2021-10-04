@@ -304,6 +304,12 @@ Mercury:
   summary: >
     A logic/functional programming language
     with advanced static analysis and error detection features.
+  tags:
+    - logic
+    - compiled
+    - strong types
+    - static types
+    - pure
 
 Mlatu:
   website: https://brightly-salty.github.io/mlatu/
