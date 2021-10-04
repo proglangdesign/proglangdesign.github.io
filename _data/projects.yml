@@ -6,7 +6,7 @@ Aardvark:
   icon: aardvark.svg
   summary: >
     It is designed to be easy, yet powerful, compiling to LLVM and self-hosting. Our goal is for it to be faster than C and easier than Python.
-    
+
 AEC:
   website: http://flatassembler.github.io/AEC_specification.html
   github: FlatAssembler/AECforWebAssembly
@@ -19,7 +19,7 @@ Alox:
   github: alox-lang/alox
   author: phase
   summary: GPU-Accelerated, Distributed, Actor Model Language
-  
+
 Amp:
   github: amp-lang/amp
   author: Zack Pace
@@ -505,6 +505,13 @@ Plasma:
   summary: >
     A language that balances functional and imperative programming,
     and has state-of-the-art concurrency and parallelism features.
+  tags:
+    - compiled
+    - parallel
+    - concurrent
+    - strong types
+    - static types
+    - pure
 
 Pikelet:
   website: https://pikelet-lang.github.io/pikelet/
