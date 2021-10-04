@@ -410,6 +410,13 @@ Plasma:
   summary: >
     A language that balances functional and imperative programming,
     and has state-of-the-art concurrency and parallelism features.
+  tags:
+    - compiled
+    - parallel
+    - concurrent
+    - strong types
+    - static types
+    - pure
 
 Pikelet:
   website: https://pikelet-lang.github.io/pikelet/
