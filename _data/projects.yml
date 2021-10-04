@@ -250,7 +250,7 @@ Hook:
   website: https://github.com/hook-lang/hook
   github: hook-lang/hook
   discord: FDapNvTJ
-  author: 
+  author:
     name: fabiosvm
     website: https://github.com/fabiosvm
   icon: hook.png
@@ -308,7 +308,7 @@ jank:
     name: Jeaye Wilkerson
     website: https://jeaye.com/
   summary: >
-    A Clojure dialect hosted on LLVM with native C++ interop. 
+    A Clojure dialect hosted on LLVM with native C++ interop.
 
 Jazz:
   website: https://jazz-lang.github.io/Jazz/
@@ -391,6 +391,12 @@ Mercury:
   summary: >
     A logic/functional programming language
     with advanced static analysis and error detection features.
+  tags:
+    - compiled
+    - logic
+    - pure
+    - static types
+    - strong types
 
 Mlatu:
   website: https://brightly-salty.github.io/mlatu/
@@ -507,11 +513,11 @@ Plasma:
     and has state-of-the-art concurrency and parallelism features.
   tags:
     - compiled
-    - parallel
     - concurrent
-    - strong types
-    - static types
+    - parallel
     - pure
+    - static types
+    - strong types
 
 Pikelet:
   website: https://pikelet-lang.github.io/pikelet/
@@ -652,7 +658,6 @@ Sophie:
   summary: >
     Call-by-need statically-duck-typed pure-functional actor language
     named for French mathematician Sophie Germain.
-    
 
 Star:
   github: ALANVF/star
