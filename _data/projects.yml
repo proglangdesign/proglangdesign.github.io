@@ -163,6 +163,14 @@ Gwion:
   icon: gwion.png
   summary: A strongly-timed musical programming language
 
+Hook:
+  website: https://github.com/fabiosvm/hook-lang
+  github: fabiosvm/hook-lang
+  author: fabiosvm
+  summary: >
+    A simple, small, dynamic-type, imperative C-style
+    scripting language with an easy-to-understand implementation.
+
 Horse64:
   website: https://horse64.org/
   github: horse64/horse64
