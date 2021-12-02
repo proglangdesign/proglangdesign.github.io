@@ -236,7 +236,6 @@ Kitten:
 Konna:
   github: eashanhatti/konna
   author: eashanhatti
-  discord: q2VGFExyvB
   icon: konna.svg
   summary: >
     A fast functional language based on two level type theory
