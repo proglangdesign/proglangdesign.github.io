@@ -90,15 +90,6 @@ Closey:
     A functional language that aims to be as simple as possible
     but as efficient and user friendly as possible.
 
-ConCurr:
-  website: https://codeberg.org/Wezl/ConCurr
-  icon: concurr.svg
-  author:
-    name: Cedrice Ermineii
-    website: https://codeberg.org/Wezl/
-  summary: >
-    A curried purely-functional lisp with extensible pattern matching.
-
 Cone:
   website: https://cone.jondgoodwin.com/
   github: jondgoodwin/cone
