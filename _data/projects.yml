@@ -337,6 +337,16 @@ NGS:
     Next Generation Shell, an alternative to many scripting languages,
     with syntax for idempotent resource manipulation.
 
+Nib:
+  website: https://codeberg.org/Wezl/nib
+  icon: nib.svg
+  author:
+    name: Cedrice Ermineii
+    website: https://codeberg.org/Wezl/
+  summary: >
+    A semi-concatenative that extends array language features such as tacit
+    programming and scalar extension.
+
 Oopsilon:
   github: Oopsilon/Oopsilon
   author: JX7P
