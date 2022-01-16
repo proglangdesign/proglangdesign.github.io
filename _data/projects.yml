@@ -159,8 +159,8 @@ Hook:
   github: fabiosvm/hook-lang
   author: fabiosvm
   summary: >
-    A simple, small, dynamic-type, imperative C-style
-    scripting language with an easy-to-understand implementation.
+    A simple, small, cross-platform,  dynamically typed, scripting language
+    that combines imperative and functional programming.
 
 Horse64:
   website: https://horse64.org/
