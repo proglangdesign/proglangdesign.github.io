@@ -347,6 +347,15 @@ Nib:
     A semi-concatenative that extends array language features such as tacit
     programming and scalar extension.
 
+Okta:
+  website: https://okta-lang.org
+  github: mikelma/oktac
+  icon: okta.svg
+  author: mikelma
+  summary: >
+    Compiled, imperative and general-purpose programming language that aims
+    to provide a simple platform to create efficient software.
+
 Oopsilon:
   github: Oopsilon/Oopsilon
   author: JX7P
