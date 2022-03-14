@@ -22,6 +22,16 @@ Ante:
     A compiled systems language focusing on providing extensibility
     through the use of a compile-time API.
 
+Argon:
+  github: argonlang/argon
+  icon: argon.svg
+  author:
+    name: jacopodl
+    website: https://github.com/jacopodl
+  summary: >
+    Argon is an interpreted multi-paradigm programming language. 
+    Its syntax is mainly influenced by Python, Go and Rust, it is neat and simple to use.
+
 Butter:
   github: neverRare/butter
   author: Sean (neverRare)
