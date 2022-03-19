@@ -132,6 +132,17 @@ Fennel:
   summary: >
     A lisp which compiles to Lua with zero overhead, revived by technomancy.
 
+Firefly:
+  website: https://www.ahnfelt.net/async-await-inference-in-firefly/
+  github: https://github.com/Ahnfelt/firefly-boot
+  icon: firefly.png
+  discord: y8zCf7x2pF
+  authors:
+    - ahnfelt
+    - werk
+  summary: >
+    Full-stack language with colorless async/await and object capabilities.
+
 ForthScript:
   github: ForthScriptLang/forthscript
   authors:
