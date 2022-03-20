@@ -29,7 +29,7 @@ Argon:
     name: jacopodl
     website: https://github.com/jacopodl
   summary: >
-    Argon is an interpreted multi-paradigm programming language. 
+    Argon is an interpreted multi-paradigm programming language.
     Its syntax is mainly influenced by Python, Go and Rust, it is neat and simple to use.
 
 Butter:
@@ -98,6 +98,14 @@ Closey:
   summary: >
     A functional language that aims to be as simple as possible
     but as efficient and user friendly as possible.
+
+Cognate:
+  website: https://github.com/stavromulabeta/cognate
+  github: stavromulabeta/cognate
+  icon: cognate.png
+  author: StavromulaBeta
+  summary: >
+    A highly readable quasi-concatenative dynamic language.
 
 Cone:
   website: https://cone.jondgoodwin.com/
@@ -198,7 +206,7 @@ Imp:
     name: mh15
     website: https://matthall.codes
   summary: >
-    A statically typed and compiled scripting language 
+    A statically typed and compiled scripting language
     with the goal of increasing programmer confidence.
 
 Inko:
@@ -213,7 +221,7 @@ Inko:
   author: yorickpeterse
   summary: >
     A gradually typed, interpreted, object-oriented language
-    drawing inspiration from many others.  
+    drawing inspiration from many others.
 
 Jazz:
   website: https://jazz-lang.github.io/Jazz/
