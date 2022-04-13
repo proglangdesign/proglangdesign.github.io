@@ -182,6 +182,17 @@ Gwion:
   icon: gwion.png
   summary: A strongly-timed musical programming language
 
+H-hat:
+  website: https://hhat.cdagger.com
+  organization:
+    name: many
+    website: https://hhat.cdagger.com/en/latest/team.html
+  author: 
+    name: Dooms
+    website: https://github.com/Doomsk
+  summary: >
+    A quantum programming language aimed to build quantum algorithms through a higher abstraction layer.
+
 Hook:
   website: https://github.com/fabiosvm/hook-lang
   github: fabiosvm/hook-lang
