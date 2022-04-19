@@ -263,10 +263,11 @@ Kitten:
     github: evincarofautumn
   summary: A statically typed concatenative language with effect types.
 
-Konna:
-  github: eashanhatti/konna
-  author: eashanhatti
-  icon: konna.svg
+Peridot:
+  github: eashanhatti/peridot
+  author:
+    name: Eashan Hatti
+    website: https://eashanhatti.github.io/
   summary: >
     A fast functional language based on two level type theory
 
