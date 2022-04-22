@@ -198,8 +198,8 @@ Hook:
   github: fabiosvm/hook-lang
   author: fabiosvm
   summary: >
-    A simple, small, cross-platform,  dynamically typed, scripting language
-    that combines imperative and functional programming.
+    Hook is an imperative, cross-platform, dynamically typed scripting language
+    based on the mutable value semantics approach.
 
 Horse64:
   website: https://horse64.org/
