@@ -187,7 +187,7 @@ H-hat:
   organization:
     name: many
     website: https://hhat.cdagger.com/en/latest/team.html
-  author: 
+  author:
     name: Dooms
     website: https://github.com/Doomsk
   summary: >
@@ -272,15 +272,14 @@ Peridot:
     A fast functional language based on two level type theory
 
 Lesma:
-  website: https://lesma-lang.github.io/Lesma/
-  github: Lesma-lang/Lesma
+  website: https://lesma-lang.com/
+  github: alinalihassan/Lesma
   icon: lesma.svg
   author:
     name: Alin Ali Hassan
-    website: https://hassanalinali.com
+    website: https://alinalihassan.com
   summary: >
-    Lesma is a compiled, gradually typed,
-    imperative and object oriented programming language.
+    A fast compiled, statically typed, pythonesque programming language.
 
 Lobster:
   website: http://strlen.com/lobster
