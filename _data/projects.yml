@@ -182,6 +182,13 @@ Gwion:
   icon: gwion.png
   summary: A strongly-timed musical programming language
 
+Hascal:
+  website: https://hascal.github.io
+  github: hascal/hascal
+  author: Hascal Foundation
+  summary: >
+    Hascal is a general purpose and open source programming language designed to build optimal, maintainable, reliable and efficient software. 
+
 H-hat:
   website: https://hhat.cdagger.com
   organization:
