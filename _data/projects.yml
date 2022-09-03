@@ -32,12 +32,6 @@ Argon:
     Argon is an interpreted multi-paradigm programming language.
     Its syntax is mainly influenced by Python, Go and Rust, it is neat and simple to use.
 
-Butter:
-  github: neverRare/butter
-  author: Sean (neverRare)
-  icon: butter.png
-  summary: A tasty language for building efficient software.
-
 Calypso:
   website: https://calypso-lang.github.io
   github: calypso-lang/calypso
