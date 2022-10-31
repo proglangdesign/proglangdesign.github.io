@@ -110,6 +110,15 @@ Cone:
     A fast, fit, friendly, and safe systems programming language
     to power the 3D web.
 
+Core:
+  website: https://core-lang.dev
+  github: core-lang/core
+  icon: core.png
+  organization:
+    name: Core contributors
+    website: https://github.com/core-lang/core/graphs/contributors
+  summary: a modern, minimal programming language
+
 Dyvil:
   website: https://github.com/Dyvil/Dyvil#the-dyvil-programming-language
   github: Dyvil/Dyvil
