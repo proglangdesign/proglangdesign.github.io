@@ -10,6 +10,13 @@ Alox:
   github: alox-lang/alox
   author: phase
   summary: GPU-Accelerated, Distributed, Actor Model Language
+  
+Amp:
+  github: amp-lang/amp
+  author: Zack Pace
+  icon: amp.svg
+  summary: >
+    A minimalistic systems language for modern software
 
 Ante:
   website: https://antelang.org/
