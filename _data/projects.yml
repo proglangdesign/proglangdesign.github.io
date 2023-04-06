@@ -30,6 +30,7 @@ Ante:
     through the use of a compile-time API.
 
 Argon:
+  website: https://www.arlang.io
   github: argonlang/argon
   icon: argon.svg
   author:
@@ -37,7 +38,7 @@ Argon:
     website: https://github.com/jacopodl
   summary: >
     Argon is an interpreted multi-paradigm programming language.
-    Its syntax is mainly influenced by Python, Go and Rust, it is neat and simple to use.
+    Its syntax is influenced by many modern languages and aims to be elegant, clean and simple to use.
 
 Calypso:
   website: https://calypso-lang.github.io
