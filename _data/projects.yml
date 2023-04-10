@@ -551,6 +551,22 @@ Sixten:
     A dependently typed language where all data is unboxed by default.
     Functional programming with fewer indirections!
 
+Snowball:
+  # TODO:
+  # website: what
+  github: snowball-lang/snowball
+  # Place your icon in `images/lang/`.
+  # Non-white SVGs or transparent PNGs are preferred.
+  # If you are concerned about licensing issues with your language's icon,
+  # you may link to it on an external site using a normal URL.
+  icon: snowball.png
+  # icon: https://example.com/icon/plasma.png
+  author:
+    name: Mauro Balades
+    website: https://github.com/mauro-balades
+  summary: >
+    🐱 Snowball is a low-weight, statically typed, object oriented programming language with garbage collector and module system.
+
 Star:
   github: ALANVF/star
   icon: star.svg
