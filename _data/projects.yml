@@ -290,6 +290,17 @@ Peridot:
   summary: >
     A fast functional language based on two level type theory
 
+Lapla:
+  github: devtaube/lapla # private at the moment, but this will be the public repo later
+  discord: vpK7gCc5ST
+  author:
+    name: Quentin Börger
+    website: https://devtaube.netlify.app/
+  summary: >
+    Lapla is a compiled programming language. The compiler is built with the goal
+    of stopping all critcal runtime errors at compile time,
+    from out of bounds indices to illegal states.
+
 Lesma:
   website: https://lesma-lang.com/
   github: alinalihassan/Lesma
