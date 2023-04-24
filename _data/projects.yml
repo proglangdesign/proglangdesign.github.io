@@ -18,6 +18,14 @@ Amp:
   summary: >
     A minimalistic systems language for modern software
 
+Amun:
+  website: https://amrdeveloper.github.io/Amun/
+  github: amrdeveloper/amun
+  author: Amr Hesham
+  icon: amun.svg
+  summary: >
+    A low-level programming language with a simple and productive design inspired by C/C++, Rust, Go, Jai.
+
 Ante:
   website: https://antelang.org/
   github: jfecher/ante
