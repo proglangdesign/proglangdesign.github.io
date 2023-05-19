@@ -179,6 +179,14 @@ ForthScript:
     Simple yet powerful concatenative stack-based scripting lang with
     code-as-data paradigm. Aims to run on bare metal like FORTH!
 
+FuncSug:
+  website: https://github.com/cl4cnam/funcSug
+  github: cl4cnam/funcSug
+  icon: funcsug.svg
+  author: Claude Lion
+  summary: >
+    A scripting language with very structured concurrency for front-end web development.
+
 Futhark:
   website: https://futhark-lang.org/
   github: diku-dk/futhark
