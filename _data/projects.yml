@@ -642,6 +642,18 @@ Truck:
   summary: >
     Truck is a dynamic programming language with a focus on simplicity.
 
+Valkyrie:
+  website: https://valkyrie-language.netlify.app/en/
+  github: nyar-vm/valkyrie.rs
+  discord: rDScD9GyUC
+  icon: valkyrie.svg
+  author:
+    name: Aster
+    github: oovm
+  summary: >
+    Valkyrie is a multi-stage gradual typed language
+    with first class continuation and effect system.
+
 Vox:
   github: MrSmith33/vox
   discord: HpYYhH4
