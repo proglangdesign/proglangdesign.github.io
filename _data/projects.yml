@@ -559,6 +559,17 @@ Riff:
     A dynamically typed programming language designed primarily for
     prototyping and command-line usage.
 
+Ry:
+  discord: re29xvSV2
+  github: ry-lang/ry
+  author:
+    name: Adi Salimgereyev
+    github: abs0luty
+  icon: ry.png
+  summary: >
+    An open source programming language for web development with expressive type system
+    similar to Rust.
+
 Saltwater:
   github: jyn514/saltwater
   author:
