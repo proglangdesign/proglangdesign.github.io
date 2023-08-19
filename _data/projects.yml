@@ -615,14 +615,6 @@ Star:
     An experimental programming language that's made to be powerful,
     productive, and predictable.
 
-Sugi:
-  website: https://sugi.ws
-  github: sugi-lang/sugi
-  author: CubeGuy
-  icon: sugi.png
-  summary: >
-    A sequential and minimalistic programming language seeking the ultimate syntax.
-
 Swallow:
   website: https://github.com/Swallow-lang/swallow
   github: Swallow-lang/swallow
