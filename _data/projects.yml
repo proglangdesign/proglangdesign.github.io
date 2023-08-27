@@ -269,6 +269,16 @@ Inko:
     A gradually typed, interpreted, object-oriented language
     drawing inspiration from many others.
 
+jank:
+  website: https://jank-lang.org/
+  github: jank-lang/jank
+  icon: https://jank-lang.org/img/logo-dark.png
+  author:
+    name: Jeaye Wilkerson
+    website: https://jeaye.com/
+  summary: >
+    A Clojure dialect hosted on LLVM with native C++ interop. 
+
 Jazz:
   website: https://jazz-lang.github.io/Jazz/
   github: jazz-lang
