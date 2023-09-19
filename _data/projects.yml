@@ -94,7 +94,6 @@ CASC:
 Chika:
   website: https://phunanon.github.io/Chika
   github: phunanon/Chika
-  discord: emdhpd5
   icon: chika.svg
   author: Patrick Bowen et al
   summary: >
@@ -268,6 +267,15 @@ Inko:
   summary: >
     A gradually typed, interpreted, object-oriented language
     drawing inspiration from many others.
+
+Insitux:
+  website: https://insitux.github.io
+  github: phunanon/Insitux
+  discord: w3Fc4YZ9Qw
+  icon: insitux.png
+  author: Patrick Bowen
+  summary: >
+    Extensible s-expression scripting language written in portable TypeScript. 
 
 jank:
   website: https://jank-lang.org/
