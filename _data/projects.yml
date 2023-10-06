@@ -237,9 +237,8 @@ Hook:
 
 Horse64:
   website: https://horse64.org/
-  github: horse64/horse64
-  author: ell1e
-  icon: https://horse64.org/horse64logosmall.png
+  author: ell1e and contributors
+  icon: https://horse64.org/img/horse64logosmall.png
   summary: >
     Dynamically typed but orderly, reducing chaos in
     large projects. A grounded Python-alike.
