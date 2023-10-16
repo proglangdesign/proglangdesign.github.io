@@ -75,6 +75,9 @@ canonical: /
         {% if project.gitlab %}<a href="https://gitlab.com/{{ project.gitlab }}">
           <img alt="GitLab" src="/images/gitlab.svg" />
         </a>{% endif %}
+        {% if project.git %}<a href="{{ project.git }}">
+          <img alt="Git" src="/images/git.svg" />
+        </a>{% endif %}
       </span>
       <span class="author">
         {% if project.organization %}
