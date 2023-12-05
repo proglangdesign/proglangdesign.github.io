@@ -613,6 +613,17 @@ Snowball:
   summary: >
     🐱 Snowball is a low-weight, statically typed, object oriented programming language with garbage collector and module system.
 
+Sophie:
+  website: https://sophie.readthedocs.io/
+  github: kjosib/sophie
+  author:
+    name: Ian Kjos
+    github: kjosib
+  summary: >
+    Call-by-need statically-duck-typed pure-functional actor language
+    named for French mathematician Sophie Germain.
+    
+
 Star:
   github: ALANVF/star
   icon: star.svg
