@@ -186,7 +186,7 @@ FuncSug:
   summary: >
     An alternative to event-driven programming
     that resolves the callback hell and the state management problem
-    thanks to very structured concurrency and "await <event>" instructions.
+    thanks to very structured concurrency and "await event" instructions.
 
 Futhark:
   website: https://futhark-lang.org/
