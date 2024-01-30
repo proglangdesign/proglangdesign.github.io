@@ -229,9 +229,12 @@ H-hat:
     A quantum programming language aimed to build quantum algorithms through a higher abstraction layer.
 
 Hook:
-  website: https://github.com/fabiosvm/hook-lang
-  github: fabiosvm/hook-lang
-  author: fabiosvm
+  website: https://github.com/hook-lang/hook
+  github: hook-lang/hook
+  discord: FDapNvTJ
+  author: 
+    name: fabiosvm
+    website: https://github.com/fabiosvm
   icon: hook.png
   summary: >
     An imperative, cross-platform, dynamically typed scripting language
