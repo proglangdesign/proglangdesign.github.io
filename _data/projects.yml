@@ -62,6 +62,15 @@ Calypso:
   summary: >
     Calypso is a mostly imperative language with some functional influences that is focused on flexibility and simplicity.
 
+Cella:
+  website: https://anixias.github.io/Cella-Site/index.html
+  github: Anixias/Cella
+  discord: Q5nZDZBjcU
+  icon: cella.png
+  author: Collin Wheeler (Anixias)
+  summary: >
+    A strongly-typed minimalistic systems programming language with semantic side-effects and minimal runtime overhead
+
 C3:
   website: https://github.com/c3lang/c3c#c3-language
   github: c3lang/c3c
