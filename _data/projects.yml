@@ -1,10 +1,11 @@
 Aardvark:
-  website: https://aardvark-docs.replit.app
+  website: https://aardvark-docs.replit.app/
+  discord: pjzDByMTx9
   github: Aardvark-team/Aardvark
   author: The Aardvark Team
   icon: aardvark.svg
   summary: >
-    It is sesigned to be easy, yet powerful, compiling to LLVM and self-hosting. Our goal is for it to be faster than C and easier than Python.
+    It is designed to be easy, yet powerful, compiling to LLVM and self-hosting. Our goal is for it to be faster than C and easier than Python.
     
 AEC:
   website: http://flatassembler.github.io/AEC_specification.html
