@@ -79,6 +79,14 @@ Cella:
   author: Collin Wheeler (Anixias)
   summary: >
     A strongly-typed minimalistic systems programming language with semantic side-effects and minimal runtime overhead
+  tags:
+    - compiled
+    - pure
+    - static types
+    - strong types
+    - imperative
+    - multi-paradigm
+    - systems
 
 C3:
   website: https://github.com/c3lang/c3c#c3-language
