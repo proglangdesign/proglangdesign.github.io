@@ -1,3 +1,12 @@
+Aardvark:
+  website: https://aardvark-docs.replit.app/
+  discord: pjzDByMTx9
+  github: Aardvark-team/Aardvark
+  author: The Aardvark Team
+  icon: aardvark.svg
+  summary: >
+    It is designed to be easy, yet powerful, compiling to LLVM and self-hosting. Our goal is for it to be faster than C and easier than Python.
+
 AEC:
   website: http://flatassembler.github.io/AEC_specification.html
   github: FlatAssembler/AECforWebAssembly
@@ -10,7 +19,7 @@ Alox:
   github: alox-lang/alox
   author: phase
   summary: GPU-Accelerated, Distributed, Actor Model Language
-  
+
 Amp:
   github: amp-lang/amp
   author: Zack Pace
@@ -241,7 +250,7 @@ Hook:
   website: https://github.com/hook-lang/hook
   github: hook-lang/hook
   discord: FDapNvTJ
-  author: 
+  author:
     name: fabiosvm
     website: https://github.com/fabiosvm
   icon: hook.png
@@ -299,7 +308,7 @@ jank:
     name: Jeaye Wilkerson
     website: https://jeaye.com/
   summary: >
-    A Clojure dialect hosted on LLVM with native C++ interop. 
+    A Clojure dialect hosted on LLVM with native C++ interop.
 
 Jazz:
   website: https://jazz-lang.github.io/Jazz/
@@ -382,6 +391,12 @@ Mercury:
   summary: >
     A logic/functional programming language
     with advanced static analysis and error detection features.
+  tags:
+    - compiled
+    - logic
+    - pure
+    - static types
+    - strong types
 
 Mlatu:
   website: https://brightly-salty.github.io/mlatu/
@@ -496,6 +511,13 @@ Plasma:
   summary: >
     A language that balances functional and imperative programming,
     and has state-of-the-art concurrency and parallelism features.
+  tags:
+    - compiled
+    - concurrent
+    - parallel
+    - pure
+    - static types
+    - strong types
 
 Pikelet:
   website: https://pikelet-lang.github.io/pikelet/
@@ -636,7 +658,6 @@ Sophie:
   summary: >
     Call-by-need statically-duck-typed pure-functional actor language
     named for French mathematician Sophie Germain.
-    
 
 Star:
   github: ALANVF/star
