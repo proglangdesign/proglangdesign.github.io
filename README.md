@@ -21,7 +21,8 @@ MyProject:
     - tag0
     - tag1
 ```
-Tags can be found in `_data/tags.yml`.
+Tags can be found in `_data/tags.yml`. 
+An explanation of tags and rules for adding tags can be found in `tag-explanation.md`.
 
 A real project with such an entry:
 ```yaml

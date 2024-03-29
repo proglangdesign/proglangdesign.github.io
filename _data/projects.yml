@@ -6,6 +6,14 @@ Aardvark:
   icon: aardvark.svg
   summary: >
     It is designed to be easy, yet powerful, compiling to LLVM and self-hosting. Our goal is for it to be faster than C and easier than Python.
+  tags:
+    - compiled
+    - strong types
+    - static typing
+    - logic
+    - first-class functions
+    - first-class tyes
+
 
 AEC:
   website: http://flatassembler.github.io/AEC_specification.html
