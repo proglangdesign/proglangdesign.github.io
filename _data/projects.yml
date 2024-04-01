@@ -6,6 +6,12 @@ Aardvark:
   icon: aardvark.svg
   summary: >
     It is designed to be easy, yet powerful, compiling to LLVM and self-hosting. Our goal is for it to be faster than C and easier than Python.
+  tags:
+    - compiled
+    - first-class types
+    - functional
+    - static types
+    - strong types
 
 AEC:
   website: http://flatassembler.github.io/AEC_specification.html
@@ -241,7 +247,7 @@ Hascal:
   github: hascal/hascal
   author: Hascal Foundation
   summary: >
-    Hascal is a general purpose and open source programming language designed to build optimal, maintainable, reliable and efficient software. 
+    Hascal is a general purpose and open source programming language designed to build optimal, maintainable, reliable and efficient software.
 
 H-hat:
   website: https://hhat.cdagger.com
@@ -306,7 +312,7 @@ Insitux:
   icon: insitux.png
   author: Patrick Bowen
   summary: >
-    Extensible s-expression scripting language written in portable TypeScript. 
+    Extensible s-expression scripting language written in portable TypeScript.
 
 jank:
   website: https://jank-lang.org/

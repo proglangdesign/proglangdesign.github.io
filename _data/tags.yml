@@ -1,5 +1,8 @@
+# please keep in alphabetical order
 - compiled
 - concurrent
+- functional
+- first-class types
 - logic
 - parallel
 - pure
