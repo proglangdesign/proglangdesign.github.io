@@ -3,6 +3,9 @@ title: Programming Language Design
 layout: default
 canonical: /
 ---
+<!-- Filter projects by tags -->
+<script src="static/filter.js" defer></script>
+
 <header>
   <span class="shell prompt-sign" id="pagelink"><a href="/">proglangdesign.net</a></span>
   <nav>
@@ -40,43 +43,43 @@ canonical: /
       <span class="title">
         {% if project.website %}<a href="{{ project.website }}">{% endif %}
           {% if project.icon and project.icon contains "://" %}
-          <img src="{{ project.icon }}" alt="" />
+          <img src="{{ project.icon }}" alt="">
           {% else %}
-          <img src="/images/lang/{{ project.icon | default: 'placeholder.png' }}" alt="" />
+          <img src="/images/lang/{{ project.icon | default: 'placeholder.png' }}" alt="">
           {% endif %}
           <h3>{{ project_name }}</h3>
         {% if project.website %}</a>{% endif %}
       </span>
       <span class="repo-icons">
         {% if project.twitter %}<a href="https://twitter.com/rebuild_lang">
-          <img alt="Twitter" src="/images/twitter.svg" />
+          <img alt="Twitter" src="/images/twitter.svg">
         </a>{% endif %}
         {% if project.gitter %}<a href="https://gitter.im/{{ project.gitter }}">
-          <img alt="Gitter" src="/images/gitter.svg" />
+          <img alt="Gitter" src="/images/gitter.svg">
         </a>{% endif %}
         {% if project.discord %}<a href="https://discord.gg/{{ project.discord }}">
-          <img alt="Discord" src="/images/discord.svg" />
+          <img alt="Discord" src="/images/discord.svg">
         </a>{% endif %}
         {% if project.matrix %}<a href="https://matrix.to/#/{{ project.matrix }}">
-          <img alt="Matrix" src="/images/matrix.svg" />
+          <img alt="Matrix" src="/images/matrix.svg">
         </a>{% endif %}
         {% if project.libera %}<a href="ircs://irc.libera.chat:6697/{{ project.libera }}">
-          <img alt="Libera.Chat" class="nofilter" src="/images/libera.svg" />
+          <img alt="Libera.Chat" class="nofilter" src="/images/libera.svg">
         </a>{% endif %}
         {% if project.discourse %}<a href="{{ project.discourse }}">
-          <img alt="Discourse" src="/images/discourse.svg" />
+          <img alt="Discourse" src="/images/discourse.svg">
         </a>{% endif %}
         {% if project.reddit %}<a href="https://reddit.com/r/{{ project.reddit }}">
-          <img alt="Reddit" src="/images/reddit.svg" />
+          <img alt="Reddit" src="/images/reddit.svg">
         </a>{% endif %}
         {% if project.github %}<a href="https://github.com/{{ project.github }}">
-          <img alt="GitHub" src="/images/github.svg" />
+          <img alt="GitHub" src="/images/github.svg">
         </a>{% endif %}
         {% if project.gitlab %}<a href="https://gitlab.com/{{ project.gitlab }}">
-          <img alt="GitLab" src="/images/gitlab.svg" />
+          <img alt="GitLab" src="/images/gitlab.svg">
         </a>{% endif %}
         {% if project.git %}<a href="{{ project.git }}">
-          <img alt="Git" src="/images/git.svg" />
+          <img alt="Git" src="/images/git.svg">
         </a>{% endif %}
       </span>
       <span class="author">
