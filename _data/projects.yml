@@ -281,6 +281,17 @@ Horse64:
     Dynamically typed but orderly, reducing chaos in
     large projects. A grounded Python-alike.
 
+ilo Token:
+  website: https://neverrare.github.io/ilo-token/
+  github: https://github.com/neverRare/ilo-token
+  icon: 
+  author:
+    name: jan Koko (neverRare)
+    website: https://neverrare.github.io
+  summary: A rule-based Toki Pona to English translator.
+  tags:
+    - non-programming language
+
 Imp:
   website: https://github.com/mh15/imp
   github: mh15/imp
