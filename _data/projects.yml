@@ -283,7 +283,7 @@ Horse64:
 
 ilo Token:
   website: https://neverrare.github.io/ilo-token/
-  github: https://github.com/neverRare/ilo-token
+  github: neverRare/ilo-token
   icon: ilo-token.png
   author:
     name: jan Koko (neverRare)
