@@ -232,6 +232,22 @@ Futhark:
   author: Athas
   summary: A high-performance parallel functional array language targeting GPUs.
 
+Gera:
+  website: https://github.com/geralang/
+  author: TypeSafeSchwalbe
+  icon: gera.svg
+  discord: DYRDg7fq82
+  summary: >
+    A high-level, procedural, compiled and garbage collected programming language without type annotations.
+  tags:
+    - compiled
+    - strong types
+    - static types
+    - object-oriented
+    - imperative
+    - multi-paradigm
+    - interpreted
+
 Gwion:
   website: https://gwion.github.io/Gwion/
   github: fennecdjay/Gwion
