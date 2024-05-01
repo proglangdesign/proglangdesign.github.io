@@ -62,7 +62,13 @@ Argon:
   summary: >
     Argon is an interpreted multi-paradigm programming language.
     Its syntax is influenced by many modern languages and aims to be elegant, clean and simple to use.
-
+  tags:
+    - interpreted
+    - scripting
+    - concurrent
+    - parallel
+    - multi-paradigm
+    
 Calypso:
   website: https://calypso-lang.github.io
   github: calypso-lang/calypso
