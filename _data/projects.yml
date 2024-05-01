@@ -1,3 +1,18 @@
+Aardvark:
+  website: https://aardvark-docs.replit.app/
+  discord: pjzDByMTx9
+  github: Aardvark-team/Aardvark
+  author: The Aardvark Team
+  icon: aardvark.svg
+  summary: >
+    It is designed to be easy, yet powerful, compiling to LLVM and self-hosting. Our goal is for it to be faster than C and easier than Python.
+  tags:
+    - compiled
+    - first-class types
+    - functional
+    - static types
+    - strong types
+
 AEC:
   website: http://flatassembler.github.io/AEC_specification.html
   github: FlatAssembler/AECforWebAssembly
@@ -10,13 +25,21 @@ Alox:
   github: alox-lang/alox
   author: phase
   summary: GPU-Accelerated, Distributed, Actor Model Language
-  
+
 Amp:
   github: amp-lang/amp
   author: Zack Pace
   icon: amp.svg
   summary: >
     A minimalistic systems language for modern software
+
+Amun:
+  website: https://amrdeveloper.github.io/Amun/
+  github: amrdeveloper/amun
+  author: Amr Hesham
+  icon: amun.svg
+  summary: >
+    A low-level programming language with a simple and productive design inspired by C/C++, Rust, Go, Jai.
 
 Ante:
   website: https://antelang.org/
@@ -54,6 +77,23 @@ Calypso:
   summary: >
     Calypso is a mostly imperative language with some functional influences that is focused on flexibility and simplicity.
 
+Cella:
+  website: https://anixias.github.io/Cella-Site/index.html
+  github: Anixias/Cella
+  discord: Q5nZDZBjcU
+  icon: cella.png
+  author: Collin Wheeler (Anixias)
+  summary: >
+    A strongly-typed minimalistic systems programming language with semantic side-effects and minimal runtime overhead
+  tags:
+    - compiled
+    - pure
+    - static types
+    - strong types
+    - imperative
+    - multi-paradigm
+    - systems
+
 C3:
   website: https://github.com/c3lang/c3c#c3-language
   github: c3lang/c3c
@@ -64,7 +104,7 @@ C3:
     semantic macros.
 
 Chaos:
-  website: https://chaos-lang.org/
+  website: https://web.archive.org/web/20220826230202/https://chaos-lang.org/
   github: chaos-lang/chaos
   libera: chaoslang
   gitter: chaos-lang/community
@@ -86,7 +126,6 @@ CASC:
 Chika:
   website: https://phunanon.github.io/Chika
   github: phunanon/Chika
-  discord: emdhpd5
   icon: chika.svg
   author: Patrick Bowen et al
   summary: >
@@ -171,6 +210,16 @@ ForthScript:
     Simple yet powerful concatenative stack-based scripting lang with
     code-as-data paradigm. Aims to run on bare metal like FORTH!
 
+FuncSug:
+  website: https://github.com/cl4cnam/funcSug
+  github: cl4cnam/funcSug
+  icon: funcsug.svg
+  author: Claude Lion
+  summary: >
+    An alternative to event-driven programming
+    that resolves the callback hell and the state management problem
+    thanks to very structured concurrency and await-event instructions.
+
 Futhark:
   website: https://futhark-lang.org/
   github: diku-dk/futhark
@@ -182,6 +231,22 @@ Futhark:
   icon: futhark.png
   author: Athas
   summary: A high-performance parallel functional array language targeting GPUs.
+
+Gera:
+  website: https://github.com/geralang/
+  author: TypeSafeSchwalbe
+  icon: gera.svg
+  discord: DYRDg7fq82
+  summary: >
+    A high-level, procedural, compiled and garbage collected programming language without type annotations.
+  tags:
+    - compiled
+    - strong types
+    - static types
+    - object-oriented
+    - imperative
+    - multi-paradigm
+    - interpreted
 
 Gwion:
   website: https://gwion.github.io/Gwion/
@@ -198,7 +263,7 @@ Hascal:
   github: hascal/hascal
   author: Hascal Foundation
   summary: >
-    Hascal is a general purpose and open source programming language designed to build optimal, maintainable, reliable and efficient software. 
+    Hascal is a general purpose and open source programming language designed to build optimal, maintainable, reliable and efficient software.
 
 H-hat:
   website: https://hhat.cdagger.com
@@ -212,9 +277,12 @@ H-hat:
     A quantum programming language aimed to build quantum algorithms through a higher abstraction layer.
 
 Hook:
-  website: https://github.com/fabiosvm/hook-lang
-  github: fabiosvm/hook-lang
-  author: fabiosvm
+  website: https://github.com/hook-lang/hook
+  github: hook-lang/hook
+  discord: FDapNvTJ
+  author:
+    name: fabiosvm
+    website: https://github.com/fabiosvm
   icon: hook.png
   summary: >
     An imperative, cross-platform, dynamically typed scripting language
@@ -222,12 +290,23 @@ Hook:
 
 Horse64:
   website: https://horse64.org/
-  github: horse64/horse64
-  author: ell1e
-  icon: https://horse64.org/horse64logosmall.png
+  author: ell1e and contributors
+  icon: https://horse64.org/img/horse64logosmall.png
+  git: https://codeberg.org/Horse64/core.horse64.org
   summary: >
     Dynamically typed but orderly, reducing chaos in
     large projects. A grounded Python-alike.
+
+ilo Token:
+  website: https://neverrare.github.io/ilo-token/
+  github: neverRare/ilo-token
+  icon: ilo-token.png
+  author:
+    name: jan Koko (neverRare)
+    website: https://neverrare.github.io
+  summary: A rule-based Toki Pona to English translator.
+  tags:
+    - non-programming language
 
 Imp:
   website: https://github.com/mh15/imp
@@ -252,6 +331,25 @@ Inko:
   summary: >
     A gradually typed, interpreted, object-oriented language
     drawing inspiration from many others.
+
+Insitux:
+  website: https://insitux.github.io
+  github: phunanon/Insitux
+  discord: w3Fc4YZ9Qw
+  icon: insitux.png
+  author: Patrick Bowen
+  summary: >
+    Extensible s-expression scripting language written in portable TypeScript.
+
+jank:
+  website: https://jank-lang.org/
+  github: jank-lang/jank
+  icon: https://jank-lang.org/img/logo-dark.png
+  author:
+    name: Jeaye Wilkerson
+    website: https://jeaye.com/
+  summary: >
+    A Clojure dialect hosted on LLVM with native C++ interop.
 
 Jazz:
   website: https://jazz-lang.github.io/Jazz/
@@ -334,6 +432,12 @@ Mercury:
   summary: >
     A logic/functional programming language
     with advanced static analysis and error detection features.
+  tags:
+    - compiled
+    - logic
+    - pure
+    - static types
+    - strong types
 
 Mlatu:
   website: https://brightly-salty.github.io/mlatu/
@@ -448,6 +552,13 @@ Plasma:
   summary: >
     A language that balances functional and imperative programming,
     and has state-of-the-art concurrency and parallelism features.
+  tags:
+    - compiled
+    - concurrent
+    - parallel
+    - pure
+    - static types
+    - strong types
 
 Pikelet:
   website: https://pikelet-lang.github.io/pikelet/
@@ -533,6 +644,17 @@ Riff:
     A dynamically typed programming language designed primarily for
     prototyping and command-line usage.
 
+Ry:
+  discord: re29xvSV2
+  github: ry-lang/ry
+  author:
+    name: Adi Salimgereyev
+    github: abs0luty
+  icon: ry.png
+  summary: >
+    An open source programming language for web development with expressive type system
+    similar to Rust.
+
 Saltwater:
   github: jyn514/saltwater
   author:
@@ -551,6 +673,33 @@ Sixten:
     A dependently typed language where all data is unboxed by default.
     Functional programming with fewer indirections!
 
+Snowball:
+  # TODO:
+  # website: what
+  discord: nnShMQzR4b
+  github: snowball-lang/snowball
+  # Place your icon in `images/lang/`.
+  # Non-white SVGs or transparent PNGs are preferred.
+  # If you are concerned about licensing issues with your language's icon,
+  # you may link to it on an external site using a normal URL.
+  icon: snowball.png
+  # icon: https://example.com/icon/plasma.png
+  author:
+    name: Mauro Balades
+    website: https://github.com/mauro-balades
+  summary: >
+    🐱 Snowball is a low-weight, statically typed, object oriented programming language with garbage collector and module system.
+
+Sophie:
+  website: https://sophie.readthedocs.io/
+  github: kjosib/sophie
+  author:
+    name: Ian Kjos
+    github: kjosib
+  summary: >
+    Call-by-need statically-duck-typed pure-functional actor language
+    named for French mathematician Sophie Germain.
+
 Star:
   github: ALANVF/star
   icon: star.svg
@@ -560,14 +709,6 @@ Star:
   summary: >
     An experimental programming language that's made to be powerful,
     productive, and predictable.
-
-Sugi:
-  website: https://sugi.ws
-  github: sugi-lang/sugi
-  author: CubeGuy
-  icon: sugi.png
-  summary: >
-    A sequential and minimalistic programming language seeking the ultimate syntax.
 
 Swallow:
   website: https://github.com/Swallow-lang/swallow
@@ -598,6 +739,18 @@ Truck:
     github: Tarptaeya
   summary: >
     Truck is a dynamic programming language with a focus on simplicity.
+
+Valkyrie:
+  website: https://valkyrie-language.netlify.app/en/
+  github: nyar-vm/valkyrie.rs
+  discord: rDScD9GyUC
+  icon: valkyrie.svg
+  author:
+    name: Aster
+    github: oovm
+  summary: >
+    Valkyrie is a multi-stage gradual typed language
+    with first class continuation and effect system.
 
 Vox:
   github: MrSmith33/vox
