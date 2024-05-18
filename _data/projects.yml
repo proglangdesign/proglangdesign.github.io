@@ -782,3 +782,16 @@ Wu:
   summary: >
     An expression oriented, gradually typed, sweet,
     and mission-critical programming language.
+
+Ü:
+  website: https://panzerschrek.github.io/U-00DC-Sprache-site/
+  github: Panzerschrek/U-00DC-Sprache
+  author: Panzerschrek
+  icon: Ü.png
+  symmary: >
+    A statically-typed C++/Rust-like compiled language.
+    Main goals are safety and speed.
+  tags:
+    - compiled
+    - static types
+    - safe
