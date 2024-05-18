@@ -788,7 +788,7 @@ Wu:
   github: Panzerschrek/U-00DC-Sprache
   author: Panzerschrek
   icon: Ü.png
-  symmary: >
+  summary: >
     A statically-typed C++/Rust-like compiled language.
     Main goals are safety and speed.
   tags:
