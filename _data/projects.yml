@@ -233,7 +233,7 @@ Futhark:
   summary: A high-performance parallel functional array language targeting GPUs.
 
 Gera:
-  website: https://github.com/geralang/
+  website: https://geralang.netlify.app/
   author: TypeSafeSchwalbe
   icon: gera.svg
   discord: DYRDg7fq82
