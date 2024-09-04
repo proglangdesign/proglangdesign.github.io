@@ -310,7 +310,10 @@ ilo Token:
   author:
     name: jan Koko (neverRare)
     website: https://neverrare.github.io
-  summary: A rule-based Toki Pona to English translator.
+  summary: >
+    A rule-based dictionary-based Toki Pona to English translator that
+    translates into multiple English outputs showing many possible grammatical
+    and semantic interpretation of the text. No machine learning involved.
   tags:
     - non-programming language
 
