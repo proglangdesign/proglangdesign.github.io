@@ -755,6 +755,10 @@ Theta:
     github: alexdovzhanyn
   summary: >
     A statically typed, functional programming language that compiles to WebAssembly.
+  tags:
+    - compiled
+    - functional
+    - static types
 
 TopShell:
   website: https://github.com/topshell-language/topshell#topshell-
