@@ -68,7 +68,7 @@ Argon:
     - concurrent
     - parallel
     - multi-paradigm
-    
+
 Calypso:
   website: https://calypso-lang.github.io
   github: calypso-lang/calypso
@@ -712,7 +712,7 @@ Sophie:
 Sphere:
   github: NullifyDev/Sphere
   icon: Sphere.png
-  author: 
+  author:
     name: Nullify
     github: NullifyDev
   summary: >
@@ -744,6 +744,17 @@ Swallow:
     github: SaptakBhoumik
   summary: >
     An easy to use systems programming language with python-like syntax
+
+Theta:
+  website: https://dev.theta-lang.org
+  github: ThetaLang/Theta
+  icon: theta.png
+  discord: mzWgbhGQ6C
+  author:
+    name: Alex Dovzhanyn
+    github: alexdovzhanyn
+  summary: >
+    A statically typed, functional programming language that compiles to WebAssembly.
 
 TopShell:
   website: https://github.com/topshell-language/topshell#topshell-
