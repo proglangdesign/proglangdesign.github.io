@@ -703,10 +703,10 @@ Sophie:
   website: https://sophie.readthedocs.io/
   github: kjosib/sophie
   author:
-    name: Ian Kjos
+    name: Beth Kjos
     github: kjosib
   summary: >
-    Call-by-need statically-duck-typed pure-functional actor language
+    🦆 Call-by-need statically-duck-typed pure-functional language with actor-based concurrency,
     named for French mathematician Sophie Germain.
 
 Sphere:
