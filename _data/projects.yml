@@ -745,6 +745,14 @@ Swallow:
   summary: >
     An easy to use systems programming language with python-like syntax
 
+Tahini:
+  github: anirudhgray/tahini-lang
+  author: Anirudh Mishra (anirudhgray)
+  summary: >
+    A dynamic, interpreted and impurely functional programming language with testing and design-by-contract features.
+  tags:
+    - interpreted
+
 Theta:
   website: https://dev.theta-lang.org
   github: ThetaLang/Theta
