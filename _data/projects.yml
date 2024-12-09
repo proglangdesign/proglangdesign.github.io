@@ -464,6 +464,15 @@ Monte:
     website: https://github.com/monte-language/monte/blob/master/LICENSE
   summary: A dynamic programming language inspired by Python and E.
 
+Moose64:
+  website: https://m64.horse64.org/
+  author: ell1e and contributors
+  icon: https://m64.horse64.org/img/moose64logo.png
+  git: https://codeberg.org/Horse64/m64.horse64.org
+  summary: >
+    Like C but with pretty syntax and basic object-oriented
+    programming. It's made for maintainable high-performance code. 
+
 Mu:
   website: https://github.com/akkartik/mu#mu-a-human-scale-computer
   github: akkartik/mu
