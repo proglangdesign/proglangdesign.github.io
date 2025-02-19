@@ -165,11 +165,9 @@ Cone:
 
 Core:
   website: https://core-lang.dev
-  github: core-lang/core
+  git: https://codeberg.org/core-lang/core
   icon: core.png
-  organization:
-    name: Core contributors
-    website: https://github.com/core-lang/core/graphs/contributors
+  author: soc
   summary: a modern, minimal programming language
 
 Dyvil:
