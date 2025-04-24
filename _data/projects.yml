@@ -415,6 +415,21 @@ Lobster:
     Flow-senstitive type inference, specialization,
     compile-time reference counting, and Python-y syntax.
 
+Lumina:
+  website: https://docs.luminalang.com
+  github: luminalang/lumina
+  icon: lumina.png
+  author:
+    name: Simon Larsson
+    github: https://github.com/simvux
+  summary: >
+    Eagerly evaluated, natively compiled, impurely functional programming language aiming to provide a more friendly developer experience.
+  tags:
+    - compiled
+    - functional
+    - static types
+    - systems
+
 MANOOL:
   website: https://manool.org
   github: rusini/manool
