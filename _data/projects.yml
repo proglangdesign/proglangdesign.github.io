@@ -69,6 +69,17 @@ Argon:
     - parallel
     - multi-paradigm
 
+Aria:
+  website: https://egranata.github.io/aria/
+  github: egranata/aria
+  author: egranata
+  summary: >
+    Modern, dynamic "sweet spot" scripting language inspired by Python and Rust, with a small but usable standard library.
+  tags:
+    - interpreted
+    - multi-paradigm
+    - scripting
+
 Calypso:
   website: https://calypso-lang.github.io
   github: calypso-lang/calypso
