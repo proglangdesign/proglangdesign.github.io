@@ -821,6 +821,54 @@ Truck:
   summary: >
     Truck is a dynamic programming language with a focus on simplicity.
 
+TGlyph:
+  github: tixonochekAscended/TGlyph
+  icon: tglyph.png
+  discord: NSK7YJ2R6j
+  author:
+    name: tixonochek
+    website: https://tixonochek.netlify.app/
+    github: tixonochekAscended
+  summary: >
+    T^ (TGlyph) is an esoteric, interpreted programming language that is based 
+    around "glyphs" and "registers" that can hold values.
+  tags:
+    - esoteric
+    - interpreted
+    - scripting
+
+TOSTER:
+  github: tixonochekAscended/TOSTER
+  icon: toster.png
+  discord: NSK7YJ2R6j
+  author:
+    name: tixonochek
+    website: https://tixonochek.netlify.app/
+    github: tixonochekAscended
+  summary: >
+    T* (TOSTER) is an esoteric, interpreted programming language.
+    Beware, includes lots of magic and unconventional syntax.
+  tags:
+    - esoteric
+    - interpreted
+    - scripting
+
+mini-rip:
+  github: tixonochekAscended/mini-rip
+  icon: mrip.png
+  discord: NSK7YJ2R6j
+  author:
+    name: tixonochek
+    website: https://tixonochek.netlify.app/
+    github: tixonochekAscended
+  summary: >
+    A minimal, esoteric, interpreted programming language 
+    with magical sigils that execute code. 
+  tags:
+    - esoteric
+    - interpreted
+    - scripting
+
 Valkyrie:
   website: https://valkyrie-language.netlify.app/en/
   github: nyar-vm/valkyrie.rs
