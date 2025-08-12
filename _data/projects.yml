@@ -869,6 +869,22 @@ mini-rip:
     - interpreted
     - scripting
 
+
+oko-lang:
+  github: tixonochekAscended/oko-lang
+  icon: oko.svg
+  discord: NSK7YJ2R6j
+  author:
+    name: tixonochek
+    website: https://tixonochek.netlify.app/
+    github: tixonochekAscended
+  summary: >
+    A promising, interpreted, non-esoteric, scripting
+    programming language that is in its early stage of development.
+  tags:
+    - interpreted
+    - scripting
+
 Valkyrie:
   website: https://valkyrie-language.netlify.app/en/
   github: nyar-vm/valkyrie.rs
