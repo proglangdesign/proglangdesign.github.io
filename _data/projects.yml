@@ -205,6 +205,18 @@ Fennel:
   summary: >
     A lisp which compiles to Lua with zero overhead, revived by technomancy.
 
+Fir:
+  website: https://fir-lang.github.io
+  github: fir-lang/fir
+  author: osa1
+  summary: >
+    A high-level, batteries-included programming language with ADTs, traits,
+    value types, monomorphisation, and effects.
+  tags:
+    - compiled
+    - strong types
+    - imperative
+
 Firefly:
   website: https://www.ahnfelt.net/async-await-inference-in-firefly/
   github: Ahnfelt/firefly-boot
