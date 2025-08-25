@@ -374,12 +374,12 @@ Insitux:
 jank:
   website: https://jank-lang.org/
   github: jank-lang/jank
-  icon: https://jank-lang.org/img/logo-dark.png
+  icon: https://jank-lang.org/img/logo-transparent.png
   author:
     name: Jeaye Wilkerson
-    website: https://jeaye.com/
+    website: https://github.com/jeaye
   summary: >
-    A Clojure dialect hosted on LLVM with native C++ interop.
+    A Clojure dialect hosted on LLVM with seamless C++ interop.
 
 Jazz:
   website: https://jazz-lang.github.io/Jazz/
