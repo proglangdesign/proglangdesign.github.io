@@ -563,6 +563,22 @@ Nib:
     A semi-concatenative that extends array language features such as tacit
     programming and scalar extension.
 
+NumFu:
+  website: https://rphle.github.io/numfu/
+  github: rphle/numfu
+  icon: numfu.png
+  author:
+    name: Raphael
+    website: https://alpharee.de/
+  summary: >
+    Pure functional language built for readability, extensibility, and
+    learning functional programming & mathematical algorithms.
+  tags:
+    - interpreted
+    - functional
+    - pure
+    - educational
+
 Okta:
   website: https://okta-lang.org
   github: mikelma/oktac
