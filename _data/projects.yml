@@ -324,6 +324,16 @@ Horse64:
     Dynamically typed but orderly, reducing chaos in
     large projects. A grounded Python-alike.
 
+Horse64 Root:
+  website: https://root.horse64.org/
+  author: ell1e and contributors
+  icon: https://root.horse64.org/img/horse64rootlogo.png
+  git: https://codeberg.org/Horse64/root.horse64.org
+  summary: >
+    A system language similar to C/C++, reimagined with a focus on
+    approachable syntax, understandable OOP, and some baked-in
+    safety features.
+
 ilo Token:
   website: https://ilo-token.github.io/
   github: neverRare/ilo-token
@@ -499,15 +509,6 @@ Monte:
     name: The Monte authors
     website: https://github.com/monte-language/monte/blob/master/LICENSE
   summary: A dynamic programming language inspired by Python and E.
-
-Moose64:
-  website: https://m64.horse64.org/
-  author: ell1e and contributors
-  icon: https://m64.horse64.org/img/moose64logo.png
-  git: https://codeberg.org/Horse64/m64.horse64.org
-  summary: >
-    Like C but with pretty syntax and basic object-oriented
-    programming. It's made for maintainable high-performance code. 
 
 Mu:
   website: https://github.com/akkartik/mu#mu-a-human-scale-computer
