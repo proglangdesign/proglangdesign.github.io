@@ -987,6 +987,22 @@ Tahini:
     - dynamic types
     - interpreted
 
+TGlyph:
+  github: tixonochekAscended/TGlyph
+  icon: tglyph.png
+  discord: NSK7YJ2R6j
+  author:
+    name: tixonochek
+    website: https://tixonochek.netlify.app/
+    github: tixonochekAscended
+  summary: >
+    T^ (TGlyph) is an esoteric, interpreted programming language that is based
+    around "glyphs" and "registers" that can hold values.
+  tags:
+    - esoteric
+    - interpreted
+    - scripting
+
 Theta:
   website: https://dev.theta-lang.org
   github: ThetaLang/Theta
@@ -1002,22 +1018,6 @@ Theta:
     - functional
     - garbage collection
     - static types
-
-TGlyph:
-  github: tixonochekAscended/TGlyph
-  icon: tglyph.png
-  discord: NSK7YJ2R6j
-  author:
-    name: tixonochek
-    website: https://tixonochek.netlify.app/
-    github: tixonochekAscended
-  summary: >
-    T^ (TGlyph) is an esoteric, interpreted programming language that is based 
-    around "glyphs" and "registers" that can hold values.
-  tags:
-    - esoteric
-    - interpreted
-    - scripting
 
 TopShell:
   website: https://github.com/topshell-language/topshell#topshell-
