@@ -35,10 +35,13 @@ canonical: /
   <!-- Liquid, the templating language, is incredibly underpowered. -->
   <!-- What follows is very ugly code that is not possible to improve due to lack of features. -->
 
-  <div id="projects-list">
+  <div class="projects-list">
     {% for project_entry in site.data.projects %}
     {% assign project = project_entry[1] %}
     {% assign project_name = project_entry[0] %}
+    {% if project.inactive %}
+
+    {% else %}
     <div class="project" id="project-{{ project_name | downcase | replace: " ", "-" | escape }}"  data-tags="{{ project.tags | join: ',' }}">
       <span class="title">
         {% if project.website %}<a href="{{ project.website }}">{% endif %}
@@ -113,8 +116,45 @@ canonical: /
       </span>
       <p>{{ project.summary }}</p>
     </div>
+    {% endif %}
     {% endfor %}
   </div>
+  <h3>Inactive projects:</h3>
+  <p>The following projects have had no commits for two years or longer,
+  or their main website is defunct with no commits in the last months:</p>
+  <div class="projects-list">
+    {% for project_entry in site.data.projects %}
+    {% assign project = project_entry[1] %}
+    {% assign project_name = project_entry[0] %}
+    {% if project.inactive %}
+    <div class="project" id="project-{{ project_name | downcase | replace: " ", "-" | escape }}"  data-tags="{{ project.tags | join: ',' }}">
+      <span class="title">
+        {% if project.website %}<a href="{{ project.website }}">{% endif %}
+          {% if project.icon and project.icon contains "://" %}
+          <img src="{{ project.icon }}" alt="">
+          {% else %}
+          <img src="/images/lang/{{ project.icon | default: 'placeholder.png' }}" alt="">
+          {% endif %}
+          <h3>{{ project_name }}</h3>
+        {% if project.website %}</a>{% endif %}
+      </span>
+      <span class="repo-icons">
+        {% if project.github %}<a href="https://github.com/{{ project.github }}">
+          <img alt="GitHub" src="/images/github.svg">
+        </a>{% endif %}
+        {% if project.gitlab %}<a href="https://gitlab.com/{{ project.gitlab }}">
+          <img alt="GitLab" src="/images/gitlab.svg">
+        </a>{% endif %}
+        {% if project.git %}<a href="{{ project.git }}">
+          <img alt="Git" src="/images/git.svg">
+        </a>{% endif %}
+      </span>
+      <p>{{ project.summary }}</p>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+
 </section>
 
 <section id="irc">

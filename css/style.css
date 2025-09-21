@@ -48,7 +48,7 @@ header nav a { margin-left: 20px; }
 section { max-width: 960px; margin: 0 auto; }
 
 #projects { display: flex; flex-wrap: wrap; padding-bottom: 25px; }
-#projects-list { display: flex; flex-wrap: wrap; padding-bottom: 25px; }
+.projects-list { display: flex; flex-wrap: wrap; padding-bottom: 25px; }
 #projects h2 { width: 100%;  color: #444;}
 #projects project-title { font-size:1.5em; font-weight: bold;
     display:inline-block;}
