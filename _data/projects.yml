@@ -156,6 +156,7 @@ CASC:
   discord: U5evkT9G5R
   icon: casc.png
   author: ChAoS-UnItY (Kyle Lin)
+  inactive: yes
   summary: >
     A JVM language focus on concise syntaxes and enhancing language features from Java.
 
@@ -164,6 +165,7 @@ Chika:
   github: phunanon/Chika
   icon: chika.svg
   author: Patrick Bowen et al
+  inactive: yes
   summary: >
     S-expression programming language, with VM
     targeting both PC and Arduino.
@@ -172,6 +174,7 @@ Closey:
   github: jenra-uwu/closey-lang
   icon: closey.png
   author: jenra
+  inactive: yes
   summary: >
     A functional language that aims to be as simple as possible
     but as efficient and user friendly as possible.
@@ -191,6 +194,7 @@ Cone:
   github: jondgoodwin/cone
   icon: cone.png
   author: jondgoodwin
+  inactive: yes
   summary: >
     A fast, fit, friendly, and safe systems programming language
     to power the 3D web.
@@ -258,6 +262,7 @@ ForthScript:
   authors:
     - notIurii
     - ugruk
+  inactive: yes
   summary: >
     Simple yet powerful concatenative stack-based scripting lang with
     code-as-data paradigm. Aims to run on bare metal like FORTH!
@@ -399,6 +404,7 @@ Imp:
   author:
     name: mh15
     website: https://matthall.codes
+  inactive: yes
   summary: >
     A statically typed and compiled scripting language
     with the goal of increasing programmer confidence.
@@ -446,6 +452,7 @@ Jazz:
   github: jazz-lang
   icon: jazz.png
   author: Adel Prokurov
+  inactive: yes
   summary: >
     A systems programming language with a JIT and AOT compiler
     that uses GCCJIT as backend.
@@ -459,6 +466,7 @@ Jinx:
   author:
     name: James Boer
     reddit: BoarsLair
+  inactive: yes
   summary: >
     A clean, embeddable scripting language designed
     with an asynchronous and thread-safe execution model.
@@ -472,6 +480,7 @@ Kitten:
   author:
     name: evincar
     github: evincarofautumn
+  inactive: yes
   summary: A statically typed concatenative language with effect types.
   tags:
     - static types
@@ -481,6 +490,7 @@ Peridot:
   author:
     name: Eashan Hatti
     website: https://eashanhatti.github.io/
+  inactive: yes
   summary: >
     A fast functional language based on two level type theory
   tags:
@@ -493,6 +503,7 @@ Lesma:
   author:
     name: Alin Ali Hassan
     website: https://alinalihassan.com
+  inactive: yes
   summary: >
     A fast compiled, statically typed, pythonesque programming language.
   tags:
@@ -595,6 +606,7 @@ Mushroom:
   author:
     name: Benjamin Duchild
     gitlab: Bleu-Box
+  inactive: yes
   summary: >
     An experimental functional programming language
     with an emphasis on type inference and aesthetic syntax.
@@ -605,6 +617,7 @@ Myrddin:
   website: https://myrlang.org/
   github: oridb/mc
   author: Ori_B
+  inactive: yes
   summary: >
     A systems language aiming to fit in a similar niche to C,
     but with fewer bullets in your feet.
@@ -635,6 +648,7 @@ Nib:
   author:
     name: Cedrice Ermineii
     website: https://codeberg.org/Wezl/
+  inactive: yes
   summary: >
     A semi-concatenative that extends array language features such as tacit
     programming and scalar extension.
@@ -660,6 +674,7 @@ Okta:
   github: mikelma/oktac
   icon: okta.svg
   author: mikelma
+  inactive: yes
   summary: >
     Compiled, imperative and general-purpose programming language that aims
     to provide a simple platform to create efficient software.
@@ -680,6 +695,7 @@ Owen:
   github: pawwkm/owen
   icon: owen.png
   author: pawwkm
+  inactive: yes
   summary: A language close to C with modern touches.
   tags:
     - compiled
@@ -690,6 +706,7 @@ oXyl:
   website: https://blog.oxyllang.org/
   gitlab: selfReferentialName/oxyl
   icon: oxyl.png
+  inactive: yes
   author: J Rain De Jager
   summary: >
     A functional language designed to work on parallel CPU and GPGPU
@@ -723,6 +740,7 @@ Pikelet:
   author:
     name: brendanzab
     github: brendanzab
+  inactive: yes
   summary: >
     A friendly little systems language with first-class types and unboxed data.
   tags:
@@ -752,6 +770,7 @@ Pointless:
 Popr:
   github: HackerFoo/poprc
   author: HackerFoo
+  inactive: yes
   summary: >
     Concatenative programming for types as well as values,
     striving for purity, correctness, and efficient execution.
@@ -776,6 +795,7 @@ Rebuild:
   # Rebuild's twitter hasn't seen activity since August 2018.
   # twitter: rebuild_lang
   icon: rebuild.png
+  inactive: yes
   author: arBmind
   summary: >
     A project to experiment with and build
@@ -808,6 +828,7 @@ Riff:
     name: Darryl Abbate
     website: https://darryl.cx
   icon: riff.svg
+  inactive: yes
   summary: >
     A dynamically typed programming language designed primarily for
     prototyping and command-line usage.
@@ -820,6 +841,7 @@ Ry:
   author:
     name: Adi Salimgereyev
     github: abs0luty
+  inactive: yes
   icon: ry.png
   summary: >
     An open source programming language for web development with expressive type system
@@ -831,6 +853,7 @@ Saltwater:
     name: jyn514
     website: https://jyn514.github.io
   summary: A C compiler written in Rust.
+  inactive: yes
   icon: saltwater.png
   discord: BPER7PF
   tags:
@@ -841,6 +864,7 @@ Sixten:
   author:
     name: Olle Fredriksson
     github: ollef
+  inactive: yes
   summary: >
     A dependently typed language where all data is unboxed by default.
     Functional programming with fewer indirections!
@@ -857,7 +881,7 @@ Snowball:
   # If you are concerned about licensing issues with your language's icon,
   # you may link to it on an external site using a normal URL.
   icon: snowball.png
-  # icon: https://example.com/icon/plasma.png
+  inactive: yes
   author:
     name: Mauro Balades
     website: https://github.com/mauro-balades
@@ -915,6 +939,7 @@ Swallow:
   author:
     name: Saptak Bhoumik
     github: SaptakBhoumik
+  inactive: yes
   summary: >
     An easy to use systems programming language with python-like syntax
   tags:
@@ -949,6 +974,7 @@ TopShell:
   website: https://github.com/topshell-language/topshell#topshell-
   github: topshell-language/topshell
   icon: topshell.png
+  inactive: yes
   author:
     name: Ahnfelt
     github: Ahnfelt
@@ -965,6 +991,7 @@ Truck:
   author:
     name: Tarptaeya
     github: Tarptaeya
+  inactive: yes
   summary: >
     Truck is a dynamic programming language with a focus on simplicity.
   tags:
@@ -1039,6 +1066,7 @@ Valkyrie:
   github: nyar-vm/valkyrie.rs
   discord: rDScD9GyUC
   icon: valkyrie.svg
+  inactive: yes
   author:
     name: Aster
     github: oovm
@@ -1079,6 +1107,7 @@ Wu:
   discord: qm92sPP
   author: nilq
   icon: wu.png
+  inactive: yes
   summary: >
     An expression oriented, gradually typed, sweet,
     and mission-critical programming language.
