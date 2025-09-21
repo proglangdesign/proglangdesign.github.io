@@ -1,7 +1,7 @@
 // Filters the projects by tags defined in projects.yml
 // Implemented by Matt Hall (github.com/mh15)
 
-const projects = document.querySelector("#projects-list")
+const projects = document.querySelector(".projects-list")
 const filters = new Set()
 
 // Only enable the feature if JS is enabled
