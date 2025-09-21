@@ -32,6 +32,8 @@ Amp:
   icon: amp.svg
   summary: >
     A minimalistic systems language for modern software
+  tags:
+    - systems
 
 Amun:
   website: https://amrdeveloper.github.io/Amun/
@@ -51,6 +53,8 @@ Ante:
   summary: >
     A compiled systems language focusing on providing extensibility
     through the use of a compile-time API.
+  tags:
+    - systems
 
 Argon:
   website: https://www.arlang.io
@@ -93,6 +97,8 @@ Calypso:
     website: https://thepuzzlemaker.info
   summary: >
     Calypso is a mostly imperative language with some functional influences that is focused on flexibility and simplicity.
+  tags:
+    - imperative
 
 Cella:
   website: https://anixias.github.io/Cella-Site/index.html
@@ -119,6 +125,10 @@ C3:
   summary: >
     An evolution of C, adding modules, error handling and
     semantic macros.
+  tags:
+    - compiled
+    - static types
+    - systems
 
 Chaos:
   website: https://web.archive.org/web/20220826230202/https://chaos-lang.org/
@@ -131,6 +141,9 @@ Chaos:
     website: https://mertyildiran.com/
   summary: >
     Strongly typed, dynamic yet compilable, test-oriented procedural programming language that achieves zero cyclomatic complexity.
+  tags:
+    - compiled
+    - strong types
 
 CASC:
   github: CASC-Lang/CASC
@@ -156,6 +169,8 @@ Closey:
   summary: >
     A functional language that aims to be as simple as possible
     but as efficient and user friendly as possible.
+  tags:
+    - functional
 
 Cognate:
   website: https://github.com/stavromulabeta/cognate
@@ -173,6 +188,8 @@ Cone:
   summary: >
     A fast, fit, friendly, and safe systems programming language
     to power the 3D web.
+  tags:
+    - systems
 
 Core:
   website: https://core-lang.dev
@@ -227,6 +244,8 @@ Firefly:
     - werk
   summary: >
     Full-stack language with colorless async/await and object capabilities.
+  tags:
+    - concurrent
 
 ForthScript:
   github: ForthScriptLang/forthscript
@@ -246,6 +265,8 @@ FuncSug:
     An alternative to event-driven programming
     that resolves the callback hell and the state management problem
     thanks to very structured concurrency and await-event instructions.
+  tags:
+    - concurrent
 
 Futhark:
   website: https://futhark-lang.org/
@@ -258,6 +279,8 @@ Futhark:
   icon: futhark.png
   author: Athas
   summary: A high-performance parallel functional array language targeting GPUs.
+  tags:
+    - parallel
 
 Gera:
   website: https://geralang.netlify.app/
@@ -314,6 +337,8 @@ Hook:
   summary: >
     An imperative, cross-platform, dynamically typed scripting language
     that utilizes a mutable value semantics approach.
+  tags:
+    - dynamic types
 
 Horse64:
   website: https://horse64.org/
@@ -323,6 +348,8 @@ Horse64:
   summary: >
     Dynamically typed but orderly, reducing chaos in
     large projects. A grounded Python-alike.
+  tags:
+    - dynamic types
 
 Horse64 Root:
   website: https://root.horse64.org/
@@ -333,6 +360,9 @@ Horse64 Root:
     A system language similar to C/C++, reimagined with a focus on
     approachable syntax, understandable OOP, and some baked-in
     safety features.
+  tags:
+    - static types
+    - systems
 
 ilo Token:
   website: https://ilo-token.github.io/
@@ -357,6 +387,9 @@ Imp:
   summary: >
     A statically typed and compiled scripting language
     with the goal of increasing programmer confidence.
+  tags:
+    - compiled
+    - static types
 
 Inko:
   website: https://inko-lang.org/
@@ -371,6 +404,8 @@ Inko:
   summary: >
     A gradually typed, interpreted, object-oriented language
     drawing inspiration from many others.
+  tags:
+    - interpreted
 
 Insitux:
   website: https://insitux.github.io
@@ -399,6 +434,8 @@ Jazz:
   summary: >
     A systems programming language with a JIT and AOT compiler
     that uses GCCJIT as backend.
+  tags:
+    - systems
 
 Jinx:
   website: https://www.jinx-lang.org/
@@ -410,6 +447,8 @@ Jinx:
   summary: >
     A clean, embeddable scripting language designed
     with an asynchronous and thread-safe execution model.
+  tags:
+    - scripting
 
 Kitten:
   website: https://kittenlang.org/
@@ -419,6 +458,8 @@ Kitten:
     name: evincar
     github: evincarofautumn
   summary: A statically typed concatenative language with effect types.
+  tags:
+    - static types
 
 Peridot:
   github: eashanhatti/peridot
@@ -427,6 +468,8 @@ Peridot:
     website: https://eashanhatti.github.io/
   summary: >
     A fast functional language based on two level type theory
+  tags:
+    - functional
 
 Lesma:
   website: https://lesma-lang.com/
@@ -437,6 +480,9 @@ Lesma:
     website: https://alinalihassan.com
   summary: >
     A fast compiled, statically typed, pythonesque programming language.
+  tags:
+    - compiled
+    - static types
 
 Lobster:
   website: http://strlen.com/lobster
@@ -501,6 +547,9 @@ Mlatu:
     name: Caden Haustein
     github: brightly-salty
   summary: Statically-typed, purely-functional, concatenative
+  tags:
+    - functional
+    - static types
 
 Monte:
   website: https://monte.readthedocs.io/en/latest/index.html
@@ -509,6 +558,8 @@ Monte:
     name: The Monte authors
     website: https://github.com/monte-language/monte/blob/master/LICENSE
   summary: A dynamic programming language inspired by Python and E.
+  tags:
+    - dynamic types
 
 Mu:
   website: https://github.com/akkartik/mu#mu-a-human-scale-computer
@@ -519,6 +570,8 @@ Mu:
   summary: >
     A purely statement-oriented language (like Basic)
     designed for teaching programming 1-on-1.
+  tags:
+    - educational
 
 Mushroom:
   website: https://gitlab.com/Bleu-Box/mushroom#mushroom
@@ -529,6 +582,8 @@ Mushroom:
   summary: >
     An experimental functional programming language
     with an emphasis on type inference and aesthetic syntax.
+  tags:
+    - functional
 
 Myrddin:
   website: https://myrlang.org/
@@ -545,6 +600,8 @@ Never:
   summary: >
     A simple syntactically-scoped, strongly-typed,
     call-by-value, functional language.
+  tags:
+    - static types
 
 NGS:
   website: https://ngs-lang.org/
@@ -553,6 +610,8 @@ NGS:
   summary: >
     Next Generation Shell, an alternative to many scripting languages,
     with syntax for idempotent resource manipulation.
+  tags:
+    - scripting
 
 Nib:
   website: https://codeberg.org/Wezl/nib
@@ -588,6 +647,9 @@ Okta:
   summary: >
     Compiled, imperative and general-purpose programming language that aims
     to provide a simple platform to create efficient software.
+  tags:
+    - compiled
+    - imperative
 
 Oopsilon:
   github: Oopsilon/Oopsilon
@@ -603,6 +665,10 @@ Owen:
   icon: owen.png
   author: pawwkm
   summary: A language close to C with modern touches.
+  tags:
+    - compiled
+    - imperative
+    - static types
 
 oXyl:
   website: https://blog.oxyllang.org/
@@ -612,6 +678,8 @@ oXyl:
   summary: >
     A functional language designed to work on parallel CPU and GPGPU
     using a functional paradigm and context system to contain side effects.
+  tags:
+    - functional
 
 Plasma:
   website: https://plasmalang.org/
@@ -641,6 +709,9 @@ Pikelet:
     github: brendanzab
   summary: >
     A friendly little systems language with first-class types and unboxed data.
+  tags:
+    - first-class types
+    - systems
 
 PISC:
   website: https://pisc.junglecoder.com/
@@ -659,6 +730,8 @@ Pointless:
   summary: >
     A scripting language for learning and fun.
     Designed for teaching and exploring functional programming.
+  tags:
+    - scripting
 
 Popr:
   github: HackerFoo/poprc
@@ -672,6 +745,8 @@ Psyche-c:
   author: ltcmelo
   summary: >
     A compiler for incomplete C code.
+  tags:
+    - compiled
 
 Pyash:
   website: https://pyac.ca/
@@ -689,6 +764,8 @@ Rebuild:
   summary: >
     A project to experiment with and build
     the ultimate systems programming language.
+  tags:
+    - systems
 
 Rhovas:
   website: https://rhovas.dev/
@@ -703,6 +780,10 @@ RicScript:
   author: Ricardicus
   icon: ric.png
   summary: A dynamically typed interpreted scripting language.
+  tags:
+    - dynamic types
+    - interpreted
+    - scripting
 
 Riff:
   website: https://riff.cx
@@ -714,6 +795,8 @@ Riff:
   summary: >
     A dynamically typed programming language designed primarily for
     prototyping and command-line usage.
+  tags:
+    - dynamic types
 
 Ry:
   discord: re29xvSV2
@@ -734,6 +817,8 @@ Saltwater:
   summary: A C compiler written in Rust.
   icon: saltwater.png
   discord: BPER7PF
+  tags:
+    - compiled
 
 Sixten:
   github: ollef/sixten
@@ -743,6 +828,8 @@ Sixten:
   summary: >
     A dependently typed language where all data is unboxed by default.
     Functional programming with fewer indirections!
+  tags:
+    - functional
 
 Snowball:
   # TODO:
@@ -760,6 +847,8 @@ Snowball:
     website: https://github.com/mauro-balades
   summary: >
     🐱 Snowball is a low-weight, statically typed, object oriented programming language with garbage collector and module system.
+  tags:
+    - static types
 
 Sophie:
   website: https://sophie.readthedocs.io/
@@ -770,6 +859,11 @@ Sophie:
   summary: >
     🦆 Call-by-need statically-duck-typed pure-functional language with actor-based concurrency,
     named for French mathematician Sophie Germain.
+  tags;
+    - concurrent
+    - pure
+    - functional
+    - static types
 
 Sphere:
   github: NullifyDev/Sphere
@@ -806,6 +900,8 @@ Swallow:
     github: SaptakBhoumik
   summary: >
     An easy to use systems programming language with python-like syntax
+  tags:
+    - systems
 
 Tahini:
   github: anirudhgray/tahini-lang
@@ -813,6 +909,7 @@ Tahini:
   summary: >
     A dynamic, interpreted and impurely functional programming language with testing and design-by-contract features.
   tags:
+    - dynamic types
     - interpreted
 
 Theta:
@@ -840,6 +937,9 @@ TopShell:
   summary: >
     Purely functional scripting language
     with structural types, type inference, reactive streams and visualization.
+  tags:
+    - functional
+    - scripting
 
 Truck:
   github: Tarptaeya/truck
@@ -849,6 +949,8 @@ Truck:
     github: Tarptaeya
   summary: >
     Truck is a dynamic programming language with a focus on simplicity.
+  tags:
+    - dynamic types
 
 TGlyph:
   github: tixonochekAscended/TGlyph
@@ -935,6 +1037,9 @@ Vox:
   summary: >
     Statically typed compiled language inspired by D.
     Both JIT and AOT compilation. Can be used for scripting in D programs.
+  tags:
+    - compiled
+    - static types
 
 WLambda:
   website: https://crates.io/crates/wlambda
@@ -947,6 +1052,9 @@ WLambda:
     An embeddable dynamic scripting language for Rust.
     Every value can be called and the syntax is a blend of Perl, Lua,
     JavaScript and LISP.
+  tags:
+    - dynamic types
+    - scripting
 
 Wu:
   github: wu-lang/wu
