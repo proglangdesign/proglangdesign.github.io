@@ -291,6 +291,7 @@ Gera:
     A high-level, procedural, compiled and garbage collected programming language without type annotations.
   tags:
     - compiled
+    - garbage collection
     - strong types
     - static types
     - object-oriented
@@ -568,6 +569,7 @@ Monte:
   summary: A dynamic programming language inspired by Python and E.
   tags:
     - dynamic types
+    - garbage collection
 
 Mu:
   website: https://github.com/akkartik/mu#mu-a-human-scale-computer
@@ -857,6 +859,7 @@ Snowball:
     🐱 Snowball is a low-weight, statically typed, object oriented programming language with garbage collector and module system.
   tags:
     - static types
+    - garbage collection
 
 Sophie:
   website: https://sophie.readthedocs.io/
@@ -933,6 +936,7 @@ Theta:
   tags:
     - compiled
     - functional
+    - garbage collection
     - static types
 
 TopShell:
