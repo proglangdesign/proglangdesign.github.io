@@ -350,6 +350,11 @@ Horse64:
     large projects. A grounded Python-alike.
   tags:
     - dynamic types
+    - concurrent
+    - garbage collection
+    - imperative
+    - object-oriented
+    - strong types
 
 Horse64 Root:
   website: https://root.horse64.org/
@@ -358,10 +363,13 @@ Horse64 Root:
   git: https://codeberg.org/Horse64/root.horse64.org
   summary: >
     A system language similar to C/C++, reimagined with a focus on
-    approachable syntax, understandable OOP, and some baked-in
+    easy syntax, understandable OOP, and some baked-in
     safety features.
   tags:
+    - imperative
+    - object-oriented
     - static types
+    - strong types
     - systems
 
 ilo Token:
