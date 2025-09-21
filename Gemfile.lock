@@ -23,6 +23,7 @@ GEM
     commonmarker (0.23.10)
     concurrent-ruby (1.2.3)
     connection_pool (2.4.1)
+    csv (3.0.9)
     dnsruby (1.72.0)
       simpleidn (~> 0.2.1)
     drb (2.2.1)
@@ -214,6 +215,7 @@ GEM
     listen (3.9.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
+    logger (1.7.0)
     mercenary (0.3.6)
     mini_portile2 (2.8.5)
     minima (2.5.1)
@@ -261,7 +263,7 @@ GEM
       unf_ext
     unf_ext (0.0.9.1)
     unicode-display_width (1.8.0)
-    uri (0.13.0)
+    uri (1.0.3)
     webrick (1.8.1)
 
 PLATFORMS
@@ -269,8 +271,10 @@ PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
+  csv
   github-pages
   jekyll-sitemap
+  logger
   webrick (~> 1.8)
 
 BUNDLED WITH
