@@ -50,12 +50,13 @@ section { max-width: 960px; margin: 0 auto; }
 #projects { display: flex; flex-wrap: wrap; padding-bottom: 25px; }
 #projects-list { display: flex; flex-wrap: wrap; padding-bottom: 25px; }
 #projects h2 { width: 100%;  color: #444;}
+#projects project-title { font-size:1.5em; font-weight: bold;
+    display:inline-block;}
 .project { width: 25%; min-width: 200px; padding: 20px 10px; }
 .project img { display: inline-block; width: 1.5em; height: 1.5em; }
-.project h3 { display: inline-block; font-size: 1.5em; }
 .project a:hover { text-decoration: none; }
-.project > a > h3:hover { text-decoration: underline; }
 .repo-icons { float: right; z-index: 99; }
+.project > a > project-title:hover { text-decoration: underline; }
 .repo-icons img:not(.nofilter) {
   filter: invert(40%);
 }
