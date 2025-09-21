@@ -59,7 +59,7 @@ function projectComparator(a, b) {
         return 1
     } else {
         // Sort unfiltered items alphabetically
-        return a.innerText > b.innerText ? 1 : -1
+        return a.innerText.toLowerCase() > b.innerText.toLowerCase() ? 1 : -1
     }
 }
 
