@@ -88,6 +88,19 @@ Aria:
     - multi-paradigm
     - scripting
 
+C3:
+  website: https://github.com/c3lang/c3c#c3-language
+  github: c3lang/c3c
+  discord: cfu4wdk
+  author: Christoffer Lernö
+  summary: >
+    An evolution of C, adding modules, error handling and
+    semantic macros.
+  tags:
+    - compiled
+    - static types
+    - systems
+
 Calypso:
   website: https://calypso-lang.github.io
   github: calypso-lang/calypso
@@ -104,6 +117,15 @@ Calypso:
     Calypso is a mostly imperative language with some functional influences that is focused on flexibility and simplicity.
   tags:
     - imperative
+
+CASC:
+  github: CASC-Lang/CASC
+  discord: U5evkT9G5R
+  icon: casc.png
+  author: ChAoS-UnItY (Kyle Lin)
+  inactive: yes
+  summary: >
+    A JVM language focus on concise syntaxes and enhancing language features from Java.
 
 Cella:
   website: https://anixias.github.io/Cella-Site/index.html
@@ -122,19 +144,6 @@ Cella:
     - multi-paradigm
     - systems
 
-C3:
-  website: https://github.com/c3lang/c3c#c3-language
-  github: c3lang/c3c
-  discord: cfu4wdk
-  author: Christoffer Lernö
-  summary: >
-    An evolution of C, adding modules, error handling and
-    semantic macros.
-  tags:
-    - compiled
-    - static types
-    - systems
-
 Chaos:
   website: https://web.archive.org/web/20220826230202/https://chaos-lang.org/
   github: chaos-lang/chaos
@@ -150,15 +159,6 @@ Chaos:
   tags:
     - compiled
     - strong types
-
-CASC:
-  github: CASC-Lang/CASC
-  discord: U5evkT9G5R
-  icon: casc.png
-  author: ChAoS-UnItY (Kyle Lin)
-  inactive: yes
-  summary: >
-    A JVM language focus on concise syntaxes and enhancing language features from Java.
 
 Chika:
   website: https://phunanon.github.io/Chika
@@ -320,13 +320,6 @@ Gwion:
   icon: gwion.png
   summary: A strongly-timed musical programming language
 
-Hascal:
-  website: https://hascal.github.io
-  github: hascal/hascal
-  author: Hascal Foundation
-  summary: >
-    Hascal is a general purpose and open source programming language designed to build optimal, maintainable, reliable and efficient software.
-
 H-hat:
   website: https://hhat.cdagger.com
   organization:
@@ -337,6 +330,13 @@ H-hat:
     website: https://github.com/Doomsk
   summary: >
     A quantum programming language aimed to build quantum algorithms through a higher abstraction layer.
+
+Hascal:
+  website: https://hascal.github.io
+  github: hascal/hascal
+  author: Hascal Foundation
+  summary: >
+    Hascal is a general purpose and open source programming language designed to build optimal, maintainable, reliable and efficient software.
 
 Hook:
   website: https://github.com/hook-lang/hook
@@ -486,17 +486,6 @@ Kitten:
   tags:
     - static types
 
-Peridot:
-  github: eashanhatti/peridot
-  author:
-    name: Eashan Hatti
-    website: https://eashanhatti.github.io/
-  inactive: yes
-  summary: >
-    A fast functional language based on two level type theory
-  tags:
-    - functional
-
 Lesma:
   website: https://lesma-lang.com/
   github: alinalihassan/Lesma
@@ -566,6 +555,22 @@ Mercury:
     - pure
     - static types
     - strong types
+
+mini-rip:
+  github: tixonochekAscended/mini-rip
+  icon: mrip.svg
+  discord: NSK7YJ2R6j
+  author:
+    name: tixonochek
+    website: https://tixonochek.netlify.app/
+    github: tixonochekAscended
+  summary: >
+    A minimal, esoteric, interpreted programming language
+    with magical sigils that execute code.
+  tags:
+    - esoteric
+    - interpreted
+    - scripting
 
 Mlatu:
   website: https://brightly-salty.github.io/mlatu/
@@ -670,6 +675,22 @@ NumFu:
     - pure
     - educational
 
+
+oko-lang:
+  github: tixonochekAscended/oko-lang
+  icon: oko.svg
+  discord: NSK7YJ2R6j
+  author:
+    name: tixonochek
+    website: https://tixonochek.netlify.app/
+    github: tixonochekAscended
+  summary: >
+    A promising, interpreted, non-esoteric, scripting
+    programming language that is in its early stage of development.
+  tags:
+    - interpreted
+    - scripting
+
 Okta:
   website: https://okta-lang.org
   github: mikelma/oktac
@@ -732,6 +753,17 @@ Plasma:
     - pure
     - static types
     - strong types
+
+Peridot:
+  github: eashanhatti/peridot
+  author:
+    name: Eashan Hatti
+    website: https://eashanhatti.github.io/
+  inactive: yes
+  summary: >
+    A fast functional language based on two level type theory
+  tags:
+    - functional
 
 Pikelet:
   website: https://pikelet-lang.github.io/pikelet/
@@ -971,33 +1003,6 @@ Theta:
     - garbage collection
     - static types
 
-TopShell:
-  website: https://github.com/topshell-language/topshell#topshell-
-  github: topshell-language/topshell
-  icon: topshell.png
-  inactive: yes
-  author:
-    name: Ahnfelt
-    github: Ahnfelt
-  summary: >
-    Purely functional scripting language
-    with structural types, type inference, reactive streams and visualization.
-  tags:
-    - functional
-    - scripting
-
-Truck:
-  github: Tarptaeya/truck
-  icon: truck.png
-  author:
-    name: Tarptaeya
-    github: Tarptaeya
-  inactive: yes
-  summary: >
-    Truck is a dynamic programming language with a focus on simplicity.
-  tags:
-    - dynamic types
-
 TGlyph:
   github: tixonochekAscended/TGlyph
   icon: tglyph.png
@@ -1012,6 +1017,21 @@ TGlyph:
   tags:
     - esoteric
     - interpreted
+    - scripting
+
+TopShell:
+  website: https://github.com/topshell-language/topshell#topshell-
+  github: topshell-language/topshell
+  icon: topshell.png
+  inactive: yes
+  author:
+    name: Ahnfelt
+    github: Ahnfelt
+  summary: >
+    Purely functional scripting language
+    with structural types, type inference, reactive streams and visualization.
+  tags:
+    - functional
     - scripting
 
 TOSTER:
@@ -1030,37 +1050,17 @@ TOSTER:
     - interpreted
     - scripting
 
-mini-rip:
-  github: tixonochekAscended/mini-rip
-  icon: mrip.svg
-  discord: NSK7YJ2R6j
+Truck:
+  github: Tarptaeya/truck
+  icon: truck.png
   author:
-    name: tixonochek
-    website: https://tixonochek.netlify.app/
-    github: tixonochekAscended
+    name: Tarptaeya
+    github: Tarptaeya
+  inactive: yes
   summary: >
-    A minimal, esoteric, interpreted programming language 
-    with magical sigils that execute code. 
+    Truck is a dynamic programming language with a focus on simplicity.
   tags:
-    - esoteric
-    - interpreted
-    - scripting
-
-
-oko-lang:
-  github: tixonochekAscended/oko-lang
-  icon: oko.svg
-  discord: NSK7YJ2R6j
-  author:
-    name: tixonochek
-    website: https://tixonochek.netlify.app/
-    github: tixonochekAscended
-  summary: >
-    A promising, interpreted, non-esoteric, scripting
-    programming language that is in its early stage of development.
-  tags:
-    - interpreted
-    - scripting
+    - dynamic types
 
 Valkyrie:
   website: https://valkyrie-language.netlify.app/en/
