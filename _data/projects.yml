@@ -867,7 +867,7 @@ Sophie:
   summary: >
     🦆 Call-by-need statically-duck-typed pure-functional language with actor-based concurrency,
     named for French mathematician Sophie Germain.
-  tags;
+  tags:
     - concurrent
     - pure
     - functional
