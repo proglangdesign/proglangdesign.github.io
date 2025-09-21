@@ -39,7 +39,7 @@ canonical: /
     {% for project_entry in site.data.projects %}
     {% assign project = project_entry[1] %}
     {% assign project_name = project_entry[0] %}
-    {% if project.inactive and project.inactive contains "yes" %}
+    {% if project.inactive and project.inactive == true %}
 
     {% else %}
     <div class="project" id="project-{{ project_name | downcase | replace: " ", "-" | escape }}"  data-tags="{{ project.tags | join: ',' }}">
@@ -126,7 +126,7 @@ canonical: /
     {% for project_entry in site.data.projects %}
     {% assign project = project_entry[1] %}
     {% assign project_name = project_entry[0] %}
-    {% if project.inactive and project.inactive contains "yes" %}
+    {% if project.inactive and project.inactive == true %}
     <div class="project" id="project-{{ project_name | downcase | replace: " ", "-" | escape }}"  data-tags="{{ project.tags | join: ',' }}">
       <span class="title">
         {% if project.website %}<a href="{{ project.website }}">{% endif %}
