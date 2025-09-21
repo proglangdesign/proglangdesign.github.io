@@ -414,7 +414,7 @@ Imp:
 
 Inko:
   website: https://inko-lang.org/
-  gitlab: inko-lang/inko
+  github: inko-lang/inko
   # This language has too many services to add.
   # If yorickpeterse would like them listed, he can choose which to include.
   #reddit: inko
@@ -427,6 +427,7 @@ Inko:
     drawing inspiration from many others.
   tags:
     - interpreted
+    - object-oriented
 
 Insitux:
   website: https://insitux.github.io
