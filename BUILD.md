@@ -11,7 +11,7 @@ might get you there:
 
 3. (Optional, if you don't want to install it as root:)
 
-   `bundler config set --local path "/home/`whoami`/.local/share/gem"`
+   `bundler config set --local path "/home/\`whoami\`/.local/share/gem"`
 
 4. `bundler install`
 
@@ -21,6 +21,6 @@ might get you there:
 
 6. `~/.local/share/gem/ruby/3.4.0/bin/jekyll build`
 
-   (Important: adjust with your ruby version!)
+   (Important: adjust according to your ruby version!)
 
 
