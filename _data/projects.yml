@@ -3,6 +3,7 @@ Aardvark:
   discord: pjzDByMTx9
   github: Aardvark-team/Aardvark
   author: The Aardvark Team
+  inactive: yes
   icon: aardvark.svg
   summary: >
     It is designed to be easy, yet powerful, compiling to LLVM and self-hosting. Our goal is for it to be faster than C and easier than Python.
@@ -25,11 +26,13 @@ Alox:
   github: alox-lang/alox
   author: phase
   summary: GPU-Accelerated, Distributed, Actor Model Language
+  inactive: yes
 
 Amp:
   github: amp-lang/amp
   author: Zack Pace
   icon: amp.svg
+  inactive: yes
   summary: >
     A minimalistic systems language for modern software
   tags:
@@ -40,6 +43,7 @@ Amun:
   github: amrdeveloper/amun
   author: Amr Hesham
   icon: amun.svg
+  inactive: yes
   summary: >
     A low-level programming language with a simple and productive design inspired by C/C++, Rust, Go, Jai.
 
@@ -95,6 +99,7 @@ Calypso:
   author:
     name: James (ThePuzzlemaker)
     website: https://thepuzzlemaker.info
+  inactive: yes
   summary: >
     Calypso is a mostly imperative language with some functional influences that is focused on flexibility and simplicity.
   tags:
@@ -136,6 +141,7 @@ Chaos:
   libera: chaoslang
   gitter: chaos-lang/community
   icon: chaos.png
+  inactive: yes
   author:
     name: mertyildiran
     website: https://mertyildiran.com/
