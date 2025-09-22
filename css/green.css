@@ -29,3 +29,8 @@ a { text-decoration: underline; }
 img[src*="images/logo-placeholder.png"] {
     filter: hue-rotate(-130deg) saturate(214%) brightness(90%);
 }
+
+.tag {
+  background-color: #33ff33;
+  color: black;
+}

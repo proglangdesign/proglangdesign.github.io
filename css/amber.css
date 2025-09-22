@@ -32,3 +32,7 @@ img[src*="images/logo-placeholder.png"] {
     filter: hue-rotate(-217deg) saturate(214%) brightness(90%);
 }
 
+.tag {
+  background-color: #ffb000;
+  color: white;
+}
