@@ -136,7 +136,7 @@ canonical: /
           {% else %}
           <img src="/images/lang/{{ project.icon | default: 'placeholder.png' }}" alt="">
           {% endif %}
-          <h3>{{ project_name }}</h3>
+          <project-title>{{ project_name }}</project-title>
         {% if project.website %}</a>{% endif %}
       </span>
       <span class="repo-icons">
