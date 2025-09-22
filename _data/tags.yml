@@ -1,22 +1,47 @@
 # please keep in alphabetical order
-- compiled
-- concurrent
-- dynamic types
-- educational
-- esoteric
-- functional
-- first-class types
-- garbage collection
-- logic
-- parallel
-- pure
-- strong types
-- static types
-- object-oriented
-- functional
-- imperative
-- multi-paradigm
-- non-programming language
-- systems
-- interpreted
-- scripting
+compiler:
+  description: >
+    The tooling of the language comes with a user-facing
+    ahead-of-time compiler that the user commonly interacts with.
+concurrent:
+  description: null
+dynamic types:
+  description: null
+educational:
+  description: null
+esoteric:
+  description: null
+functional:
+  description: null
+first-class types:
+  description: null
+garbage collection:
+  description: null
+interpreter:
+  description: >
+    An interpreter, which the user will commonly run directly on
+    code files or as a REPL, has been implemented for this language.
+logic:
+  description: null
+parallel:
+  description: null
+pure:
+  description: null
+strong types:
+  description: null
+static types:
+  description: null
+object-oriented:
+  description: null
+functional:
+  description: null
+imperative:
+  description: null
+multi-paradigm:
+  description: null
+non-programming language:
+  description: null
+systems:
+  description: null
+scripting:
+  description: null

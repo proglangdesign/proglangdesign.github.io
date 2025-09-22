@@ -8,7 +8,7 @@ Aardvark:
   summary: >
     It is designed to be easy, yet powerful, compiling to LLVM and self-hosting. Our goal is for it to be faster than C and easier than Python.
   tags:
-    - compiled
+    - compiler
     - first-class types
     - functional
     - static types
@@ -71,7 +71,7 @@ Argon:
     Argon is an interpreted multi-paradigm programming language.
     Its syntax is influenced by many modern languages and aims to be elegant, clean and simple to use.
   tags:
-    - interpreted
+    - interpreter
     - scripting
     - concurrent
     - parallel
@@ -84,7 +84,7 @@ Aria:
   summary: >
     Modern, dynamic "sweet spot" scripting language inspired by Python and Rust, with a small but usable standard library.
   tags:
-    - interpreted
+    - interpreter
     - multi-paradigm
     - scripting
 
@@ -97,7 +97,7 @@ C3:
     An evolution of C, adding modules, error handling and
     semantic macros.
   tags:
-    - compiled
+    - compiler
     - static types
     - systems
 
@@ -136,7 +136,7 @@ Cella:
   summary: >
     A strongly-typed minimalistic systems programming language with semantic side-effects and minimal runtime overhead
   tags:
-    - compiled
+    - compiler
     - pure
     - static types
     - strong types
@@ -157,7 +157,7 @@ Chaos:
   summary: >
     Strongly typed, dynamic yet compilable, test-oriented procedural programming language that achieves zero cyclomatic complexity.
   tags:
-    - compiled
+    - compiler
     - strong types
 
 Chika:
@@ -240,7 +240,7 @@ Fir:
     A high-level, batteries-included programming language with ADTs, traits,
     value types, monomorphisation, and effects.
   tags:
-    - compiled
+    - compiler
     - strong types
     - imperative
 
@@ -302,14 +302,14 @@ Gera:
   summary: >
     A high-level, procedural, compiled and garbage collected programming language without type annotations.
   tags:
-    - compiled
+    - compiler
     - garbage collection
     - strong types
     - static types
     - object-oriented
     - imperative
     - multi-paradigm
-    - interpreted
+    - interpreter
 
 Gwion:
   website: https://gwion.github.io/Gwion/
@@ -410,7 +410,7 @@ Imp:
     A statically typed and compiled scripting language
     with the goal of increasing programmer confidence.
   tags:
-    - compiled
+    - compiler
     - static types
 
 Inko:
@@ -427,7 +427,7 @@ Inko:
     A gradually typed, interpreted, object-oriented language
     drawing inspiration from many others.
   tags:
-    - interpreted
+    - interpreter
     - object-oriented
 
 Insitux:
@@ -498,7 +498,7 @@ Lesma:
   summary: >
     A fast compiled, statically typed, pythonesque programming language.
   tags:
-    - compiled
+    - compiler
     - static types
 
 Lobster:
@@ -521,7 +521,7 @@ Lumina:
   summary: >
     Eagerly evaluated, natively compiled, impurely functional programming language aiming to provide a more friendly developer experience.
   tags:
-    - compiled
+    - compiler
     - functional
     - static types
     - systems
@@ -551,7 +551,7 @@ Mercury:
     A logic/functional programming language
     with advanced static analysis and error detection features.
   tags:
-    - compiled
+    - compiler
     - logic
     - pure
     - static types
@@ -570,7 +570,7 @@ mini-rip:
     with magical sigils that execute code.
   tags:
     - esoteric
-    - interpreted
+    - interpreter
     - scripting
 
 Mlatu:
@@ -671,7 +671,7 @@ NumFu:
     Pure functional language built for readability, extensibility, and
     learning functional programming & mathematical algorithms.
   tags:
-    - interpreted
+    - interpreter
     - functional
     - pure
     - educational
@@ -689,7 +689,7 @@ oko-lang:
     A promising, interpreted, non-esoteric, scripting
     programming language that is in its early stage of development.
   tags:
-    - interpreted
+    - interpreter
     - scripting
 
 Okta:
@@ -702,7 +702,7 @@ Okta:
     Compiled, imperative and general-purpose programming language that aims
     to provide a simple platform to create efficient software.
   tags:
-    - compiled
+    - compiler
     - imperative
 
 Oopsilon:
@@ -721,7 +721,7 @@ Owen:
   inactive: yes
   summary: A language close to C with modern touches.
   tags:
-    - compiled
+    - compiler
     - imperative
     - static types
 
@@ -748,7 +748,7 @@ Plasma:
     A language that balances functional and imperative programming,
     and has state-of-the-art concurrency and parallelism features.
   tags:
-    - compiled
+    - compiler
     - concurrent
     - parallel
     - pure
@@ -815,7 +815,7 @@ Psyche-c:
   summary: >
     A compiler for incomplete C code.
   tags:
-    - compiled
+    - compiler
 
 Pyash:
   website: https://pyac.ca/
@@ -852,7 +852,7 @@ RicScript:
   summary: A dynamically typed interpreted scripting language.
   tags:
     - dynamic types
-    - interpreted
+    - interpreter
     - scripting
 
 Riff:
@@ -891,7 +891,7 @@ Saltwater:
   icon: saltwater.png
   discord: BPER7PF
   tags:
-    - compiled
+    - compiler
 
 Sixten:
   github: ollef/sixten
@@ -986,7 +986,7 @@ Tahini:
     A dynamic, interpreted and impurely functional programming language with testing and design-by-contract features.
   tags:
     - dynamic types
-    - interpreted
+    - interpreter
 
 TGlyph:
   github: tixonochekAscended/TGlyph
@@ -1001,7 +1001,7 @@ TGlyph:
     around "glyphs" and "registers" that can hold values.
   tags:
     - esoteric
-    - interpreted
+    - interpreter
     - scripting
 
 Theta:
@@ -1015,7 +1015,7 @@ Theta:
   summary: >
     A statically typed, functional programming language that compiles to WebAssembly.
   tags:
-    - compiled
+    - compiler
     - functional
     - garbage collection
     - static types
@@ -1048,7 +1048,7 @@ TOSTER:
     Beware, includes lots of magic and unconventional syntax.
   tags:
     - esoteric
-    - interpreted
+    - interpreter
     - scripting
 
 Truck:
@@ -1086,7 +1086,7 @@ Vox:
     Statically typed compiled language inspired by D.
     Both JIT and AOT compilation. Can be used for scripting in D programs.
   tags:
-    - compiled
+    - compiler
     - static types
 
 WLambda:
