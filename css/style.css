@@ -56,7 +56,8 @@ section { max-width: 960px; margin: 0 auto; }
 .project img { display: inline-block; width: 1.5em; height: 1.5em; }
 .project a:hover { text-decoration: none; }
 .repo-icons { float: right; z-index: 99; }
-.project > a > project-title:hover { text-decoration: underline; }
+.project a:hover > project-title,
+    .project a:active > project-title { text-decoration: underline; }
 .repo-icons img:not(.nofilter) {
   filter: invert(40%);
 }
@@ -154,25 +155,24 @@ span.author:before { font-style: normal; content: "by "; }
 /* Dark mode tweaks: */
 @media (prefers-color-scheme: dark) {
    #pagelink, a {
-     color:#E0A0F0 !important;
+     color:#E0A0F0;
    }
    body {
-     background-color:#242138 !important;
+     background-color:#242138;
      color:#dbd1e1;
    }
    h1, h2, #projects h2 {
-     color:white !important;
+     color:white;
    }
    .button {
-     background-color:#532e93 !important;
+     background-color:#532e93;
    }
    .tag {
-     background-color:#3b2e53 !important;
-     color:#d0a6d4 !important
-     ;
+     background-color:#3b2e53;
+     color:#d0a6d4;
    }
   .tag-selected {
-    background-color:#a571ab !important;
+    background-color:#a571ab;
     color:#201720;
   }
 }
