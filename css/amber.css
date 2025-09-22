@@ -1,10 +1,10 @@
 body {
-    background-color: black;
-    colour: #ffb000;
+    background-color: black !important;
+    color: #ffb000 !important;
     font-family: monospace;
 }
 #pagelink {
-    color: #ffb000;
+    color: #ffb000 !important;
 }
 #pagelink > a {
     text-decoration: none;
@@ -12,20 +12,23 @@ body {
 #hero h1 { color: #ffb000; }
 #hero nav h2 { color: #ffb000; }
 .project { color: #ffb000; }
-.project > a { text-decoration: none; }
-.project > a > h3 { text-decoration: underline; }
+.project a { text-decoration: none; }
+.project a > project-title {
+    text-decoration: underline;
+}
 #projects h2 { color: #ffb000;}
 p, li { color: #ffb000; font-family: monospace; }
 
 .button {
-  background-color: #004fff;
-  color: white;
+  background-color: #004fff !important;
+  color: white !important;
   filter: invert(1);
 }
 
-a, h1, h2, h3 { color: #ffb000; }
+a, h1, h2, h3, project-title { color: #ffb000 !important; }
 a { text-decoration: underline; }
 
 img[src*="images/logo-placeholder.png"] {
     filter: hue-rotate(-217deg) saturate(214%) brightness(90%);
 }
+
