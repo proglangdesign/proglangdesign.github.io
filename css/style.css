@@ -103,6 +103,27 @@ section > h2, section > h3 { padding-top: 15px; padding-bottom: 5px; }
   color: white;
 }
 
+.tags-summary-field {
+    font-style:italic;
+    padding:3px;
+    margin:3px;
+    display:block;
+    font-size:0.75em;
+    background-color: rgb(100 70 103 / 38%);
+}
+
+.tags-summary-field tag-desc {
+    display:block;
+    font-style:italic;
+    margin:6px;
+    margin-top:15px;
+}
+
+.tags-summary-field tag-desc em {
+    font-weight:bold;
+    font-size:1.1em;
+}
+
 .button.discord { background-image: url(/images/discord.svg); }
 .button.reddit  { 
   background-image: url(/images/reddit.svg); 
