@@ -31,9 +31,9 @@ canonical: /
   <h2>Take a look at our projects</h2>
   {% assign tags_str = "" %}
   {% for tag in site.data.tags %}
-  {% assign tags_str = tags_str | append: ' ' | append: tag[0] %}
+  {% assign tags_str = tags_str | append: ',' | append: tag[0] %}
   {% endfor %}
-  {% assign unique_tags = tags_str | split: ' ' | sort %}
+  {% assign unique_tags = tags_str | split: ',' | sort %}
   <div id="tags" data-all-tags="{{ unique_tags | join: ',' }}"
   {% for tag in site.data.tags %}
   data-tag-{{ tag[0] | replace: " ", "-" | escape }}="{{ tag[1].description | strip | strip_newlines | escape }}"
