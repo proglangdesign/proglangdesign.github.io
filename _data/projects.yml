@@ -291,6 +291,7 @@ Futhark:
   author: Athas
   summary: A high-performance parallel functional array language targeting GPUs.
   tags:
+    - functional
     - parallel
 
 Gera:
