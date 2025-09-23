@@ -11,11 +11,13 @@ educational:
   description: null
 esoteric:
   description: null
-functional:
-  description: null
 first-class types:
   description: null
+functional:
+  description: null
 garbage collection:
+  description: null
+imperative:
   description: null
 interpreter:
   description: >
@@ -23,25 +25,21 @@ interpreter:
     code files or as a REPL, has been implemented for this language.
 logic:
   description: null
-parallel:
-  description: null
-pure:
-  description: null
-strong types:
-  description: null
-static types:
-  description: null
-object-oriented:
-  description: null
-functional:
-  description: null
-imperative:
-  description: null
 multi-paradigm:
   description: null
 non-programming language:
   description: null
-systems:
+object-oriented:
+  description: null
+parallel:
+  description: null
+pure:
   description: null
 scripting:
+  description: null
+static types:
+  description: null
+strong types:
+  description: null
+systems:
   description: null
