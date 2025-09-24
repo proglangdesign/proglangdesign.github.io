@@ -112,6 +112,10 @@ section > h2, section > h3 { padding-top: 15px; padding-bottom: 5px; }
     background-color: rgb(100 70 103 / 38%);
 }
 
+.tags-summary-field h4 {
+  opacity:50%;
+}
+
 .tags-summary-field tag-desc {
     display:block;
     font-style:italic;
@@ -175,6 +179,9 @@ span.author:before { font-style: normal; content: "by "; }
 
 /* Dark mode tweaks: */
 @media (prefers-color-scheme: dark) {
+   .tags-summary-field h4 {
+     opacity:50%;
+   }
    #pagelink, a {
      color:#E0A0F0;
    }
