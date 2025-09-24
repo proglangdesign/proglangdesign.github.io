@@ -36,7 +36,9 @@ parallel:
 pure:
   description: null
 scripting:
-  description: null
+  description: >
+    The makers of the language intend it to be used for scripting
+    tasks, like short one-shot program and automations.
 static types:
   description: null
 strong types:
