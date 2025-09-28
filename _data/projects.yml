@@ -14,6 +14,18 @@ Aardvark:
     - static types
     - strong types
 
+Admiran:
+  github: taolson/Admiran
+  author: Tim Olson
+  summary: >
+    Admiran is a pure, lazy functional language and self-hosting compiler.  It is based upon David Turner's
+    Miranda language, with additional features from Haskell and other functional languages.
+  tags:
+    - compiler
+    - functional
+    - pure
+    - static types
+
 AEC:
   website: http://flatassembler.github.io/AEC_specification.html
   github: FlatAssembler/AECforWebAssembly
