@@ -49,16 +49,16 @@ canonical: /
 
     {% else %}
     <div class="project" id="project-{{ project_name | downcase | replace: " ", "-" | escape }}"  data-tags="{{ project.tags | join: ',' }}">
-      <span class="title">
+      <div class="title">
         {% if project.website %}<a href="{{ project.website }}">{% endif %}
           {% if project.icon and project.icon contains "://" %}
           <img src="{{ project.icon }}" alt="">
           {% else %}
           <img src="/images/lang/{{ project.icon | default: 'placeholder.png' }}" alt="">
           {% endif %}
-          <project-title>{{ project_name }}</project-title>
+          <h3>{{ project_name }}</h3>
         {% if project.website %}</a>{% endif %}
-      </span>
+      </div>
       <span class="repo-icons">
         {% if project.twitter %}<a href="https://twitter.com/rebuild_lang">
           <img alt="Twitter" src="/images/twitter.svg">
@@ -125,7 +125,7 @@ canonical: /
     {% endif %}
     {% endfor %}
   </div>
-  <h3>Inactive projects:</h3>
+  <h2>Inactive projects:</h2>
   <p>The following projects have had no commits for two years or longer,
   or their main website is defunct with no commits in the last months:</p>
   <div class="projects-list">
@@ -134,16 +134,16 @@ canonical: /
     {% assign project_name = project_entry[0] %}
     {% if project.inactive and project.inactive == true %}
     <div class="project" id="project-{{ project_name | downcase | replace: " ", "-" | escape }}"  data-tags="{{ project.tags | join: ',' }}">
-      <span class="title">
+      <div class="title">
         {% if project.website %}<a href="{{ project.website }}">{% endif %}
           {% if project.icon and project.icon contains "://" %}
           <img src="{{ project.icon }}" alt="">
           {% else %}
           <img src="/images/lang/{{ project.icon | default: 'placeholder.png' }}" alt="">
           {% endif %}
-          <project-title>{{ project_name }}</project-title>
+          <h3>{{ project_name }}</h3>
         {% if project.website %}</a>{% endif %}
-      </span>
+      </div>
       <span class="repo-icons">
         {% if project.github %}<a href="https://github.com/{{ project.github }}">
           <img alt="GitHub" src="/images/github.svg">

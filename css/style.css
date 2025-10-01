@@ -50,8 +50,12 @@ section { max-width: 960px; margin: 0 auto; }
 #projects { display: flex; flex-wrap: wrap; padding-bottom: 25px; }
 .projects-list { display: flex; flex-wrap: wrap; padding-bottom: 25px; }
 #projects h2 { width: 100%;  color: #444;}
-#projects project-title { font-size:1.5em; font-weight: bold;
-    display:inline-block;}
+.title { display: inline-block; }
+#projects h3 {
+  font-size:1.5em;
+  font-weight: bold;
+  display:inline-block;
+}
 .project { width: 25%; min-width: 200px; padding: 20px 10px; }
 .project img { display: inline-block; width: 1.5em; height: 1.5em; }
 .project a:hover { text-decoration: none; }
