@@ -285,11 +285,13 @@ FuncSug:
   icon: funcsug.svg
   author: Claude Lion
   summary: >
-    An alternative to event-driven programming
-    that resolves the callback hell and the state management problem
-    thanks to very structured concurrency and await-event instructions.
+    A simple alternative to event-driven programming and game loops.
+    No main loops or event-action associations any more thanks to
+    concurrency, waiting for specific events and a special handling of interruptions.
   tags:
     - concurrent
+    - imperative
+    - interpreter
 
 Futhark:
   website: https://futhark-lang.org/
