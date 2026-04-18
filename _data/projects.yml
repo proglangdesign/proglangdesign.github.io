@@ -111,6 +111,17 @@ Aria:
     - multi-paradigm
     - scripting
 
+Backolon:
+  website: https://backolon.js.org/
+  github: r47onfire/backolon
+  author: dragoncoder047
+  summary: >
+    A powerful scripting and configuration language featuring pattern-matching, homoiconicity,
+    first-class continuations, and (mostly) serializable state, wrapped up in a terse keywordless syntax.
+  tags:
+    - interpreter
+    - scripting
+
 C3:
   website: https://github.com/c3lang/c3c#c3-language
   github: c3lang/c3c
