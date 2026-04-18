@@ -115,6 +115,7 @@ Backolon:
   website: https://backolon.js.org/
   github: r47onfire/backolon
   author: dragoncoder047
+  icon: backolon.png
   summary: >
     A powerful scripting and configuration language featuring pattern-matching, homoiconicity,
     first-class continuations, and (mostly) serializable state, wrapped up in a terse keywordless syntax.
