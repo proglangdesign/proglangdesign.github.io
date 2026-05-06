@@ -183,15 +183,18 @@ Gwion:
   summary: A strongly-timed musical programming language
 
 H-hat:
-  website: https://hhat.cdagger.com
+  website: https://docs.hhat-lang.org
+  github: hhat-lang/hhat_lang
   organization:
     name: many
-    website: https://hhat.cdagger.com/en/latest/team.html
-  author: 
+    website: https://github.com/hhat-lang/hhat_lang/graphs/contributors
+  author:
     name: Dooms
     website: https://github.com/Doomsk
   summary: >
-    A quantum programming language aimed to build quantum algorithms through a higher abstraction layer.
+    A rule system, compiler framework, and a statically typed, functional and distributed system inspired, quantum programming language.
+  tags:
+    - quantum
 
 Hook:
   website: https://github.com/fabiosvm/hook-lang
