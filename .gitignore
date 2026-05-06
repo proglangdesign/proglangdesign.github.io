@@ -6,3 +6,6 @@ _site/
 
 # Emacs backup files
 *~
+
+# IDEA files
+.idea/

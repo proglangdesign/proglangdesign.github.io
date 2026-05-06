@@ -1,0 +1,52 @@
+# please keep in alphabetical order
+compiler:
+  description: >
+    The tooling of the language comes with a user-facing
+    ahead-of-time compiler that the user commonly interacts with.
+concurrent:
+  description: >
+    Supports concurrent execution in some form.
+dynamic types:
+  description: null
+educational:
+  description: null
+esoteric:
+  description: null
+first-class types:
+  description: null
+functional:
+  description: >
+    Supports and encourages functional programming, with such features as
+    higher-order functions, polymorphism, recursion, discouraging effects, etc.
+garbage collection:
+  description: null
+imperative:
+  description: null
+interpreter:
+  description: >
+    An interpreter, which the user will commonly run directly on
+    code files or as a REPL, has been implemented for this language.
+logic:
+  description: null
+multi-paradigm:
+  description: null
+non-programming language:
+  description: null
+object-oriented:
+  description: null
+parallel:
+  description: >
+    Intended specifically or mainly for parallel programming.
+pure:
+  description: >
+    Does not allow side effects.
+scripting:
+  description: >
+    The makers of the language intend it to be used for scripting
+    tasks, like short one-shot program and automations.
+static types:
+  description: null
+strong types:
+  description: null
+systems:
+  description: null

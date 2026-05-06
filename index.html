@@ -3,6 +3,9 @@ title: Programming Language Design
 layout: default
 canonical: /
 ---
+<!-- Filter projects by tags -->
+<script src="static/filter.js" defer></script>
+
 <header>
   <span class="shell prompt-sign" id="pagelink"><a href="/">proglangdesign.net</a></span>
   <nav>
@@ -25,55 +28,67 @@ canonical: /
 <!-- Exceptions: The Libera, Reddit, IRC, and Discord icons. I don't know where those are from. -->
 <section id="projects">
   <h2>Take a look at our projects</h2>
-  {% if site.data.tags %}
-  {% assign unique_tags = site.data.tags | uniq | sort %}
-  <div id="tags" data-all-tags="{{unique_tags | join: ','}}"></div>
-  {% endif %}
+  {% assign tags_str = "" %}
+  {% for tag in site.data.tags %}
+  {% assign tags_str = tags_str | append: ',' | append: tag[0] %}
+  {% endfor %}
+  {% assign unique_tags = tags_str | split: ',' | sort %}
+  <div id="tags" data-tags-all-names="{{ unique_tags | join: ',' }}"
+  {% for tag in site.data.tags %}
+  data-tag-desc-{{ tag[0] | replace: " ", "-" | escape }}="{{ tag[1].description | strip | strip_newlines | escape }}"
+  {% endfor %}
+  ></div>
   <!-- Liquid, the templating language, is incredibly underpowered. -->
   <!-- What follows is very ugly code that is not possible to improve due to lack of features. -->
 
-  <div id="projects-list">
+  <div class="projects-list">
     {% for project_entry in site.data.projects %}
     {% assign project = project_entry[1] %}
     {% assign project_name = project_entry[0] %}
-    <div class="project" id="project-{{ project_name | downcase }}"  data-tags="{{ project.tags | join: ',' }}">
-      <span class="title">
+    {% if project.inactive and project.inactive == true %}
+
+    {% else %}
+    <div class="project" id="project-{{ project_name | downcase | replace: " ", "-" | escape }}"  data-tags="{{ project.tags | join: ',' }}">
+      <div class="title">
         {% if project.website %}<a href="{{ project.website }}">{% endif %}
           {% if project.icon and project.icon contains "://" %}
-          <img src="{{ project.icon }}" alt="" />
+          <img src="{{ project.icon }}" alt="">
           {% else %}
-          <img src="/images/lang/{{ project.icon | default: 'placeholder.png' }}" alt="" />
+          <img src="/images/lang/{{ project.icon | default: 'placeholder.png' }}" alt="">
           {% endif %}
           <h3>{{ project_name }}</h3>
         {% if project.website %}</a>{% endif %}
-      </span>
+      </div>
       <span class="repo-icons">
         {% if project.twitter %}<a href="https://twitter.com/rebuild_lang">
-          <img alt="Twitter" src="/images/twitter.svg" />
+          <img alt="Twitter" src="/images/twitter.svg">
         </a>{% endif %}
         {% if project.gitter %}<a href="https://gitter.im/{{ project.gitter }}">
-          <img alt="Gitter" src="/images/gitter.svg" />
+          <img alt="Gitter" src="/images/gitter.svg">
         </a>{% endif %}
         {% if project.discord %}<a href="https://discord.gg/{{ project.discord }}">
-          <img alt="Discord" src="/images/discord.svg" />
+          <img alt="Discord" src="/images/discord.svg">
         </a>{% endif %}
         {% if project.matrix %}<a href="https://matrix.to/#/{{ project.matrix }}">
-          <img alt="Matrix" src="/images/matrix.svg" />
+          <img alt="Matrix" src="/images/matrix.svg">
         </a>{% endif %}
         {% if project.libera %}<a href="ircs://irc.libera.chat:6697/{{ project.libera }}">
-          <img alt="Libera.Chat" class="nofilter" src="/images/libera.svg" />
+          <img alt="Libera.Chat" class="nofilter" src="/images/libera.svg">
         </a>{% endif %}
         {% if project.discourse %}<a href="{{ project.discourse }}">
-          <img alt="Discourse" src="/images/discourse.svg" />
+          <img alt="Discourse" src="/images/discourse.svg">
         </a>{% endif %}
         {% if project.reddit %}<a href="https://reddit.com/r/{{ project.reddit }}">
-          <img alt="Reddit" src="/images/reddit.svg" />
+          <img alt="Reddit" src="/images/reddit.svg">
         </a>{% endif %}
         {% if project.github %}<a href="https://github.com/{{ project.github }}">
-          <img alt="GitHub" src="/images/github.svg" />
+          <img alt="GitHub" src="/images/github.svg">
         </a>{% endif %}
         {% if project.gitlab %}<a href="https://gitlab.com/{{ project.gitlab }}">
-          <img alt="GitLab" src="/images/gitlab.svg" />
+          <img alt="GitLab" src="/images/gitlab.svg">
+        </a>{% endif %}
+        {% if project.git %}<a href="{{ project.git }}">
+          <img alt="Git" src="/images/git.svg">
         </a>{% endif %}
       </span>
       <span class="author">
@@ -107,8 +122,45 @@ canonical: /
       </span>
       <p>{{ project.summary }}</p>
     </div>
+    {% endif %}
     {% endfor %}
   </div>
+  <h2>Inactive projects:</h2>
+  <p>The following projects have had no commits for two years or longer,
+  or their main website is defunct with no commits in the last months:</p>
+  <div class="projects-list">
+    {% for project_entry in site.data.projects %}
+    {% assign project = project_entry[1] %}
+    {% assign project_name = project_entry[0] %}
+    {% if project.inactive and project.inactive == true %}
+    <div class="project" id="project-{{ project_name | downcase | replace: " ", "-" | escape }}"  data-tags="{{ project.tags | join: ',' }}">
+      <div class="title">
+        {% if project.website %}<a href="{{ project.website }}">{% endif %}
+          {% if project.icon and project.icon contains "://" %}
+          <img src="{{ project.icon }}" alt="">
+          {% else %}
+          <img src="/images/lang/{{ project.icon | default: 'placeholder.png' }}" alt="">
+          {% endif %}
+          <h3>{{ project_name }}</h3>
+        {% if project.website %}</a>{% endif %}
+      </div>
+      <span class="repo-icons">
+        {% if project.github %}<a href="https://github.com/{{ project.github }}">
+          <img alt="GitHub" src="/images/github.svg">
+        </a>{% endif %}
+        {% if project.gitlab %}<a href="https://gitlab.com/{{ project.gitlab }}">
+          <img alt="GitLab" src="/images/gitlab.svg">
+        </a>{% endif %}
+        {% if project.git %}<a href="{{ project.git }}">
+          <img alt="Git" src="/images/git.svg">
+        </a>{% endif %}
+      </span>
+      <p>{{ project.summary }}</p>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+
 </section>
 
 <section id="irc">

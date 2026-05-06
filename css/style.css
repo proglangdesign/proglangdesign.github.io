@@ -48,14 +48,20 @@ header nav a { margin-left: 20px; }
 section { max-width: 960px; margin: 0 auto; }
 
 #projects { display: flex; flex-wrap: wrap; padding-bottom: 25px; }
-#projects-list { display: flex; flex-wrap: wrap; padding-bottom: 25px; }
+.projects-list { display: flex; flex-wrap: wrap; padding-bottom: 25px; }
 #projects h2 { width: 100%;  color: #444;}
+.title { display: inline-block; }
+#projects h3 {
+  font-size:1.5em;
+  font-weight: bold;
+  display:inline-block;
+}
 .project { width: 25%; min-width: 200px; padding: 20px 10px; }
 .project img { display: inline-block; width: 1.5em; height: 1.5em; }
-.project h3 { display: inline-block; font-size: 1.5em; }
 .project a:hover { text-decoration: none; }
-.project > a > h3:hover { text-decoration: underline; }
-.repo-icons { float: right; }
+.repo-icons { float: right; z-index: 99; }
+.project a:hover > project-title,
+    .project a:active > project-title { text-decoration: underline; }
 .repo-icons img:not(.nofilter) {
   filter: invert(40%);
 }
@@ -99,6 +105,31 @@ section > h2, section > h3 { padding-top: 15px; padding-bottom: 5px; }
   background-repeat: no-repeat;
   background-size: 30px auto;
   color: white;
+}
+
+.tags-summary-field {
+    font-style:italic;
+    padding:3px;
+    margin:3px;
+    display:block;
+    font-size:0.75em;
+    background-color: rgb(100 70 103 / 38%);
+}
+
+.tags-summary-field h4 {
+  opacity:50%;
+}
+
+.tags-summary-field tag-desc {
+    display:block;
+    font-style:italic;
+    margin:6px;
+    margin-top:15px;
+}
+
+.tags-summary-field tag-desc em {
+    font-weight:bold;
+    font-size:1.1em;
 }
 
 .button.discord { background-image: url(/images/discord.svg); }
@@ -149,3 +180,32 @@ span.author:before { font-style: normal; content: "by "; }
     opacity: 0;
   }
 }
+
+/* Dark mode tweaks: */
+@media (prefers-color-scheme: dark) {
+   .tags-summary-field h4 {
+     opacity:50%;
+   }
+   #pagelink, a {
+     color:#E0A0F0;
+   }
+   body {
+     background-color:#242138;
+     color:#dbd1e1;
+   }
+   h1, h2, #projects h2 {
+     color:white;
+   }
+   .button {
+     background-color:#532e93;
+   }
+   .tag {
+     background-color:#3b2e53;
+     color:#d0a6d4;
+   }
+  .tag-selected {
+    background-color:#a571ab;
+    color:#201720;
+  }
+}
+
