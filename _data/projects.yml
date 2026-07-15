@@ -87,6 +87,7 @@ Argon:
   website: https://www.arlang.io
   github: argonlang/argon
   icon: argon.svg
+  inactive: yes
   author:
     name: jacopodl
     website: https://github.com/jacopodl
@@ -754,6 +755,21 @@ Oopsilon:
   summary: >
     Dynamic object language modelled after Smalltalk, with a gradual
     typing system affording expressiveness rivalling ML or Haskell.
+
+Orbit:
+  github: orbitlang/orbit
+  author:
+    name: jacopodl
+    website: https://github.com/jacopodl
+  summary: >
+    A general-purpose dynamic language focused on lightweight concurrency, 
+    with classes, traits, and built-in FFI.
+  tags:
+    - concurrent
+    - dynamic types
+    - object-oriented
+    - garbage collection
+    - interpreter
 
 Owen:
   website: https://owen-lang.org/
