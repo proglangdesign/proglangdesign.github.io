@@ -1023,6 +1023,23 @@ Star:
   summary: >
     An experimental programming language that's made to be powerful,
     productive, and predictable.
+    
+STELF:
+  website: https://standardocaml.github.io
+  github: standardocaml/stelf
+  icon: stelf.png
+  author:
+    name: Asher Frost 
+    github: wizard7377
+  organization:
+    name: Twelf
+    website: https://twelf.org
+  summary: >
+    STELF is a language for formal verification and theorem proving, built on top of the Twelf system.
+    Designed to be minimal, both in syntax and in function, it is intended for reasoning about programming languages.
+    The project is a continuation of the Twelf system.
+  tags:
+    - logic
 
 Swallow:
   website: https://github.com/Swallow-lang/swallow
