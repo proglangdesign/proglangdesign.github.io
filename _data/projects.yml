@@ -554,6 +554,20 @@ Lobster:
     Flow-senstitive type inference, specialization,
     compile-time reference counting, and Python-y syntax.
 
+Loment:
+  website: https://github.com/Loment-Lang/Loment
+  github: Loment-Lang/Loment
+  organization:
+    name: The Loment authors
+    website: https://github.com/Loment-Lang
+  summary: >
+    A systems language with capability domains, contract-first FFI,
+    and two implementations that emit byte-identical IR.
+  tags:
+    - compiler
+    - static types
+    - systems
+
 Lumina:
   website: https://docs.luminalang.com
   github: luminalang/lumina
